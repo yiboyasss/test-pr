@@ -7277,7 +7277,7 @@
         "context_length": 40960,
         "model_name": "qwen3",
         "model_lang": [
-            "en1",
+            "en",
             "zh"
         ],
         "model_ability": [
