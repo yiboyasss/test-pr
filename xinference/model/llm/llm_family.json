@@ -21578,7 +21578,7 @@
             {
                 "model_src": {
                     "huggingface": {
-                        "model_id": "1",
+                        "model_id": "1111",
                         "quantizations": [
                             "none"
                         ]
