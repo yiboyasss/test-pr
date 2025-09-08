@@ -151,66 +151,6 @@
   },
   {
     "version": 2,
-    "model_name": "bge-large-zh",
-    "dimensions": 1024,
-    "max_tokens": 512,
-    "language": [
-      "zh"
-    ],
-    "model_specs": [
-      {
-        "model_format": "pytorch",
-        "model_src": {
-          "huggingface": {
-            "model_id": "BAAI/bge-large-zh",
-            "model_revision": "1b543b301eb63dd32914b56d939db2a972df15d5",
-            "quantizations": [
-              "none"
-            ]
-          },
-          "modelscope": {
-            "model_id": "Xorbits/bge-large-zh",
-            "model_revision": "v0.0.1",
-            "quantizations": [
-              "none"
-            ]
-          }
-        }
-      }
-    ]
-  },
-  {
-    "version": 2,
-    "model_name": "bge-large-zh-noinstruct",
-    "dimensions": 1024,
-    "max_tokens": 512,
-    "language": [
-      "zh"
-    ],
-    "model_specs": [
-      {
-        "model_format": "pytorch",
-        "model_src": {
-          "huggingface": {
-            "model_id": "BAAI/bge-large-zh-noinstruct",
-            "model_revision": "d971248454d6267756fab9caa431c2c2fc5f0f35",
-            "quantizations": [
-              "none"
-            ]
-          },
-          "modelscope": {
-            "model_id": "Xorbits/bge-large-zh-noinstruct",
-            "model_revision": "v0.0.1",
-            "quantizations": [
-              "none"
-            ]
-          }
-        }
-      }
-    ]
-  },
-  {
-    "version": 2,
     "model_name": "bge-base-zh",
     "dimensions": 768,
     "max_tokens": 512,
@@ -241,9 +181,9 @@
   },
   {
     "version": 2,
-    "model_name": "multilingual-e5-large",
+    "model_name": "bge-large-zh",
     "dimensions": 1024,
-    "max_tokens": 514,
+    "max_tokens": 512,
     "language": [
       "zh"
     ],
@@ -252,14 +192,14 @@
         "model_format": "pytorch",
         "model_src": {
           "huggingface": {
-            "model_id": "intfloat/multilingual-e5-large",
-            "model_revision": "c505dce3578a12ec54e47bdc72bef5cd0eacb085",
+            "model_id": "BAAI/bge-large-zh",
+            "model_revision": "1b543b301eb63dd32914b56d939db2a972df15d5",
             "quantizations": [
               "none"
             ]
           },
           "modelscope": {
-            "model_id": "Xorbits/multilingual-e5-large",
+            "model_id": "Xorbits/bge-large-zh",
             "model_revision": "v0.0.1",
             "quantizations": [
               "none"
@@ -271,85 +211,25 @@
   },
   {
     "version": 2,
-    "model_name": "bge-small-zh",
-    "dimensions": 512,
+    "model_name": "bge-large-en-v1.5",
+    "dimensions": 1024,
     "max_tokens": 512,
     "language": [
-      "zh"
+      "en"
     ],
     "model_specs": [
       {
         "model_format": "pytorch",
         "model_src": {
           "huggingface": {
-            "model_id": "BAAI/bge-small-zh",
-            "model_revision": "52185a5f4aa5bb1fe80c0671b7303161880a2d79",
+            "model_id": "BAAI/bge-large-en-v1.5",
+            "model_revision": "5888da4a3a013e65d33dd6f612ecd4625eb87a7d",
             "quantizations": [
               "none"
             ]
           },
           "modelscope": {
-            "model_id": "Xorbits/bge-small-zh",
-            "model_revision": "v0.0.1",
-            "quantizations": [
-              "none"
-            ]
-          }
-        }
-      }
-    ]
-  },
-  {
-    "version": 2,
-    "model_name": "bge-small-zh-v1.5",
-    "dimensions": 512,
-    "max_tokens": 512,
-    "language": [
-      "zh"
-    ],
-    "model_specs": [
-      {
-        "model_format": "pytorch",
-        "model_src": {
-          "huggingface": {
-            "model_id": "BAAI/bge-small-zh-v1.5",
-            "model_revision": "a7ec18349c42fc774b0e86af26215e38a10fbe9d",
-            "quantizations": [
-              "none"
-            ]
-          },
-          "modelscope": {
-            "model_id": "Xorbits/bge-small-zh-v1.5",
-            "model_revision": "v0.0.2",
-            "quantizations": [
-              "none"
-            ]
-          }
-        }
-      }
-    ]
-  },
-  {
-    "version": 2,
-    "model_name": "bge-base-zh-v1.5",
-    "dimensions": 768,
-    "max_tokens": 512,
-    "language": [
-      "zh"
-    ],
-    "model_specs": [
-      {
-        "model_format": "pytorch",
-        "model_src": {
-          "huggingface": {
-            "model_id": "BAAI/bge-base-zh-v1.5",
-            "model_revision": "fcd022c36ff982da395e71ae930a5ad0d4b9330f",
-            "quantizations": [
-              "none"
-            ]
-          },
-          "modelscope": {
-            "model_id": "Xorbits/bge-base-zh-v1.5",
+            "model_id": "Xorbits/bge-large-en-v1.5",
             "model_revision": "v0.0.1",
             "quantizations": [
               "none"
@@ -440,36 +320,6 @@
           },
           "modelscope": {
             "model_id": "Xorbits/bge-base-en-v1.5",
-            "model_revision": "v0.0.1",
-            "quantizations": [
-              "none"
-            ]
-          }
-        }
-      }
-    ]
-  },
-  {
-    "version": 2,
-    "model_name": "bge-large-en-v1.5",
-    "dimensions": 1024,
-    "max_tokens": 512,
-    "language": [
-      "en"
-    ],
-    "model_specs": [
-      {
-        "model_format": "pytorch",
-        "model_src": {
-          "huggingface": {
-            "model_id": "BAAI/bge-large-en-v1.5",
-            "model_revision": "5888da4a3a013e65d33dd6f612ecd4625eb87a7d",
-            "quantizations": [
-              "none"
-            ]
-          },
-          "modelscope": {
-            "model_id": "Xorbits/bge-large-en-v1.5",
             "model_revision": "v0.0.1",
             "quantizations": [
               "none"
@@ -704,69 +554,29 @@
   },
   {
     "version": 2,
-    "model_name": "bge-m3",
+    "model_name": "multilingual-e5-large",
     "dimensions": 1024,
-    "max_tokens": 8192,
+    "max_tokens": 514,
     "language": [
-      "zh",
-      "en"
+      "zh"
     ],
     "model_specs": [
       {
         "model_format": "pytorch",
         "model_src": {
           "huggingface": {
-            "model_id": "BAAI/bge-m3",
-            "model_revision": "73a15ad29ab604f3bdc31601849a9defe86d563f",
+            "model_id": "intfloat/multilingual-e5-large",
+            "model_revision": "c505dce3578a12ec54e47bdc72bef5cd0eacb085",
             "quantizations": [
               "none"
             ]
           },
           "modelscope": {
-            "model_id": "Xorbits/bge-m3",
+            "model_id": "Xorbits/multilingual-e5-large",
+            "model_revision": "v0.0.1",
             "quantizations": [
               "none"
             ]
-          }
-        }
-      },
-      {
-        "model_format": "ggufv2",
-        "model_src": {
-          "huggingface": {
-            "model_id": "lm-kit/bge-m3-gguf",
-            "model_revision": "9379ce497e8814b200f2dc0d18eb4045426dcb8c",
-            "quantizations": [
-              "F16",
-              "Q2_K",
-              "Q3_K_L",
-              "Q3_K_M",
-              "Q3_K_S",
-              "Q4_K_M",
-              "Q4_K_S",
-              "Q5_K_M",
-              "Q5_K_S",
-              "Q6_K",
-              "Q8_0"
-            ],
-            "model_file_name_template": "bge-m3-{quantization}.gguf"
-          },
-          "modelscope": {
-            "model_id": "Xorbits/bge-m3-gguf",
-            "quantizations": [
-              "F16",
-              "Q2_K",
-              "Q3_K_L",
-              "Q3_K_M",
-              "Q3_K_S",
-              "Q4_K_M",
-              "Q4_K_S",
-              "Q5_K_M",
-              "Q5_K_S",
-              "Q6_K",
-              "Q8_0"
-            ],
-            "model_file_name_template": "bge-m3-{quantization}.gguf"
           }
         }
       }
@@ -774,26 +584,26 @@
   },
   {
     "version": 2,
-    "model_name": "bce-embedding-base_v1",
-    "dimensions": 768,
+    "model_name": "bge-small-zh-v1.5",
+    "dimensions": 512,
     "max_tokens": 512,
     "language": [
-      "zh",
-      "en"
+      "zh"
     ],
     "model_specs": [
       {
         "model_format": "pytorch",
         "model_src": {
           "huggingface": {
-            "model_id": "maidalun1020/bce-embedding-base_v1",
-            "model_revision": "236d9024fc1b4046f03848723f934521a66a9323",
+            "model_id": "BAAI/bge-small-zh-v1.5",
+            "model_revision": "a7ec18349c42fc774b0e86af26215e38a10fbe9d",
             "quantizations": [
               "none"
             ]
           },
           "modelscope": {
-            "model_id": "maidalun/bce-embedding-base_v1",
+            "model_id": "Xorbits/bge-small-zh-v1.5",
+            "model_revision": "v0.0.2",
             "quantizations": [
               "none"
             ]
@@ -894,9 +704,9 @@
   },
   {
     "version": 2,
-    "model_name": "gte-Qwen2",
-    "dimensions": 3584,
-    "max_tokens": 32000,
+    "model_name": "Qwen3-Embedding-4B",
+    "dimensions": 2560,
+    "max_tokens": 32768,
     "language": [
       "zh",
       "en"
@@ -906,17 +716,45 @@
         "model_format": "pytorch",
         "model_src": {
           "huggingface": {
-            "model_id": "Alibaba-NLP/gte-Qwen2-7B-instruct",
-            "model_revision": "e26182b2122f4435e8b3ebecbf363990f409b45b",
+            "model_id": "Qwen/Qwen3-Embedding-4B",
+            "model_revision": "408b81b7fab742073065d5b3661fa74c1b3ee0a1",
             "quantizations": [
               "none"
             ]
           },
           "modelscope": {
-            "model_id": "iic/gte_Qwen2-7B-instruct",
+            "model_id": "Qwen/Qwen3-Embedding-4B",
             "quantizations": [
               "none"
             ]
+          }
+        }
+      },
+      {
+        "model_format": "ggufv2",
+        "model_src": {
+          "huggingface": {
+            "model_id": "Qwen/Qwen3-Embedding-4B-GGUF",
+            "model_revision": "e85059c9a23c106d40df0da29d27a6b7c528265b",
+            "quantizations": [
+              "Q4_K_M",
+              "Q5_0",
+              "Q5_K_M",
+              "Q6_K",
+              "Q8_0"
+            ],
+            "model_file_name_template": "Qwen3-Embedding-4B-{quantization}.gguf"
+          },
+          "modelscope": {
+            "model_id": "Qwen/Qwen3-Embedding-4B-GGUF",
+            "quantizations": [
+              "Q4_K_M",
+              "Q5_0",
+              "Q5_K_M",
+              "Q6_K",
+              "Q8_0"
+            ],
+            "model_file_name_template": "Qwen3-Embedding-4B-{quantization}.gguf"
           }
         }
       }
@@ -974,9 +812,83 @@
   },
   {
     "version": 2,
-    "model_name": "Qwen3-Embedding-4B",
-    "dimensions": 2560,
+    "model_name": "jina-embeddings-v4",
+    "dimensions": 2048,
     "max_tokens": 32768,
+    "language": [
+      "30+ languages supported"
+    ],
+    "model_specs": [
+      {
+        "model_format": "pytorch",
+        "model_src": {
+          "huggingface": {
+            "model_id": "jinaai/jina-embeddings-v4",
+            "quantizations": [
+              "none"
+            ]
+          },
+          "modelscope": {
+            "model_id": "jinaai/jina-embeddings-v4",
+            "quantizations": [
+              "none"
+            ]
+          }
+        }
+      }
+    ],
+    "virtualenv": {
+      "packages": [
+        "sentence_transformers",
+        "transformers==4.52.0",
+        "xformers",
+        "flash_attn==2.7.4 ; sys_platform=='linux'"
+      ],
+      "no_build_isolation": true
+    }
+  },
+  {
+    "version": 2,
+    "model_name": "jina-clip-v2",
+    "dimensions": 1024,
+    "max_tokens": 8192,
+    "language": [
+      "89 languages supported"
+    ],
+    "model_specs": [
+      {
+        "model_format": "pytorch",
+        "model_src": {
+          "huggingface": {
+            "model_id": "jinaai/jina-clip-v2",
+            "quantizations": [
+              "none"
+            ]
+          },
+          "modelscope": {
+            "model_id": "jinaai/jina-clip-v2",
+            "quantizations": [
+              "none"
+            ]
+          }
+        }
+      }
+    ],
+    "virtualenv": {
+      "packages": [
+        "sentence_transformers",
+        "transformers==4.51.3",
+        "xformers",
+        "flash_attn==2.7.4 ; sys_platform=='linux'"
+      ],
+      "no_build_isolation": true
+    }
+  },
+  {
+    "version": 2,
+    "model_name": "bce-embedding-base_v1",
+    "dimensions": 768,
+    "max_tokens": 512,
     "language": [
       "zh",
       "en"
@@ -986,45 +898,76 @@
         "model_format": "pytorch",
         "model_src": {
           "huggingface": {
-            "model_id": "Qwen/Qwen3-Embedding-4B",
-            "model_revision": "408b81b7fab742073065d5b3661fa74c1b3ee0a1",
+            "model_id": "maidalun1020/bce-embedding-base_v1",
+            "model_revision": "236d9024fc1b4046f03848723f934521a66a9323",
             "quantizations": [
               "none"
             ]
           },
           "modelscope": {
-            "model_id": "Qwen/Qwen3-Embedding-4B",
+            "model_id": "maidalun/bce-embedding-base_v1",
             "quantizations": [
               "none"
             ]
           }
         }
-      },
+      }
+    ]
+  },
+  {
+    "version": 2,
+    "model_name": "jina-embeddings-v3",
+    "dimensions": 1024,
+    "max_tokens": 8192,
+    "language": [
+      "zh",
+      "en"
+    ],
+    "model_specs": [
       {
-        "model_format": "ggufv2",
+        "model_format": "pytorch",
         "model_src": {
           "huggingface": {
-            "model_id": "Qwen/Qwen3-Embedding-4B-GGUF",
-            "model_revision": "e85059c9a23c106d40df0da29d27a6b7c528265b",
+            "model_id": "jinaai/jina-embeddings-v3",
             "quantizations": [
-              "Q4_K_M",
-              "Q5_0",
-              "Q5_K_M",
-              "Q6_K",
-              "Q8_0"
-            ],
-            "model_file_name_template": "Qwen3-Embedding-4B-{quantization}.gguf"
+              "none"
+            ]
           },
           "modelscope": {
-            "model_id": "Qwen/Qwen3-Embedding-4B-GGUF",
+            "model_id": "jinaai/jina-embeddings-v3",
             "quantizations": [
-              "Q4_K_M",
-              "Q5_0",
-              "Q5_K_M",
-              "Q6_K",
-              "Q8_0"
-            ],
-            "model_file_name_template": "Qwen3-Embedding-4B-{quantization}.gguf"
+              "none"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "version": 2,
+    "model_name": "gte-Qwen2",
+    "dimensions": 3584,
+    "max_tokens": 32000,
+    "language": [
+      "zh",
+      "en"
+    ],
+    "model_specs": [
+      {
+        "model_format": "pytorch",
+        "model_src": {
+          "huggingface": {
+            "model_id": "Alibaba-NLP/gte-Qwen2-7B-instruct",
+            "model_revision": "e26182b2122f4435e8b3ebecbf363990f409b45b",
+            "quantizations": [
+              "none"
+            ]
+          },
+          "modelscope": {
+            "model_id": "iic/gte_Qwen2-7B-instruct",
+            "quantizations": [
+              "none"
+            ]
           }
         }
       }
@@ -1090,7 +1033,7 @@
   },
   {
     "version": 2,
-    "model_name": "jina-embeddings-v3",
+    "model_name": "bge-m3",
     "dimensions": 1024,
     "max_tokens": 8192,
     "language": [
@@ -1102,13 +1045,84 @@
         "model_format": "pytorch",
         "model_src": {
           "huggingface": {
-            "model_id": "jinaai/jina-embeddings-v3",
+            "model_id": "BAAI/bge-m3",
+            "model_revision": "73a15ad29ab604f3bdc31601849a9defe86d563f",
             "quantizations": [
               "none"
             ]
           },
           "modelscope": {
-            "model_id": "jinaai/jina-embeddings-v3",
+            "model_id": "Xorbits/bge-m3",
+            "quantizations": [
+              "none"
+            ]
+          }
+        }
+      },
+      {
+        "model_format": "ggufv2",
+        "model_src": {
+          "huggingface": {
+            "model_id": "lm-kit/bge-m3-gguf",
+            "model_revision": "9379ce497e8814b200f2dc0d18eb4045426dcb8c",
+            "quantizations": [
+              "F16",
+              "Q2_K",
+              "Q3_K_L",
+              "Q3_K_M",
+              "Q3_K_S",
+              "Q4_K_M",
+              "Q4_K_S",
+              "Q5_K_M",
+              "Q5_K_S",
+              "Q6_K",
+              "Q8_0"
+            ],
+            "model_file_name_template": "bge-m3-{quantization}.gguf"
+          },
+          "modelscope": {
+            "model_id": "Xorbits/bge-m3-gguf",
+            "quantizations": [
+              "F16",
+              "Q2_K",
+              "Q3_K_L",
+              "Q3_K_M",
+              "Q3_K_S",
+              "Q4_K_M",
+              "Q4_K_S",
+              "Q5_K_M",
+              "Q5_K_S",
+              "Q6_K",
+              "Q8_0"
+            ],
+            "model_file_name_template": "bge-m3-{quantization}.gguf"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "version": 2,
+    "model_name": "bge-large-zh-noinstruct",
+    "dimensions": 1024,
+    "max_tokens": 512,
+    "language": [
+      "zh"
+    ],
+    "model_specs": [
+      {
+        "model_format": "pytorch",
+        "model_src": {
+          "huggingface": {
+            "model_id": "BAAI/bge-large-zh-noinstruct",
+            "model_revision": "d971248454d6267756fab9caa431c2c2fc5f0f35",
+            "quantizations": [
+              "none"
+            ]
+          },
+          "modelscope": {
+            "model_id": "Xorbits/bge-large-zh-noinstruct",
+            "model_revision": "v0.0.1",
             "quantizations": [
               "none"
             ]
@@ -1119,76 +1133,62 @@
   },
   {
     "version": 2,
-    "model_name": "jina-clip-v2",
-    "dimensions": 1024,
-    "max_tokens": 8192,
+    "model_name": "bge-small-zh",
+    "dimensions": 512,
+    "max_tokens": 512,
     "language": [
-      "89 languages supported"
+      "zh"
     ],
     "model_specs": [
       {
         "model_format": "pytorch",
         "model_src": {
           "huggingface": {
-            "model_id": "jinaai/jina-clip-v2",
+            "model_id": "BAAI/bge-small-zh",
+            "model_revision": "52185a5f4aa5bb1fe80c0671b7303161880a2d79",
             "quantizations": [
               "none"
             ]
           },
           "modelscope": {
-            "model_id": "jinaai/jina-clip-v2",
+            "model_id": "Xorbits/bge-small-zh",
+            "model_revision": "v0.0.1",
             "quantizations": [
               "none"
             ]
           }
         }
       }
-    ],
-    "virtualenv": {
-      "packages": [
-        "sentence_transformers",
-        "transformers==4.51.3",
-        "xformers",
-        "flash_attn==2.7.4 ; sys_platform=='linux'"
-      ],
-      "no_build_isolation": true
-    }
+    ]
   },
   {
     "version": 2,
-    "model_name": "jina-embeddings-v4",
-    "dimensions": 2048,
-    "max_tokens": 32768,
+    "model_name": "bge-base-zh-v1.5",
+    "dimensions": 768,
+    "max_tokens": 512,
     "language": [
-      "30+ languages supported"
+      "zh"
     ],
     "model_specs": [
       {
         "model_format": "pytorch",
         "model_src": {
           "huggingface": {
-            "model_id": "jinaai/jina-embeddings-v4",
+            "model_id": "BAAI/bge-base-zh-v1.5",
+            "model_revision": "fcd022c36ff982da395e71ae930a5ad0d4b9330f",
             "quantizations": [
               "none"
             ]
           },
           "modelscope": {
-            "model_id": "jinaai/jina-embeddings-v4",
+            "model_id": "Xorbits/bge-base-zh-v1.5",
+            "model_revision": "v0.0.1",
             "quantizations": [
               "none"
             ]
           }
         }
       }
-    ],
-    "virtualenv": {
-      "packages": [
-        "sentence_transformers",
-        "transformers==4.52.0",
-        "xformers",
-        "flash_attn==2.7.4 ; sys_platform=='linux'"
-      ],
-      "no_build_isolation": true
-    }
+    ]
   }
 ]
