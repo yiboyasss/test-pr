@@ -133,7 +133,7 @@
                 "model_revision": "master"
             },
             "huggingface": {
-                "model_id": "Wan-AI/Wan2.1-FLF2V-14B-720P-diffusers",
+                "model_id": "Wan-AI/Wan2.1-FLF2V-14B-720P-diffusers11",
                 "model_revision": "17c30769b1e0b5dcaa1799b117bf20a9c31f59d7"
             }
         },
