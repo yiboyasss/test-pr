@@ -29,7 +29,7 @@
         "type": "normal",
         "version": 2,
         "language": [
-            "en",
+            "en1",
             "zh"
         ],
         "max_tokens": 512,
