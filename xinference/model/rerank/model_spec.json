@@ -117,36 +117,5 @@
                 "model_format": "pytorch"
             }
         ]
-    },
-    {
-        "type": "normal",
-        "version": 2,
-        "language": [
-            "en1234",
-            "zh",
-            "multilingual"
-        ],
-        "max_tokens": 8193,
-        "model_name": "bge-reranker-v2-m3",
-        "model_specs": [
-            {
-                "model_src": {
-                    "modelscope": {
-                        "model_id": "AI-ModelScope/bge-reranker-v2-m3",
-                        "quantizations": [
-                            "none"
-                        ]
-                    },
-                    "huggingface": {
-                        "model_id": "BAAI/bge-reranker-v2-m3",
-                        "quantizations": [
-                            "none"
-                        ],
-                        "model_revision": "12e974610ba9083ed95f3edf08d7e899581f4de4"
-                    }
-                },
-                "model_format": "pytorch"
-            }
-        ]
     }
 ]
