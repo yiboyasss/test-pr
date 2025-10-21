@@ -32,7 +32,8 @@
     {
         "version": 2,
         "model_lang": [
-          "en"
+          "en",
+          "llllll"
         ],
         "model_name": "custom-llm-xiaolei",
         "virtualenv": {
