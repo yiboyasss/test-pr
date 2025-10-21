@@ -126,7 +126,7 @@
     }
   },
   {
-    "test": "test",
+    "test": "test111",
     "version": 2,
     "model_src": {
       "modelscope": {
