@@ -161,41 +161,5 @@
         1280
       ]
     }
-  },
-  {
-    "version": 2,
-    "model_src": {
-      "modelscope": {
-        "model_id": "Wan-AI/Wan2.1-I2V-14B-720P-Diffusers",
-        "model_revision": "master"
-      },
-      "huggingface": {
-        "model_id": "Wan-AI/Wan2.1-I2V-14B-720P-Diffusers",
-        "model_revision": "eb849f76dfa246545b65774a9e25943ee69b3fa3"
-      }
-    },
-    "model_name": "video-test-xiaolei-1",
-    "virtualenv": {
-      "packages": [
-        "diffusers>=0.33.0",
-        "ftfy",
-        "imageio-ffmpeg",
-        "imageio",
-        "#system_numpy#"
-      ]
-    },
-    "model_family": "Wan",
-    "model_ability": [
-      "image2video"
-    ],
-    "default_model_config": {
-      "torch_dtype": "bfloat16"
-    },
-    "default_generate_config": {
-      "max_area": [
-        720,
-        1280
-      ]
-    }
   }
 ]
