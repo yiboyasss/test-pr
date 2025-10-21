@@ -126,7 +126,7 @@
     }
   },
   {
-    "test": "test",
+    "test": "test111",
     "version": 2,
     "model_src": {
       "modelscope": {
@@ -160,7 +160,6 @@
         720,
         1280
       ]
-    },
-    "test": "test1"
+    }
   }
 ]
