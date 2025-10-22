@@ -114,7 +114,7 @@
             "model_revision": "eaa31a577a0574e87a08959bd229ca14ce1b5496"
           }
         },
-        "model_format":"pytorch"
+        "model_format": "pytorch"
       }
     ]
   }
