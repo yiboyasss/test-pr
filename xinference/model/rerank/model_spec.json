@@ -86,5 +86,36 @@
         "model_format": "pytorch"
       }
     ]
+  },
+  {
+    "type": "normal",
+    "version": 2,
+    "language": [
+      "en1",
+      "zh"
+    ],
+    "max_tokens": 512,
+    "model_name": "rerank-test-xiaolei",
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "maidalun/bce-reranker-base_v1",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "v0.0.1"
+          },
+          "huggingface": {
+            "model_id": "maidalun1020/bce-reranker-base_v1",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "eaa31a577a0574e87a08959bd229ca14ce1b5496"
+          }
+        },
+        "model_format": "pytorch"
+      }
+    ]
   }
 ]
