@@ -91,7 +91,7 @@
     "type": "normal",
     "version": 2,
     "language": [
-      "en1",
+      "en",
       "zh"
     ],
     "max_tokens": 512,
