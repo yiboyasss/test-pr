@@ -54,8 +54,7 @@
         },
         "model_format": "pytorch"
       }
-    ],
-    "model_type": "rerank"
+    ]
   },
   {
     "type": "normal",
