@@ -122,7 +122,7 @@
     "type": "normal",
     "version": 2,
     "language": [
-      "en1234"
+      "en123456"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank",
