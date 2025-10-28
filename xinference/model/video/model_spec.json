@@ -223,7 +223,7 @@
     "model_family": "Wan",
     "model_ability": [
       "image2video",
-      "test12"
+      "test123"
     ],
     "default_model_config": {
       "torch_dtype": "bfloat16"
