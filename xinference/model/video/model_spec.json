@@ -14,7 +14,7 @@
     "model_name": "HunyuanVideo",
     "model_family": "HunyuanVideo",
     "model_ability": [
-      "text2video"
+      "text2video1"
     ],
     "default_model_config": {
       "torch_dtype": "float16",
