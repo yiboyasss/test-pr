@@ -220,10 +220,10 @@
         "#system_numpy#"
       ]
     },
-    "model_family": "Wan",
+    "model_family":"Wan",
     "model_ability": [
       "image2video",
-      "test12345"
+      "test123456"
     ],
     "default_model_config": {
       "torch_dtype": "bfloat16"
