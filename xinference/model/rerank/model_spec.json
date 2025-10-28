@@ -92,7 +92,7 @@
     "version": 2,
     "language": [
       "en123",
-      "zh1"
+      "zh123"
     ],
     "max_tokens": 512,
     "model_name": "rerank-test-xiaolei",
