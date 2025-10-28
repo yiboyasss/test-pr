@@ -21714,7 +21714,7 @@
   {
     "version": 2,
     "model_lang": [
-      "en",
+      "en1",
       "llllll"
     ],
     "model_name": "custom-llm-xiaolei",
@@ -21779,7 +21779,7 @@
   {
     "version": 2,
     "model_lang": [
-      "en1234578"
+      "en1234"
     ],
     "model_name": "custom-llm-test-test40",
     "virtualenv": {
