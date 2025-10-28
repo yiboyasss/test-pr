@@ -30,7 +30,7 @@
     "version": 2,
     "language": [
       "en1112",
-      "zh11234567"
+      "zh112345678"
     ],
     "max_tokens": 512,
     "model_name": "bge-reranker-base",
