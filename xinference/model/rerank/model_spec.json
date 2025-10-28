@@ -29,8 +29,8 @@
     "type": "normal",
     "version": 2,
     "language": [
-      "en1112",
-      "zh112"
+      "en",
+      "zh"
     ],
     "max_tokens": 512,
     "model_name": "bge-reranker-base",
@@ -91,7 +91,7 @@
     "type": "normal",
     "version": 2,
     "language": [
-      "en",
+      "en1",
       "zh"
     ],
     "max_tokens": 512,
