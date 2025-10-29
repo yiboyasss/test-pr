@@ -3,7 +3,7 @@
     "type": "normal",
     "version": 2,
     "language": [
-      "en1"
+      "en12"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank-test-tt",
