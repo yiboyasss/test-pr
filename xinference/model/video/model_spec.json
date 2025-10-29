@@ -257,9 +257,9 @@
         "#system_numpy#"
       ]
     },
-    "model_family":"Wan",
+    "model_family": "Wan",
     "model_ability": [
-      "image2video3"
+      "image2video2"
     ],
     "default_model_config": {
       "torch_dtype": "bfloat16"
