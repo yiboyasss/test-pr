@@ -1,31 +1,5 @@
 [
   {
-    "model_name": "custom-embedding-test2",
-    "model_description": "This is a custom model description.",
-    "model_specs": [
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "1",
-            "quantizations": [
-              "none"
-            ]
-          }
-        },
-        "model_format": "pytorch"
-      }
-    ],
-    "dimensions": 768,
-    "max_tokens": 512,
-    "language": [
-      "en1"
-    ],
-    "version": 2,
-    "virtualenv": {
-      "packages": []
-    }
-  },
-  {
     "version": 2,
     "language": [
       "en"
@@ -40,6 +14,32 @@
       {
         "model_src": {
           "huggingface": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch"
+      }
+    ],
+    "model_description": "This is a custom model description."
+  },
+  {
+    "version": 2,
+    "language": [
+      "en1"
+    ],
+    "dimensions": 768,
+    "max_tokens": 512,
+    "model_name": "custom-embedding-test2",
+    "virtualenv": {
+      "packages": []
+    },
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
             "model_id": "1",
             "quantizations": [
               "none"
