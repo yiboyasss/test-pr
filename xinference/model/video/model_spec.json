@@ -257,7 +257,7 @@
         "#system_numpy#"
       ]
     },
-    "model_family":"Wan",
+    "model_family": "Wan",
     "model_ability": [
       "image2video2"
     ],
