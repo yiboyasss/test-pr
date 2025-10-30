@@ -70,7 +70,7 @@
     "dimensions": 768,
     "max_tokens": 512,
     "language": [
-      "en1"
+      "en12"
     ],
     "version": 2,
     "virtualenv": {
