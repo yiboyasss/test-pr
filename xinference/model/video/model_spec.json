@@ -1,6 +1,6 @@
 [
   {
-    "version":2,
+    "version": 2,
     "model_src": {
       "modelscope": {
         "model_id": "Xorbits/HunyuanVideo",
