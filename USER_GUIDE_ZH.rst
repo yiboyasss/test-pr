@@ -12,8 +12,8 @@ Update Models (Launch Model Page)
 - Operation Location: "Type Selection" dropdown and "Update" button at the top right of the page.
 - Usage:
 
-1. Select a model type from the dropdown (such as llm, embedding, rerank, image, audio, video).
-2. Click the "Update" button, the page will send an update request to the backend, then automatically jump to the corresponding Tab and refresh the model list of that type.
+   1. Select a model type from the dropdown (such as llm, embedding, rerank, image, audio, video).
+   2. Click the "Update" button, the page will send an update request to the backend, then automatically jump to the corresponding Tab and refresh the model list of that type.
 
 Add Model (Launch Model Page)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
