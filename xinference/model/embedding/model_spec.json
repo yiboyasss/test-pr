@@ -1,9 +1,9 @@
 [
   {
-    "test": "test",
+    "test":"test",
     "version": 2,
     "language": [
-      "en123"
+      "en"
     ],
     "model_name": "custom-embedding-test",
     "virtualenv": {
@@ -30,7 +30,7 @@
     "test": "test",
     "version": 2,
     "language": [
-      "en1234"
+      "en"
     ],
     "dimensions": 768,
     "max_tokens": 512,
@@ -55,11 +55,11 @@
   },
   {
     "test": "test",
-    "version": 2,
+    "version":2,
     "language": [
-      "en123457"
+      "en"
     ],
-    "dimensions": 768,
+    "dimensions":768,
     "max_tokens": 512,
     "model_name": "custom-embedding-test3",
     "virtualenv": {
@@ -109,7 +109,7 @@
   {
     "version": 2,
     "language": [
-      "en12345678"
+      "en"
     ],
     "dimensions": 768,
     "max_tokens": 512,
