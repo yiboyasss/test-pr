@@ -52,39 +52,13 @@
     "model_description": "This is a custom model description."
   },
   {
-    "model_name": "custom-embedding-test3",
-    "model_description": "This is a custom model description.",
-    "model_specs": [
-      {
-        "model_src": {
-          "huggingface": {
-            "model_id": "1",
-            "quantizations": [
-              "none"
-            ]
-          }
-        },
-        "model_format": "pytorch"
-      }
-    ],
-    "dimensions": 768,
-    "max_tokens": 512,
+    "version": 2,
     "language": [
       "en1234"
     ],
-    "version": 2,
-    "virtualenv": {
-      "packages": []
-    }
-  },
-  {
-    "version": 2,
-    "language": [
-      "en12345678"
-    ],
     "dimensions": 768,
     "max_tokens": 512,
-    "model_name": "custom-embedding-test5",
+    "model_name": "custom-embedding-test3",
     "virtualenv": {
       "packages": []
     },
@@ -111,6 +85,32 @@
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-test4",
+    "virtualenv": {
+      "packages": []
+    },
+    "model_specs": [
+      {
+        "model_src": {
+          "huggingface": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch"
+      }
+    ],
+    "model_description": "This is a custom model description."
+  },
+  {
+    "version": 2,
+    "language": [
+      "en12345678"
+    ],
+    "dimensions": 768,
+    "max_tokens": 512,
+    "model_name": "custom-embedding-test5",
     "virtualenv": {
       "packages": []
     },
