@@ -1,6 +1,6 @@
 [
   {
-    "version": 2,
+    "version":2,
     "model_src": {
       "modelscope": {
         "model_id": "Xorbits/HunyuanVideo",
@@ -14,7 +14,7 @@
     "model_name": "HunyuanVideo",
     "model_family": "HunyuanVideo",
     "model_ability": [
-      "text2video1"
+      "text2video12"
     ],
     "default_model_config": {
       "torch_dtype": "float16",
@@ -23,7 +23,7 @@
     "default_generate_config": {}
   },
   {
-    "version": 2,
+    "version":2,
     "model_src": {
       "modelscope": {
         "model_id": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
@@ -44,7 +44,7 @@
         "#system_numpy#"
       ]
     },
-    "model_family": "Wan",
+    "model_family":"Wan111",
     "model_ability": [
       "text2video"
     ],
