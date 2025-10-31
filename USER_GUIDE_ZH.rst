@@ -1,162 +1,158 @@
-.. _models_hub_user_guide_zh:
-.. _user_guide_zh:
+.. _models_hub_user_guide_en:
+.. _user_guide_en:
 
-==================
-模型添加与更新功能
-==================
+===================================
+Model Addition and Update Features
+===================================
+This section briefly introduces two common operations on the "Launch Model" page: updating model lists and adding models. They correspond to the "Type Selection + Update" and "Add Model" buttons at the top of the page, facilitating quick refresh of models of a certain type or adding new models locally.
 
-.. versionadded:: v1.0.0
+Update Models (Launch Model Page)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. tip::
-   本节简要介绍"Launch 模型"页面中的两个常用操作：更新模型列表与添加模型。它们对应的是页面顶部的"类型选择 + 更新"与"添加模型"按钮，便于快速刷新某类型的模型或将新模型加入本地。
+- Operation Location: "Type Selection" dropdown and "Update" button at the top right of the page.
+- Usage:
+  1. Select a model type from the dropdown (such as llm, embedding, rerank, image, audio, video).
+  2. Click the "Update" button, the page will send an update request to the backend, then automatically jump to the corresponding Tab and refresh the model list of that type.
 
-更新模型（Launch 模型页）
-~~~~~~~~~~~~~~~~~~~~~~
-
-- 操作位置：页面顶部右侧"类型选择"下拉框与"更新"按钮。
-- 使用方式：
-  1. 在下拉框中选择模型类型（如 llm、embedding、rerank、image、audio、video）。
-  2. 点击"更新"按钮，页面会向后端发送更新请求，随后自动跳转至对应的 Tab，并刷新该类型的模型列表。
-
-添加模型（Launch 模型页）
-~~~~~~~~~~~~~~~~~~~~~~
-
-- 操作位置：页面顶部右侧"添加模型"按钮。
-- 使用方式：
-  1. 点击"添加模型"打开添加对话框。
-  2. 在对话框中完成模型添加流程。
-  3. 添加成功后，页面会跳转到对应类型的 Tab，以便立刻查看最新的模型列表。
-
-Xinference Models Hub 用户指南
+Add Model (Launch Model Page)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-概述
-----
+- Operation Location: "Add Model" button at the top right of the page.
+- Usage:
+  1. Click "Add Model" to open the add dialog.
+  2. Complete the model addition process in the dialog.
+  3. After successful addition, the page will jump to the corresponding type Tab to immediately view the latest model list.
 
-Xinference Models Hub 是一个用于管理和共享模型的全栈平台。
-它为模型注册、浏览、审核工作流程和协作模型管理提供了全面的解决方案。
+Xinference Models Hub User Guide
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-快速开始
+Overview
 --------
 
-用户注册和登录
-^^^^^^^^^^^^^^
+Xinference Models Hub is a full-stack platform for managing and sharing models.
+It provides a comprehensive solution for model registration, browsing, review workflows, and collaborative model management.
 
-**注册**
+Quick Start
+-----------
 
-1. 打开网站注册页面
-2. 填写必要信息并提交
+User Registration and Login
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**登录**
+**Registration**
 
-1. 打开网站登录页面
-2. 登录成功后将跳转到模型列表页面
+1. Open the website registration page
+2. Fill in the necessary information and submit
 
-**密码重置**
+**Login**
 
-1. 在登录页面点击"忘记密码"链接
-2. 按照邮件中的说明重置密码
+1. Open the website login page
+2. After successful login, you will be redirected to the model list page
 
-**退出登录**
+**Password Reset**
 
-1. 点击页面右上角的头像
-2. 从下拉菜单中选择"退出登录"
+1. Click the "Forgot Password" link on the login page
+2. Follow the instructions in the email to reset your password
 
-核心功能
---------
+**Logout**
 
-浏览模型
-^^^^^^^^
+1. Click the avatar in the top right corner of the page
+2. Select "Logout" from the dropdown menu
 
-**模型列表（首页）**
+Core Features
+-------------
 
-* **功能：** 浏览可用模型，点击任意模型查看详情
-* **位置：** 网站导航栏中的"模型"菜单
-
-.. note::
-   某些高级模型仅对授权用户可见。
-
-**模型详情和文档**
-
-* **功能：** 查看模型的详细信息
-* **默认显示：** "README" 标签页 - 查看模型描述、使用说明和注意事项
-* **其他标签页：** 设置（授权用户）、审核状态
-
-用户中心
-^^^^^^^^
-
-* **功能：** 查看和管理个人信息
-* **位置：** 点击右上角头像，选择"用户中心"
-* **包含内容：** 个人资料设置
-
-模型管理（授权用户）
---------------------
-
-模型注册
-^^^^^^^^
-
-* **功能：** 提交新的模型到平台
-* **位置：** 点击右上角头像，选择"模型注册"
-* **所需权限：**
-
-  * **私有模型：** 模型注册权限
-  * **公共模型：** 公共模型注册权限
-  * **企业模型：** 企业模型注册权限
-
-**操作流程：**
-
-1. 填写模型基本信息
-2. 填写Readme（可通过点击Get Readme按钮自动获取）
-3. 提交（如需注册公共模型，开启Public Model参数即可）
-
-**注意：**
-
-  * 普通用户只能注册私有模型
-  * 公共模型注册需要审核，审核通过后即可公开使用（有公共模型注册权限则无需审核）
-  * 企业模型注册需要先开启Public Model参数
-
-我的模型
-^^^^^^^^
-
-* **功能：** 查看与您账户相关的模型（您注册的）
-* **位置：** 点击右上角头像，选择"我的模型"
-* **所需权限：**
-
-  * **私有模型：** 模型注册权限
-  * **公共模型：** 模型注册权限
-  * **企业模型：** 模型注册权限
-
-模型维护
-^^^^^^^^
-
-* **功能：** 修改和管理已有模型
-* **位置：** 在模型详情页面点击"设置"图标
-
-* **权限要求：**
-
-  * **私有模型：** 模型所有权或任何公共模型管理权限
-  * **高级模型：** 高级模型更新、删除或过期权限
-  * **公共模型：** 公共模型更新、删除或过期权限
-
-**注意：**
-
-  * 公共模型更新JSON或修改过期属性会自动向 xorbitsai/inference 仓库提pr
-
-审核工作流程
+Browse Models
 ^^^^^^^^^^^^^
 
-**对于模型提交者：**
+**Model List (Homepage)**
 
-1. 提交模型进行审核
-2. 在模型详情页面查看审核状态
-3. 如需要，根据审核者反馈进行修改
+* **Function:** Browse available models, click any model to view details
+* **Location:** "Models" menu in the website navigation bar
 
-**对于审核者：**
+.. note::
+   Some advanced models are only visible to authorized users.
 
-* **所需权限：** 模型审核列表权限、模型审核权限
+**Model Details and Documentation**
 
-**操作流程：**
+* **Function:** View detailed information about models
+* **Default Display:** "README" tab - view model description, usage instructions, and notes
+* **Other Tabs:** Settings (authorized users), review status
 
-1. 进入审核队列页面
-2. 评估模型质量和合规性
-3. 批准或拒绝并提供反馈
+User Center
+^^^^^^^^^^^
+
+* **Function:** View and manage personal information
+* **Location:** Click the avatar in the top right corner, select "User Center"
+* **Content:** Personal profile settings
+
+Model Management (Authorized Users)
+-----------------------------------
+
+Model Registration
+^^^^^^^^^^^^^^^^^^
+
+* **Function:** Submit new models to the platform
+* **Location:** Click the avatar in the top right corner, select "Model Registration"
+* **Required Permissions:**
+
+  * **Private Models:** Model registration permission
+  * **Public Models:** Public model registration permission
+  * **Enterprise Models:** Enterprise model registration permission
+
+**Operation Process:**
+
+1. Fill in basic model information
+2. Fill in Readme (can be automatically obtained by clicking the Get Readme button)
+3. Submit (to register public models, enable the Public Model parameter)
+
+**Notes:**
+
+  * Regular users can only register private models
+  * Public model registration requires review, and can be used publicly after approval (no review needed if you have public model registration permission)
+  * Enterprise model registration requires enabling the Public Model parameter first
+
+My Models
+^^^^^^^^^
+
+* **Function:** View models associated with your account (models you registered)
+* **Location:** Click the avatar in the top right corner, select "My Models"
+* **Required Permissions:**
+
+  * **Private Models:** Model registration permission
+  * **Public Models:** Model registration permission
+  * **Enterprise Models:** Model registration permission
+
+Model Maintenance
+^^^^^^^^^^^^^^^^^
+
+* **Function:** Modify and manage existing models
+* **Location:** Click the "Settings" icon on the model details page
+
+* **Permission Requirements:**
+
+  * **Private Models:** Model ownership or any public model management permission
+  * **Advanced Models:** Advanced model update, delete, or expiration permission
+  * **Public Models:** Public model update, delete, or expiration permission
+
+**Notes:**
+
+  * Updating JSON or modifying expiration attributes of public models will automatically create a PR to the xorbitsai/inference repository
+
+Review Workflow
+^^^^^^^^^^^^^^^
+
+**For Model Submitters:**
+
+1. Submit models for review
+2. Check review status on the model details page
+3. Make modifications based on reviewer feedback if needed
+
+**For Reviewers:**
+
+* **Required Permissions:** Model review list permission, model review permission
+
+**Operation Process:**
+
+1. Enter the review queue page
+2. Evaluate model quality and compliance
+3. Approve or reject and provide feedback
