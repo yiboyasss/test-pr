@@ -11,19 +11,17 @@ Update Models (Launch Model Page)
 
 - Operation Location: "Type Selection" dropdown and "Update" button at the top right of the page.
 - Usage:
-
-  1. Select a model type from the dropdown (such as llm, embedding, rerank, image, audio, video).
-  2. Click the "Update" button, the page will send an update request to the backend, then automatically jump to the corresponding Tab and refresh the model list of that type.
+1. Select a model type from the dropdown (such as llm, embedding, rerank, image, audio, video).
+2. Click the "Update" button, the page will send an update request to the backend, then automatically jump to the corresponding Tab and refresh the model list of that type.
 
 Add Model (Launch Model Page)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Operation Location: "Add Model" button at the top right of the page.
 - Usage:
-
-  1. Click "Add Model" to open the add dialog.
-  2. Complete the model addition process in the dialog.
-  3. After successful addition, the page will jump to the corresponding type Tab to immediately view the latest model list.
+1. Click "Add Model" to open the add dialog.
+2. Complete the model addition process in the dialog.
+3. After successful addition, the page will jump to the corresponding type Tab to immediately view the latest model list.
 
 Xinference Models Hub User Guide
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
