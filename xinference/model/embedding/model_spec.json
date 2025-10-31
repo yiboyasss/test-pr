@@ -1,6 +1,6 @@
 [
   {
-    "test":"test",
+    "test": "test",
     "version": 2,
     "language": [
       "en"
@@ -28,7 +28,7 @@
   },
   {
     "test": "test",
-    "version":2,
+    "version": 2,
     "language": [
       "en1"
     ],
@@ -57,9 +57,9 @@
     "test": "test2",
     "version": 2,
     "language": [
-      "en1"
+      "en123"
     ],
-    "dimensions":768,
+    "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-test3",
     "virtualenv": {
