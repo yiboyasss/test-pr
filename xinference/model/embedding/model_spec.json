@@ -1,9 +1,9 @@
 [
   {
-    "test": "test",
+    "test":"test",
     "version": 2,
     "language": [
-      "en1"
+      "en12"
     ],
     "model_name": "custom-embedding-test",
     "virtualenv": {
