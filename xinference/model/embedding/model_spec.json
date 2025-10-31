@@ -1,10 +1,11 @@
 [
   {
+    "test": "test",
     "version": 2,
     "language": [
       "en1"
     ],
-    "model_name":"custom-embedding-test",
+    "model_name": "custom-embedding-test",
     "virtualenv": {
       "packages": [
         1
@@ -23,10 +24,10 @@
         "model_format": "pytorch"
       }
     ],
-    "model_description": "This is a custom model description.",
-    "test": "test"
+    "model_description": "This is a custom model description."
   },
   {
+    "test": "test",
     "version": 2,
     "language": [
       "en1234"
@@ -50,10 +51,10 @@
         "model_format": "pytorch"
       }
     ],
-    "model_description":"This is a custom model description.",
-    "test": "test"
+    "model_description": "This is a custom model description."
   },
   {
+    "test": "test",
     "version": 2,
     "language": [
       "en12345"
@@ -77,8 +78,7 @@
         "model_format": "pytorch"
       }
     ],
-    "model_description":"This is a custom model description.",
-    "test": "test"
+    "model_description": "This is a custom model description."
   },
   {
     "version": 2,
