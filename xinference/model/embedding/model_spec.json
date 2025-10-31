@@ -57,7 +57,7 @@
     "test": "test",
     "version": 2,
     "language": [
-      "en12345"
+      "en123456"
     ],
     "dimensions": 768,
     "max_tokens": 512,
