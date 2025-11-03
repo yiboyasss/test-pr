@@ -30,7 +30,7 @@
     "test": "test",
     "version": 2,
     "language": [
-      "en22222"
+      "en22"
     ],
     "dimensions": 768,
     "max_tokens": 512,
