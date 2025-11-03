@@ -2,10 +2,10 @@
   {
     "version": 2,
     "language": [
-      "en"
+      "en1"
     ],
     "dimensions": 7681,
-    "max_tokens": 5121,
+    "max_tokens": 512,
     "model_name": "custom-embedding-1",
     "virtualenv": {
       "packages": []
