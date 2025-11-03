@@ -33,7 +33,7 @@
       "en2222"
     ],
     "dimensions": 769,
-    "max_tokens": 513,
+    "max_tokens": 514,
     "model_name": "custom-embedding-test2",
     "virtualenv": {
       "packages": []
