@@ -32,8 +32,8 @@
     "language": [
       "en2222"
     ],
-    "dimensions": 768,
-    "max_tokens": 512,
+    "dimensions": 769,
+    "max_tokens": 513,
     "model_name": "custom-embedding-test2",
     "virtualenv": {
       "packages": []
