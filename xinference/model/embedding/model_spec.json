@@ -4,8 +4,8 @@
     "language": [
       "en"
     ],
-    "dimensions": 768,
-    "max_tokens": 512,
+    "dimensions": 7681,
+    "max_tokens": 5121,
     "model_name": "custom-embedding-1",
     "virtualenv": {
       "packages": []
