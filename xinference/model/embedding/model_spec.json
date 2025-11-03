@@ -1,6 +1,6 @@
 [
   {
-    "test":"test",
+    "test": "test",
     "version": 2,
     "language": [
       "en1"
@@ -28,9 +28,9 @@
   },
   {
     "test": "test",
-    "version":2,
+    "version": 2,
     "language": [
-      "en1"
+      "en2222"
     ],
     "dimensions": 768,
     "max_tokens": 512,
