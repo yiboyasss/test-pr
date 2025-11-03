@@ -1,9 +1,9 @@
 [
   {
-    "test": "test",
+    "test":"test",
     "version": 2,
     "language": [
-      "en11"
+      "en111"
     ],
     "model_name": "custom-embedding-test",
     "virtualenv": {
@@ -27,10 +27,10 @@
     "model_description": "This is a custom model description."
   },
   {
-    "test": "test",
+    "test":"test",
     "version": 2,
     "language": [
-      "en22"
+      "en222"
     ],
     "dimensions": 768,
     "max_tokens": 512,
@@ -54,10 +54,10 @@
     "model_description": "This is a custom model description."
   },
   {
-    "test": "test2",
+    "test":"test2",
     "version": 2,
     "language": [
-      "en33"
+      "en333"
     ],
     "dimensions": 768,
     "max_tokens": 512,
