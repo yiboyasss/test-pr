@@ -87,7 +87,7 @@
     ],
     "dimensions": 768,
     "max_tokens": 512,
-    "model_name": "custom-embedding-test4",
+    "model_name": "custom-embedding-test5",
     "virtualenv": {
       "packages": []
     },
