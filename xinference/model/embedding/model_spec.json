@@ -3,7 +3,7 @@
     "test": "test",
     "version": 2,
     "language": [
-      "en111"
+      "en1111"
     ],
     "model_name": "custom-embedding-test",
     "virtualenv": {
@@ -57,7 +57,7 @@
     "test": "test",
     "version": 2,
     "language": [
-      "en333"
+      "en3333"
     ],
     "dimensions": 768,
     "max_tokens": 512,
