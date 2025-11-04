@@ -5,6 +5,7 @@
       "en"
     ],
     "model_name": "custom-llm",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -34,6 +35,7 @@
       "en"
     ],
     "model_name": "custom-llm-1",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -63,6 +65,7 @@
       "en"
     ],
     "model_name": "custom-llm-2",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -92,6 +95,7 @@
       "en"
     ],
     "model_name": "custom-llm-4",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -121,6 +125,7 @@
       "en"
     ],
     "model_name": "custom-llm-5",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -150,6 +155,7 @@
       "en"
     ],
     "model_name": "custom-llm-6",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -179,6 +185,7 @@
       "en"
     ],
     "model_name": "custom-llm-7",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -215,6 +222,7 @@
       "en"
     ],
     "model_name": "custom-llm-8",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -248,6 +256,7 @@
       "en"
     ],
     "model_name": "custom-llm-9",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -277,6 +286,7 @@
       "en"
     ],
     "model_name": "custom-llm-10",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -306,6 +316,7 @@
       "en"
     ],
     "model_name": "custom-llm-11",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -337,6 +348,7 @@
       "en"
     ],
     "model_name": "custom-llm-12",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -364,6 +376,7 @@
       "en"
     ],
     "model_name": "custom-llm-13",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -400,6 +413,7 @@
       "en"
     ],
     "model_name": "custom-llm-test000",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -429,6 +443,7 @@
       "en"
     ],
     "model_name": "custom-llm-test111",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -458,6 +473,7 @@
       "en"
     ],
     "model_name": "codestral-v0.1",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -537,6 +553,7 @@
       "en"
     ],
     "model_name": "gorilla-openfunctions-v2",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -598,6 +615,7 @@
       "es"
     ],
     "model_name": "mixtral-8x22B-instruct-v0.1",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -738,6 +756,7 @@
       "en"
     ],
     "model_name": "llama-2",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -947,6 +966,7 @@
       "en"
     ],
     "model_name": "mistral-instruct-v0.3",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -1025,6 +1045,7 @@
       "en"
     ],
     "model_name": "gpt-2",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -1055,6 +1076,7 @@
       "en"
     ],
     "model_name": "openhermes-2.5",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -1110,6 +1132,7 @@
       "en"
     ],
     "model_name": "opt",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -1137,6 +1160,7 @@
       "en"
     ],
     "model_name": "phi-2",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -1197,6 +1221,7 @@
       "tl"
     ],
     "model_name": "seallm_v2",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -1247,6 +1272,7 @@
       "tl"
     ],
     "model_name": "seallm_v2.5",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -1294,6 +1320,7 @@
       "zh"
     ],
     "model_name": "DianJin-R1",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -1474,6 +1501,7 @@
       "en"
     ],
     "model_name": "HuatuoGPT-o1-LLaMA-3.1",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -1537,6 +1565,7 @@
       "zh"
     ],
     "model_name": "HuatuoGPT-o1-Qwen2.5",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -1598,6 +1627,7 @@
       "zh"
     ],
     "model_name": "InternVL3",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -1881,6 +1911,7 @@
       "zh"
     ],
     "model_name": "MiniCPM-V-2.6",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -1946,6 +1977,7 @@
       "zh"
     ],
     "model_name": "Ovis2",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -2171,6 +2203,7 @@
       "zh"
     ],
     "model_name": "QvQ-72B-Preview",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -2241,6 +2274,7 @@
       "zh"
     ],
     "model_name": "QwQ-32B",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -2413,6 +2447,7 @@
       "zh"
     ],
     "model_name": "QwQ-32B-Preview",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -2538,6 +2573,7 @@
       "zh"
     ],
     "model_name": "Skywork",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -2573,6 +2609,7 @@
       "zh"
     ],
     "model_name": "Skywork-Math",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -2613,6 +2650,7 @@
       "zh"
     ],
     "model_name": "XiYanSQL-QwenCoder-2504",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -2671,6 +2709,7 @@
       "zh"
     ],
     "model_name": "Yi",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -2782,6 +2821,7 @@
       "zh"
     ],
     "model_name": "Yi-1.5",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -2863,250 +2903,6 @@
     "model_description": "Yi-1.5 is an upgraded version of Yi. It is continuously pre-trained on Yi with a high-quality corpus of 500B tokens and fine-tuned on 3M diverse fine-tuning samples."
   },
   {
-    "version": 2,
-    "model_lang": [
-      "en",
-      "zh"
-    ],
-    "model_name": "baichuan-2",
-    "model_specs": [
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "baichuan-inc/Baichuan2-7B-Base",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "v1.0.2"
-          },
-          "huggingface": {
-            "model_id": "baichuan-inc/Baichuan2-7B-Base",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "f2cc3a689c5eba7dc7fd3757d0175d312d167604"
-          },
-          "openmind_hub": {
-            "model_id": "PyTorch-NPU/baichuan2_7b_base",
-            "quantizations": [
-              "none"
-            ]
-          }
-        },
-        "model_format": "pytorch",
-        "model_size_in_billions": 7
-      },
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "baichuan-inc/Baichuan2-13B-Base",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "v1.0.3"
-          },
-          "huggingface": {
-            "model_id": "baichuan-inc/Baichuan2-13B-Base",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "fa88072fee36e36282287410e00897df2f59e09b"
-          },
-          "openmind_hub": {
-            "model_id": "Baichuan/Baichuan2_13b_base_pt",
-            "quantizations": [
-              "none"
-            ]
-          }
-        },
-        "model_format": "pytorch",
-        "model_size_in_billions": 13
-      }
-    ],
-    "model_ability": [
-      "generate"
-    ],
-    "context_length": 4096,
-    "model_description": "Baichuan2 is an open-source Transformer based LLM that is trained on both Chinese and English data."
-  },
-  {
-    "stop": [
-      "<|endoftext|>",
-      "<|im_start|>",
-      "<|im_end|>",
-      "<|im_sep|>"
-    ],
-    "version": 2,
-    "model_lang": [
-      "en",
-      "zh"
-    ],
-    "model_name": "Yi-1.5-chat-16k",
-    "model_specs": [
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "01ai/Yi-1.5-9B-Chat-16K",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "master"
-          },
-          "huggingface": {
-            "model_id": "01-ai/Yi-1.5-9B-Chat-16K",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "551220fb24d69b6bfec5defceeb160395ce5da8d"
-          }
-        },
-        "model_format": "pytorch",
-        "model_size_in_billions": 9
-      },
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "01ai/Yi-1.5-34B-Chat-16K",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "master"
-          },
-          "huggingface": {
-            "model_id": "01-ai/Yi-1.5-34B-Chat-16K",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "dfdbc67be750972bfcc1ac7ffd7fe48689c856fd"
-          }
-        },
-        "model_format": "pytorch",
-        "model_size_in_billions": 34
-      },
-      {
-        "model_src": {
-          "huggingface": {
-            "model_id": "QuantFactory/Yi-1.5-9B-Chat-16K-GGUF",
-            "quantizations": [
-              "Q2_K",
-              "Q3_K_L",
-              "Q3_K_M",
-              "Q3_K_S",
-              "Q4_0",
-              "Q4_1",
-              "Q4_K_M",
-              "Q4_K_S",
-              "Q5_0",
-              "Q5_1",
-              "Q5_K_M",
-              "Q5_K_S",
-              "Q6_K",
-              "Q8_0"
-            ],
-            "model_file_name_template": "Yi-1.5-9B-Chat-16K.{quantization}.gguf"
-          }
-        },
-        "model_format": "ggufv2",
-        "model_size_in_billions": 9
-      },
-      {
-        "model_src": {
-          "huggingface": {
-            "model_id": "bartowski/Yi-1.5-34B-Chat-16K-GGUF",
-            "quantizations": [
-              "Q2_K",
-              "Q3_K_L",
-              "Q3_K_M",
-              "Q3_K_S",
-              "Q4_K_M",
-              "Q4_K_S",
-              "Q5_K_M",
-              "Q5_K_S",
-              "Q6_K",
-              "Q8_0"
-            ],
-            "model_file_name_template": "Yi-1.5-34B-Chat-16K-{quantization}.gguf"
-          }
-        },
-        "model_format": "ggufv2",
-        "model_size_in_billions": 34
-      }
-    ],
-    "chat_template": "{% if messages[0]['role'] == 'system' %}{% set system_message = messages[0]['content'] %}{% endif %}{% if system_message is defined %}{{ system_message }}{% endif %}{% for message in messages %}{% set content = message['content'] %}{% if message['role'] == 'user' %}{{ '<|im_start|>user\n' + content + '<|im_end|>\n<|im_start|>assistant\n' }}{% elif message['role'] == 'assistant' %}{{ content + '<|im_end|>' + '\n' }}{% endif %}{% endfor %}",
-    "model_ability": [
-      "chat"
-    ],
-    "context_length": 16384,
-    "stop_token_ids": [
-      2,
-      6,
-      7,
-      8
-    ],
-    "model_description": "Yi-1.5 is an upgraded version of Yi. It is continuously pre-trained on Yi with a high-quality corpus of 500B tokens and fine-tuned on 3M diverse fine-tuning samples."
-  },
-  {
-    "version": 2,
-    "model_lang": [
-      "en",
-      "zh"
-    ],
-    "model_name": "Yi-200k",
-    "model_specs": [
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "01ai/Yi-6B-200K",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "master"
-          },
-          "huggingface": {
-            "model_id": "01-ai/Yi-6B-200K",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "70649e36d43f91dff1357b576e6713cac03c1d4c"
-          },
-          "openmind_hub": {
-            "model_id": "wuhaicc/Yi-6B-200K",
-            "quantizations": [
-              "none"
-            ]
-          }
-        },
-        "model_format": "pytorch",
-        "model_size_in_billions": 6
-      },
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "01ai/Yi-34B-200K",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "master"
-          },
-          "huggingface": {
-            "model_id": "01-ai/Yi-34B-200K",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "591ae83b8f9c269700ef27f9dbd548934d800302"
-          }
-        },
-        "model_format": "pytorch",
-        "model_size_in_billions": 34
-      }
-    ],
-    "model_ability": [
-      "generate"
-    ],
-    "context_length": 262144,
-    "model_description": "The Yi series models are large language models trained from scratch by developers at 01.AI."
-  },
-  {
     "stop": [
       "<|endoftext|>",
       "<|im_start|>",
@@ -3119,6 +2915,7 @@
       "zh"
     ],
     "model_name": "Yi-chat",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -3229,7 +3026,187 @@
       "en",
       "zh"
     ],
+    "model_name": "Yi-1.5-chat-16k",
+    "updated_at": 1762246227,
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "01ai/Yi-1.5-9B-Chat-16K",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "01-ai/Yi-1.5-9B-Chat-16K",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "551220fb24d69b6bfec5defceeb160395ce5da8d"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 9
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "01ai/Yi-1.5-34B-Chat-16K",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "01-ai/Yi-1.5-34B-Chat-16K",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "dfdbc67be750972bfcc1ac7ffd7fe48689c856fd"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 34
+      },
+      {
+        "model_src": {
+          "huggingface": {
+            "model_id": "QuantFactory/Yi-1.5-9B-Chat-16K-GGUF",
+            "quantizations": [
+              "Q2_K",
+              "Q3_K_L",
+              "Q3_K_M",
+              "Q3_K_S",
+              "Q4_0",
+              "Q4_1",
+              "Q4_K_M",
+              "Q4_K_S",
+              "Q5_0",
+              "Q5_1",
+              "Q5_K_M",
+              "Q5_K_S",
+              "Q6_K",
+              "Q8_0"
+            ],
+            "model_file_name_template": "Yi-1.5-9B-Chat-16K.{quantization}.gguf"
+          }
+        },
+        "model_format": "ggufv2",
+        "model_size_in_billions": 9
+      },
+      {
+        "model_src": {
+          "huggingface": {
+            "model_id": "bartowski/Yi-1.5-34B-Chat-16K-GGUF",
+            "quantizations": [
+              "Q2_K",
+              "Q3_K_L",
+              "Q3_K_M",
+              "Q3_K_S",
+              "Q4_K_M",
+              "Q4_K_S",
+              "Q5_K_M",
+              "Q5_K_S",
+              "Q6_K",
+              "Q8_0"
+            ],
+            "model_file_name_template": "Yi-1.5-34B-Chat-16K-{quantization}.gguf"
+          }
+        },
+        "model_format": "ggufv2",
+        "model_size_in_billions": 34
+      }
+    ],
+    "chat_template": "{% if messages[0]['role'] == 'system' %}{% set system_message = messages[0]['content'] %}{% endif %}{% if system_message is defined %}{{ system_message }}{% endif %}{% for message in messages %}{% set content = message['content'] %}{% if message['role'] == 'user' %}{{ '<|im_start|>user\n' + content + '<|im_end|>\n<|im_start|>assistant\n' }}{% elif message['role'] == 'assistant' %}{{ content + '<|im_end|>' + '\n' }}{% endif %}{% endfor %}",
+    "model_ability": [
+      "chat"
+    ],
+    "context_length": 16384,
+    "stop_token_ids": [
+      2,
+      6,
+      7,
+      8
+    ],
+    "model_description": "Yi-1.5 is an upgraded version of Yi. It is continuously pre-trained on Yi with a high-quality corpus of 500B tokens and fine-tuned on 3M diverse fine-tuning samples."
+  },
+  {
+    "version": 2,
+    "model_lang": [
+      "en",
+      "zh"
+    ],
+    "model_name": "Yi-200k",
+    "updated_at": 1762246227,
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "01ai/Yi-6B-200K",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "01-ai/Yi-6B-200K",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "70649e36d43f91dff1357b576e6713cac03c1d4c"
+          },
+          "openmind_hub": {
+            "model_id": "wuhaicc/Yi-6B-200K",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 6
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "01ai/Yi-34B-200K",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "01-ai/Yi-34B-200K",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "591ae83b8f9c269700ef27f9dbd548934d800302"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 34
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 262144,
+    "model_description": "The Yi series models are large language models trained from scratch by developers at 01.AI."
+  },
+  {
+    "stop": [
+      "<|endoftext|>",
+      "<|im_start|>",
+      "<|im_end|>",
+      "<|im_sep|>"
+    ],
+    "version": 2,
+    "model_lang": [
+      "en",
+      "zh"
+    ],
     "model_name": "Yi-1.5-chat",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -3558,6 +3535,74 @@
     "model_description": "Yi-1.5 is an upgraded version of Yi. It is continuously pre-trained on Yi with a high-quality corpus of 500B tokens and fine-tuned on 3M diverse fine-tuning samples."
   },
   {
+    "version": 2,
+    "model_lang": [
+      "en",
+      "zh"
+    ],
+    "model_name": "baichuan-2",
+    "updated_at": 1762246227,
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "baichuan-inc/Baichuan2-7B-Base",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "v1.0.2"
+          },
+          "huggingface": {
+            "model_id": "baichuan-inc/Baichuan2-7B-Base",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "f2cc3a689c5eba7dc7fd3757d0175d312d167604"
+          },
+          "openmind_hub": {
+            "model_id": "PyTorch-NPU/baichuan2_7b_base",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "baichuan-inc/Baichuan2-13B-Base",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "v1.0.3"
+          },
+          "huggingface": {
+            "model_id": "baichuan-inc/Baichuan2-13B-Base",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "fa88072fee36e36282287410e00897df2f59e09b"
+          },
+          "openmind_hub": {
+            "model_id": "Baichuan/Baichuan2_13b_base_pt",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 13
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 4096,
+    "model_description": "Baichuan2 is an open-source Transformer based LLM that is trained on both Chinese and English data."
+  },
+  {
     "stop": [],
     "version": 2,
     "model_lang": [
@@ -3565,6 +3610,7 @@
       "zh"
     ],
     "model_name": "baichuan-2-chat",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -3636,6 +3682,7 @@
       "en"
     ],
     "model_name": "code-llama",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -3785,6 +3832,7 @@
       "en"
     ],
     "model_name": "code-llama-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -3959,6 +4007,7 @@
       "en"
     ],
     "model_name": "code-llama-python",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -4141,6 +4190,7 @@
       "zh"
     ],
     "model_name": "codegeex4",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -4213,6 +4263,7 @@
       "zh"
     ],
     "model_name": "codeqwen1.5",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -4257,6 +4308,7 @@
       "zh"
     ],
     "model_name": "codeqwen1.5-chat",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -4354,6 +4406,7 @@
       "zh"
     ],
     "model_name": "codeshell",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -4394,6 +4447,7 @@
       "zh"
     ],
     "model_name": "codeshell-chat",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -4438,6 +4492,7 @@
       "zh"
     ],
     "model_name": "cogagent",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -4478,6 +4533,7 @@
       "zh"
     ],
     "model_name": "deepseek",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -4582,6 +4638,7 @@
       "zh"
     ],
     "model_name": "deepseek-chat",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -4687,6 +4744,7 @@
       "zh"
     ],
     "model_name": "deepseek-coder",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -4948,6 +5006,7 @@
       "zh"
     ],
     "model_name": "deepseek-coder-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -5213,6 +5272,7 @@
       "zh"
     ],
     "model_name": "deepseek-prover-v2",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -5292,6 +5352,7 @@
       "zh"
     ],
     "model_name": "deepseek-r1",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -5708,6 +5769,7 @@
       "zh"
     ],
     "model_name": "deepseek-r1-0528",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -5774,6 +5836,7 @@
       "zh"
     ],
     "model_name": "deepseek-r1-0528-qwen3",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -5854,69 +5917,8 @@
       "en",
       "zh"
     ],
-    "model_name": "deepseek-v2-chat",
-    "model_specs": [
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "deepseek-ai/DeepSeek-V2-Lite-Chat",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "master"
-          },
-          "huggingface": {
-            "model_id": "deepseek-ai/DeepSeek-V2-Lite-Chat",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "85864749cd611b4353ce1decdb286193298f64c7"
-          }
-        },
-        "model_format": "pytorch",
-        "model_size_in_billions": 16
-      },
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "deepseek-ai/DeepSeek-V2-Chat",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "master"
-          },
-          "huggingface": {
-            "model_id": "deepseek-ai/DeepSeek-V2-Chat",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "8e3f5f6c2226787e41ba3e9283a06389d178c926"
-          }
-        },
-        "model_format": "pytorch",
-        "model_size_in_billions": 236
-      }
-    ],
-    "chat_template": "{% if not add_generation_prompt is defined %}{% set add_generation_prompt = false %}{% endif %}{{ '<｜begin▁of▁sentence｜>' }}{% for message in messages %}{% if message['role'] == 'user' %}{{ 'User: ' + message['content'] + '\n\n' }}{% elif message['role'] == 'assistant' %}{{ 'Assistant: ' + message['content'] + '<｜end▁of▁sentence｜>' }}{% elif message['role'] == 'system' %}{{ message['content'] + '\n\n' }}{% endif %}{% endfor %}{% if add_generation_prompt %}{{ 'Assistant:' }}{% endif %}",
-    "model_ability": [
-      "chat"
-    ],
-    "context_length": 128000,
-    "stop_token_ids": [
-      100001
-    ],
-    "model_description": "DeepSeek-V2, a strong Mixture-of-Experts (MoE) language model characterized by economical training and efficient inference. "
-  },
-  {
-    "stop": [
-      "<｜end▁of▁sentence｜>"
-    ],
-    "version": 2,
-    "model_lang": [
-      "en",
-      "zh"
-    ],
     "model_name": "deepseek-r1-distill-qwen",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -6340,6 +6342,7 @@
       "zh"
     ],
     "model_name": "deepseek-r1-distill-llama",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -6604,7 +6607,71 @@
       "en",
       "zh"
     ],
+    "model_name": "deepseek-v2-chat",
+    "updated_at": 1762246227,
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "deepseek-ai/DeepSeek-V2-Lite-Chat",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "deepseek-ai/DeepSeek-V2-Lite-Chat",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "85864749cd611b4353ce1decdb286193298f64c7"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 16
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "deepseek-ai/DeepSeek-V2-Chat",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "deepseek-ai/DeepSeek-V2-Chat",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "8e3f5f6c2226787e41ba3e9283a06389d178c926"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 236
+      }
+    ],
+    "chat_template": "{% if not add_generation_prompt is defined %}{% set add_generation_prompt = false %}{% endif %}{{ '<｜begin▁of▁sentence｜>' }}{% for message in messages %}{% if message['role'] == 'user' %}{{ 'User: ' + message['content'] + '\n\n' }}{% elif message['role'] == 'assistant' %}{{ 'Assistant: ' + message['content'] + '<｜end▁of▁sentence｜>' }}{% elif message['role'] == 'system' %}{{ message['content'] + '\n\n' }}{% endif %}{% endfor %}{% if add_generation_prompt %}{{ 'Assistant:' }}{% endif %}",
+    "model_ability": [
+      "chat"
+    ],
+    "context_length": 128000,
+    "stop_token_ids": [
+      100001
+    ],
+    "model_description": "DeepSeek-V2, a strong Mixture-of-Experts (MoE) language model characterized by economical training and efficient inference. "
+  },
+  {
+    "stop": [
+      "<｜end▁of▁sentence｜>"
+    ],
+    "version": 2,
+    "model_lang": [
+      "en",
+      "zh"
+    ],
     "model_name": "deepseek-v2-chat-0628",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -6647,6 +6714,7 @@
       "zh"
     ],
     "model_name": "deepseek-v2.5",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -6689,6 +6757,7 @@
       "zh"
     ],
     "model_name": "deepseek-v3",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -6964,6 +7033,7 @@
       "zh"
     ],
     "model_name": "deepseek-v3-0324",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -7036,6 +7106,7 @@
       "zh"
     ],
     "model_name": "deepseek-vl2",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -7118,6 +7189,7 @@
       "zh"
     ],
     "model_name": "fin-r1",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -7190,108 +7262,83 @@
   },
   {
     "stop": [
-      "<|endoftext|>",
-      "<|user|>",
-      "<|observation|>"
+      "<eos>",
+      "<end_of_turn>",
+      "<start_of_turn>"
     ],
     "version": 2,
     "model_lang": [
-      "en",
-      "zh"
+      "en"
     ],
-    "model_name": "glm4-0414",
-    "virtualenv": {
-      "packages": [
-        "transformers>=4.51.3",
-        "mlx-lm>=0.23.1 ; sys_platform=='darwin'",
-        "numpy==1.26.4"
-      ]
-    },
+    "model_name": "gemma-3-1b-it",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
           "modelscope": {
-            "model_id": "ZhipuAI/GLM-4-9B-0414",
+            "model_id": "LLM-Research/gemma-3-1b-it",
             "quantizations": [
               "none"
             ]
           },
           "huggingface": {
-            "model_id": "zai-org/GLM-4-9B-0414",
-            "quantizations": [
-              "none"
-            ]
-          }
-        },
-        "model_format": "pytorch",
-        "model_size_in_billions": 9
-      },
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "ZhipuAI/GLM-4-32B-0414",
-            "quantizations": [
-              "none"
-            ]
-          },
-          "huggingface": {
-            "model_id": "zai-org/GLM-4-32B-0414",
+            "model_id": "google/gemma-3-1b-it",
             "quantizations": [
               "none"
             ]
           }
         },
         "model_format": "pytorch",
-        "model_size_in_billions": 32
+        "model_size_in_billions": 1
       },
       {
         "model_src": {
           "modelscope": {
-            "model_id": "mlx-community/GLM-4-9B-0414-{quantization}",
+            "model_id": "mlx-community/gemma-3-1b-it-{quantization}",
             "quantizations": [
               "4bit",
               "6bit",
               "8bit",
-              "bf16"
+              "fp16"
             ]
           },
           "huggingface": {
-            "model_id": "mlx-community/GLM-4-9B-0414-{quantization}",
+            "model_id": "mlx-community/gemma-3-1b-it-{quantization}",
             "quantizations": [
               "4bit",
               "6bit",
               "8bit",
-              "bf16"
+              "fp16"
             ]
           }
         },
         "model_format": "mlx",
-        "model_size_in_billions": 9
+        "model_size_in_billions": 1
       },
       {
         "model_src": {
           "modelscope": {
-            "model_id": "mlx-community/GLM-4-32B-0414-{quantization}",
+            "model_id": "bartowski/google_gemma-3-1b-it-GGUF",
             "quantizations": [
-              "4bit",
-              "8bit"
-            ]
+              "Q2_K",
+              "Q3_K_L",
+              "Q3_K_M",
+              "Q3_K_S",
+              "Q4_K_L",
+              "Q4_K_M",
+              "Q4_K_S",
+              "Q5_K_L",
+              "Q5_K_M",
+              "Q5_K_S",
+              "Q6_K",
+              "Q6_K_L",
+              "Q8_0",
+              "bf16"
+            ],
+            "model_file_name_template": "google_gemma-3-1b-it-{quantization}.gguf"
           },
           "huggingface": {
-            "model_id": "mlx-community/GLM-4-32B-0414-{quantization}",
-            "quantizations": [
-              "4bit",
-              "8bit"
-            ]
-          }
-        },
-        "model_format": "mlx",
-        "model_size_in_billions": 32
-      },
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "bartowski/THUDM_GLM-4-9B-0414-GGUF",
+            "model_id": "bartowski/google_gemma-3-1b-it-GGUF",
             "quantizations": [
               "IQ2_M",
               "IQ3_M",
@@ -7304,7 +7351,6 @@
               "Q3_K_L",
               "Q3_K_M",
               "Q3_K_S",
-              "Q3_K_XL",
               "Q4_0",
               "Q4_1",
               "Q4_K_L",
@@ -7318,123 +7364,24 @@
               "Q8_0",
               "bf16"
             ],
-            "model_file_name_template": "THUDM_GLM-4-9B-0414-{quantization}.gguf"
-          },
-          "huggingface": {
-            "model_id": "bartowski/THUDM_GLM-4-9B-0414-GGUF",
-            "quantizations": [
-              "IQ2_M",
-              "IQ3_M",
-              "IQ3_XS",
-              "IQ3_XXS",
-              "IQ4_NL",
-              "IQ4_XS",
-              "Q2_K",
-              "Q2_K_L",
-              "Q3_K_L",
-              "Q3_K_M",
-              "Q3_K_S",
-              "Q3_K_XL",
-              "Q4_0",
-              "Q4_1",
-              "Q4_K_L",
-              "Q4_K_M",
-              "Q4_K_S",
-              "Q5_K_L",
-              "Q5_K_M",
-              "Q5_K_S",
-              "Q6_K",
-              "Q6_K_L",
-              "Q8_0",
-              "bf16"
-            ],
-            "model_file_name_template": "THUDM_GLM-4-9B-0414-{quantization}.gguf"
+            "model_file_name_template": "google_gemma-3-1b-it-{quantization}.gguf"
           }
         },
         "model_format": "ggufv2",
-        "model_size_in_billions": 9
-      },
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "bartowski/THUDM_GLM-4-9B-0414-GGUF",
-            "quantizations": [
-              "IQ2_M",
-              "IQ2_S",
-              "IQ2_XS",
-              "IQ3_M",
-              "IQ3_XS",
-              "IQ3_XXS",
-              "IQ4_NL",
-              "IQ4_XS",
-              "Q2_K",
-              "Q2_K_L",
-              "Q3_K_L",
-              "Q3_K_M",
-              "Q3_K_S",
-              "Q3_K_XL",
-              "Q4_0",
-              "Q4_1",
-              "Q4_K_L",
-              "Q4_K_M",
-              "Q4_K_S",
-              "Q5_K_L",
-              "Q5_K_M",
-              "Q5_K_S",
-              "Q6_K",
-              "Q6_K_L",
-              "Q8_0"
-            ],
-            "model_file_name_template": "THUDM_GLM-4-9B-0414-{quantization}.gguf"
-          },
-          "huggingface": {
-            "model_id": "bartowski/THUDM_GLM-4-9B-0414-GGUF",
-            "quantizations": [
-              "IQ2_M",
-              "IQ2_S",
-              "IQ2_XS",
-              "IQ3_M",
-              "IQ3_XS",
-              "IQ3_XXS",
-              "IQ4_NL",
-              "IQ4_XS",
-              "Q2_K",
-              "Q2_K_L",
-              "Q3_K_L",
-              "Q3_K_M",
-              "Q3_K_S",
-              "Q3_K_XL",
-              "Q4_0",
-              "Q4_1",
-              "Q4_K_L",
-              "Q4_K_M",
-              "Q4_K_S",
-              "Q5_K_L",
-              "Q5_K_M",
-              "Q5_K_S",
-              "Q6_K",
-              "Q6_K_L",
-              "Q8_0"
-            ],
-            "model_file_name_template": "THUDM_GLM-4-9B-0414-{quantization}.gguf"
-          }
-        },
-        "model_format": "ggufv2",
-        "model_size_in_billions": 32
+        "model_size_in_billions": 1
       }
     ],
-    "chat_template": "[gMASK]<sop>{%- if tools -%}<|system|>\n# 可用工具\n{% for tool in tools %}{%- set function = tool.function if tool.get(\"function\") else tool %}\n\n## {{ function.name }}\n\n{{ function | tojson(indent=4, ensure_ascii=False) }}\n在调用上述函数时，请使用 Json 格式表示调用的参数。{%- endfor %}{%- endif -%}{%- for msg in messages %}{%- if msg.role == 'system' %}<|system|>\n{{ msg.content }}{%- endif %}{%- endfor %}{%- for message in messages if message.role != 'system' %}{%- set role = message['role'] %}{%- set content = message['content'] %}{%- set meta = message.get(\"metadata\", \"\") %}{%- if role == 'user' %}<|user|>\n{{ content }}{%- elif role == 'assistant' and not meta %}<|assistant|>\n{{ content }}{%- elif role == 'assistant' and meta %}<|assistant|>{{ meta }} \n{{ content }}{%- elif role == 'observation' %}<|observation|>\n{{ content }}{%- endif %}{%- endfor %}{% if add_generation_prompt %}<|assistant|>{% endif %}",
+    "chat_template": "{{ bos_token }}\n{%- if messages[0]['role'] == 'system' -%}\n    {%- if messages[0]['content'] is string -%}\n        {%- set first_user_prefix = messages[0]['content'] + '\n\n' -%}\n    {%- else -%}\n        {%- set first_user_prefix = messages[0]['content'][0]['text'] + '\n\n' -%}\n    {%- endif -%}\n    {%- set loop_messages = messages[1:] -%}\n{%- else -%}\n    {%- set first_user_prefix = \"\" -%}\n    {%- set loop_messages = messages -%}\n{%- endif -%}\n{%- for message in loop_messages -%}\n    {%- if (message['role'] == 'user') != (loop.index0 % 2 == 0) -%}\n        {{ raise_exception(\"Conversation roles must alternate user/assistant/user/assistant/...\") }}\n    {%- endif -%}\n    {%- if (message['role'] == 'assistant') -%}\n        {%- set role = \"model\" -%}\n    {%- else -%}\n        {%- set role = message['role'] -%}\n    {%- endif -%}\n    {{ '<start_of_turn>' + role + '\n' + (first_user_prefix if loop.first else \"\") }}\n    {%- if message['content'] is string -%}\n        {{ message['content'] | trim }}\n    {%- elif message['content'] is iterable -%}\n        {%- for item in message['content'] -%}\n            {%- if item['type'] == 'image' -%}\n                {{ '<start_of_image>' }}\n            {%- elif item['type'] == 'text' -%}\n                {{ item['text'] | trim }}\n            {%- endif -%}\n        {%- endfor -%}\n    {%- else -%}\n        {{ raise_exception(\"Invalid content type\") }}\n    {%- endif -%}\n    {{ '<end_of_turn>\n' }}\n{%- endfor -%}\n{%- if add_generation_prompt -%}\n    {{'<start_of_turn>model\n'}}\n{%- endif -%}\n",
     "model_ability": [
-      "chat",
-      "tools"
+      "chat"
     ],
     "context_length": 32768,
     "stop_token_ids": [
-      151329,
-      151336,
-      151338
+      1,
+      105,
+      106
     ],
-    "model_description": "The GLM family welcomes new members, the GLM-4-32B-0414 series models, featuring 32 billion parameters. Its performance is comparable to OpenAI’s GPT series and DeepSeek’s V3/R1 series"
+    "model_description": "Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models."
   },
   {
     "stop": [
@@ -7447,6 +7394,7 @@
       "en"
     ],
     "model_name": "gemma-3-it",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -7795,6 +7743,7 @@
       "zh"
     ],
     "model_name": "glm-4v",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -7848,6 +7797,7 @@
       "zh"
     ],
     "model_name": "glm-edge-chat",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -8024,82 +7974,109 @@
   },
   {
     "stop": [
-      "<eos>",
-      "<end_of_turn>",
-      "<start_of_turn>"
+      "<|endoftext|>",
+      "<|user|>",
+      "<|observation|>"
     ],
     "version": 2,
     "model_lang": [
-      "en"
+      "en",
+      "zh"
     ],
-    "model_name": "gemma-3-1b-it",
+    "model_name": "glm4-0414",
+    "updated_at": 1762246227,
+    "virtualenv": {
+      "packages": [
+        "transformers>=4.51.3",
+        "mlx-lm>=0.23.1 ; sys_platform=='darwin'",
+        "numpy==1.26.4"
+      ]
+    },
     "model_specs": [
       {
         "model_src": {
           "modelscope": {
-            "model_id": "LLM-Research/gemma-3-1b-it",
+            "model_id": "ZhipuAI/GLM-4-9B-0414",
             "quantizations": [
               "none"
             ]
           },
           "huggingface": {
-            "model_id": "google/gemma-3-1b-it",
+            "model_id": "zai-org/GLM-4-9B-0414",
             "quantizations": [
               "none"
             ]
           }
         },
         "model_format": "pytorch",
-        "model_size_in_billions": 1
+        "model_size_in_billions": 9
       },
       {
         "model_src": {
           "modelscope": {
-            "model_id": "mlx-community/gemma-3-1b-it-{quantization}",
+            "model_id": "ZhipuAI/GLM-4-32B-0414",
             "quantizations": [
-              "4bit",
-              "6bit",
-              "8bit",
-              "fp16"
+              "none"
             ]
           },
           "huggingface": {
-            "model_id": "mlx-community/gemma-3-1b-it-{quantization}",
+            "model_id": "zai-org/GLM-4-32B-0414",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 32
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "mlx-community/GLM-4-9B-0414-{quantization}",
             "quantizations": [
               "4bit",
               "6bit",
               "8bit",
-              "fp16"
+              "bf16"
+            ]
+          },
+          "huggingface": {
+            "model_id": "mlx-community/GLM-4-9B-0414-{quantization}",
+            "quantizations": [
+              "4bit",
+              "6bit",
+              "8bit",
+              "bf16"
             ]
           }
         },
         "model_format": "mlx",
-        "model_size_in_billions": 1
+        "model_size_in_billions": 9
       },
       {
         "model_src": {
           "modelscope": {
-            "model_id": "bartowski/google_gemma-3-1b-it-GGUF",
+            "model_id": "mlx-community/GLM-4-32B-0414-{quantization}",
             "quantizations": [
-              "Q2_K",
-              "Q3_K_L",
-              "Q3_K_M",
-              "Q3_K_S",
-              "Q4_K_L",
-              "Q4_K_M",
-              "Q4_K_S",
-              "Q5_K_L",
-              "Q5_K_M",
-              "Q5_K_S",
-              "Q6_K",
-              "Q6_K_L",
-              "Q8_0",
-              "bf16"
-            ],
-            "model_file_name_template": "google_gemma-3-1b-it-{quantization}.gguf"
+              "4bit",
+              "8bit"
+            ]
           },
           "huggingface": {
-            "model_id": "bartowski/google_gemma-3-1b-it-GGUF",
+            "model_id": "mlx-community/GLM-4-32B-0414-{quantization}",
+            "quantizations": [
+              "4bit",
+              "8bit"
+            ]
+          }
+        },
+        "model_format": "mlx",
+        "model_size_in_billions": 32
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "bartowski/THUDM_GLM-4-9B-0414-GGUF",
             "quantizations": [
               "IQ2_M",
               "IQ3_M",
@@ -8112,6 +8089,7 @@
               "Q3_K_L",
               "Q3_K_M",
               "Q3_K_S",
+              "Q3_K_XL",
               "Q4_0",
               "Q4_1",
               "Q4_K_L",
@@ -8125,24 +8103,123 @@
               "Q8_0",
               "bf16"
             ],
-            "model_file_name_template": "google_gemma-3-1b-it-{quantization}.gguf"
+            "model_file_name_template": "THUDM_GLM-4-9B-0414-{quantization}.gguf"
+          },
+          "huggingface": {
+            "model_id": "bartowski/THUDM_GLM-4-9B-0414-GGUF",
+            "quantizations": [
+              "IQ2_M",
+              "IQ3_M",
+              "IQ3_XS",
+              "IQ3_XXS",
+              "IQ4_NL",
+              "IQ4_XS",
+              "Q2_K",
+              "Q2_K_L",
+              "Q3_K_L",
+              "Q3_K_M",
+              "Q3_K_S",
+              "Q3_K_XL",
+              "Q4_0",
+              "Q4_1",
+              "Q4_K_L",
+              "Q4_K_M",
+              "Q4_K_S",
+              "Q5_K_L",
+              "Q5_K_M",
+              "Q5_K_S",
+              "Q6_K",
+              "Q6_K_L",
+              "Q8_0",
+              "bf16"
+            ],
+            "model_file_name_template": "THUDM_GLM-4-9B-0414-{quantization}.gguf"
           }
         },
         "model_format": "ggufv2",
-        "model_size_in_billions": 1
+        "model_size_in_billions": 9
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "bartowski/THUDM_GLM-4-9B-0414-GGUF",
+            "quantizations": [
+              "IQ2_M",
+              "IQ2_S",
+              "IQ2_XS",
+              "IQ3_M",
+              "IQ3_XS",
+              "IQ3_XXS",
+              "IQ4_NL",
+              "IQ4_XS",
+              "Q2_K",
+              "Q2_K_L",
+              "Q3_K_L",
+              "Q3_K_M",
+              "Q3_K_S",
+              "Q3_K_XL",
+              "Q4_0",
+              "Q4_1",
+              "Q4_K_L",
+              "Q4_K_M",
+              "Q4_K_S",
+              "Q5_K_L",
+              "Q5_K_M",
+              "Q5_K_S",
+              "Q6_K",
+              "Q6_K_L",
+              "Q8_0"
+            ],
+            "model_file_name_template": "THUDM_GLM-4-9B-0414-{quantization}.gguf"
+          },
+          "huggingface": {
+            "model_id": "bartowski/THUDM_GLM-4-9B-0414-GGUF",
+            "quantizations": [
+              "IQ2_M",
+              "IQ2_S",
+              "IQ2_XS",
+              "IQ3_M",
+              "IQ3_XS",
+              "IQ3_XXS",
+              "IQ4_NL",
+              "IQ4_XS",
+              "Q2_K",
+              "Q2_K_L",
+              "Q3_K_L",
+              "Q3_K_M",
+              "Q3_K_S",
+              "Q3_K_XL",
+              "Q4_0",
+              "Q4_1",
+              "Q4_K_L",
+              "Q4_K_M",
+              "Q4_K_S",
+              "Q5_K_L",
+              "Q5_K_M",
+              "Q5_K_S",
+              "Q6_K",
+              "Q6_K_L",
+              "Q8_0"
+            ],
+            "model_file_name_template": "THUDM_GLM-4-9B-0414-{quantization}.gguf"
+          }
+        },
+        "model_format": "ggufv2",
+        "model_size_in_billions": 32
       }
     ],
-    "chat_template": "{{ bos_token }}\n{%- if messages[0]['role'] == 'system' -%}\n    {%- if messages[0]['content'] is string -%}\n        {%- set first_user_prefix = messages[0]['content'] + '\n\n' -%}\n    {%- else -%}\n        {%- set first_user_prefix = messages[0]['content'][0]['text'] + '\n\n' -%}\n    {%- endif -%}\n    {%- set loop_messages = messages[1:] -%}\n{%- else -%}\n    {%- set first_user_prefix = \"\" -%}\n    {%- set loop_messages = messages -%}\n{%- endif -%}\n{%- for message in loop_messages -%}\n    {%- if (message['role'] == 'user') != (loop.index0 % 2 == 0) -%}\n        {{ raise_exception(\"Conversation roles must alternate user/assistant/user/assistant/...\") }}\n    {%- endif -%}\n    {%- if (message['role'] == 'assistant') -%}\n        {%- set role = \"model\" -%}\n    {%- else -%}\n        {%- set role = message['role'] -%}\n    {%- endif -%}\n    {{ '<start_of_turn>' + role + '\n' + (first_user_prefix if loop.first else \"\") }}\n    {%- if message['content'] is string -%}\n        {{ message['content'] | trim }}\n    {%- elif message['content'] is iterable -%}\n        {%- for item in message['content'] -%}\n            {%- if item['type'] == 'image' -%}\n                {{ '<start_of_image>' }}\n            {%- elif item['type'] == 'text' -%}\n                {{ item['text'] | trim }}\n            {%- endif -%}\n        {%- endfor -%}\n    {%- else -%}\n        {{ raise_exception(\"Invalid content type\") }}\n    {%- endif -%}\n    {{ '<end_of_turn>\n' }}\n{%- endfor -%}\n{%- if add_generation_prompt -%}\n    {{'<start_of_turn>model\n'}}\n{%- endif -%}\n",
+    "chat_template": "[gMASK]<sop>{%- if tools -%}<|system|>\n# 可用工具\n{% for tool in tools %}{%- set function = tool.function if tool.get(\"function\") else tool %}\n\n## {{ function.name }}\n\n{{ function | tojson(indent=4, ensure_ascii=False) }}\n在调用上述函数时，请使用 Json 格式表示调用的参数。{%- endfor %}{%- endif -%}{%- for msg in messages %}{%- if msg.role == 'system' %}<|system|>\n{{ msg.content }}{%- endif %}{%- endfor %}{%- for message in messages if message.role != 'system' %}{%- set role = message['role'] %}{%- set content = message['content'] %}{%- set meta = message.get(\"metadata\", \"\") %}{%- if role == 'user' %}<|user|>\n{{ content }}{%- elif role == 'assistant' and not meta %}<|assistant|>\n{{ content }}{%- elif role == 'assistant' and meta %}<|assistant|>{{ meta }} \n{{ content }}{%- elif role == 'observation' %}<|observation|>\n{{ content }}{%- endif %}{%- endfor %}{% if add_generation_prompt %}<|assistant|>{% endif %}",
     "model_ability": [
-      "chat"
+      "chat",
+      "tools"
     ],
     "context_length": 32768,
     "stop_token_ids": [
-      1,
-      105,
-      106
+      151329,
+      151336,
+      151338
     ],
-    "model_description": "Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models."
+    "model_description": "The GLM family welcomes new members, the GLM-4-32B-0414 series models, featuring 32 billion parameters. Its performance is comparable to OpenAI’s GPT series and DeepSeek’s V3/R1 series"
   },
   {
     "stop": [
@@ -8156,6 +8233,7 @@
       "zh"
     ],
     "model_name": "glm4-chat",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -8263,6 +8341,7 @@
       "zh"
     ],
     "model_name": "glm4-chat-1m",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -8369,6 +8448,7 @@
       "zh"
     ],
     "model_name": "internlm3-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -8496,6 +8576,7 @@
       "en"
     ],
     "model_name": "llama-2-chat",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -8743,6 +8824,7 @@
       "en"
     ],
     "model_name": "llama-3",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -8837,6 +8919,7 @@
       "en"
     ],
     "model_name": "llama-3-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -9053,6 +9136,7 @@
       "th"
     ],
     "model_name": "llama-3.1",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -9165,6 +9249,7 @@
       "th"
     ],
     "model_name": "llama-3.1-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -9533,6 +9618,7 @@
       "th"
     ],
     "model_name": "llama-3.2-vision",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -9596,6 +9682,7 @@
       "th"
     ],
     "model_name": "llama-3.2-vision-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -9665,6 +9752,7 @@
       "th"
     ],
     "model_name": "llama-3.3-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -9798,6 +9886,7 @@
       "zh"
     ],
     "model_name": "marco-o1",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -9887,6 +9976,7 @@
       "zh"
     ],
     "model_name": "minicpm-2b-dpo-bf16",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -9936,6 +10026,7 @@
       "zh"
     ],
     "model_name": "minicpm-2b-dpo-fp16",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -9979,6 +10070,7 @@
       "zh"
     ],
     "model_name": "minicpm-2b-dpo-fp32",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -10022,6 +10114,7 @@
       "zh"
     ],
     "model_name": "minicpm-2b-sft-bf16",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -10071,6 +10164,7 @@
       "zh"
     ],
     "model_name": "minicpm-2b-sft-fp32",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -10114,6 +10208,7 @@
       "zh"
     ],
     "model_name": "minicpm3-4b",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -10183,6 +10278,7 @@
       "zh"
     ],
     "model_name": "minicpm4",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -10259,6 +10355,7 @@
       "en"
     ],
     "model_name": "mistral-instruct-v0.1",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -10348,6 +10445,7 @@
       "en"
     ],
     "model_name": "mistral-instruct-v0.2",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -10452,6 +10550,7 @@
       "ko"
     ],
     "model_name": "mistral-large-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -10643,6 +10742,7 @@
       "ja"
     ],
     "model_name": "mistral-nemo-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -10807,6 +10907,7 @@
       "en"
     ],
     "model_name": "mistral-v0.1",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -10897,6 +10998,7 @@
       "es"
     ],
     "model_name": "mixtral-instruct-v0.1",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -10983,6 +11085,7 @@
       "es"
     ],
     "model_name": "mixtral-v0.1",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -11053,6 +11156,7 @@
       "zh"
     ],
     "model_name": "moonlight-16b-a3b-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -11095,6 +11199,7 @@
       "zh"
     ],
     "model_name": "orion-chat",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -11157,6 +11262,7 @@
       "en"
     ],
     "model_name": "phi-3-mini-128k-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -11202,6 +11308,7 @@
       "en"
     ],
     "model_name": "phi-3-mini-4k-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -11262,6 +11369,7 @@
       "zh"
     ],
     "model_name": "qwen-chat",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -11512,6 +11620,7 @@
       "zh"
     ],
     "model_name": "qwen1.5-chat",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -12261,6 +12370,7 @@
       "zh"
     ],
     "model_name": "qwen1.5-moe-chat",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -12323,176 +12433,8 @@
       "en",
       "zh"
     ],
-    "model_name": "qwen2-moe-instruct",
-    "model_specs": [
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "qwen/Qwen2-57B-A14B-Instruct",
-            "quantizations": [
-              "none"
-            ]
-          },
-          "huggingface": {
-            "model_id": "Qwen/Qwen2-57B-A14B-Instruct",
-            "quantizations": [
-              "none"
-            ]
-          }
-        },
-        "model_format": "pytorch",
-        "model_size_in_billions": 14
-      },
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "qwen/Qwen2-57B-A14B-Instruct-GPTQ-Int4",
-            "quantizations": [
-              "Int4"
-            ]
-          },
-          "huggingface": {
-            "model_id": "Qwen/Qwen2-57B-A14B-Instruct-GPTQ-Int4",
-            "quantizations": [
-              "Int4"
-            ]
-          }
-        },
-        "model_format": "gptq",
-        "model_size_in_billions": 14
-      },
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "qwen/Qwen2-57B-A14B-Instruct-GGUF",
-            "quantizations": [
-              "q3_k_m",
-              "q4_0",
-              "q4_k_m",
-              "q5_0",
-              "q5_k_m",
-              "q6_k",
-              "q8_0",
-              "fp16"
-            ],
-            "quantization_parts": {
-              "fp16": [
-                "00001-of-00003",
-                "00002-of-00003",
-                "00003-of-00003"
-              ],
-              "q8_0": [
-                "00001-of-00002",
-                "00002-of-00002"
-              ]
-            },
-            "model_file_name_template": "qwen2-57b-a14b-instruct-{quantization}.gguf",
-            "model_file_name_split_template": "qwen2-57b-a14b-instruct-{quantization}-{part}.gguf"
-          },
-          "huggingface": {
-            "model_id": "Qwen/Qwen2-57B-A14B-Instruct-GGUF",
-            "quantizations": [
-              "q3_k_m",
-              "q4_0",
-              "q4_k_m",
-              "q5_0",
-              "q5_k_m",
-              "q6_k",
-              "q8_0",
-              "fp16"
-            ],
-            "quantization_parts": {
-              "fp16": [
-                "00001-of-00003",
-                "00002-of-00003",
-                "00003-of-00003"
-              ],
-              "q8_0": [
-                "00001-of-00002",
-                "00002-of-00002"
-              ]
-            },
-            "model_file_name_template": "qwen2-57b-a14b-instruct-{quantization}.gguf",
-            "model_file_name_split_template": "qwen2-57b-a14b-instruct-{quantization}-{part}.gguf"
-          }
-        },
-        "model_format": "ggufv2",
-        "model_size_in_billions": 14
-      }
-    ],
-    "chat_template": "{%- macro json_to_python_type(json_spec) %}\n    {%- set basic_type_map = {\n    \"string\": \"str\",\n    \"number\": \"float\",\n    \"integer\": \"int\",\n    \"boolean\": \"bool\"\n} %}\n    {%- if basic_type_map[json_spec.type] is defined %}\n        {{- basic_type_map[json_spec.type] }}\n    {%- elif json_spec.type == \"array\" %}\n        {{- \"list[\" +  json_to_python_type(json_spec|items) + \"]\" }}\n    {%- elif json_spec.type == \"object\" %}\n        {%- if json_spec.additionalProperties is defined %}\n            {{- \"dict[str, \" + json_to_python_type(json_spec.additionalProperties) + ']' }}\n        {%- else %}\n            {{- \"dict\" }}\n        {%- endif %}\n    {%- elif json_spec.type is iterable %}\n        {{- \"Union[\" }}\n        {%- for t in json_spec.type %}\n            {{- json_to_python_type({\"type\": t}) }}\n            {%- if not loop.last %}\n                {{- \",\" }}\n            {%- endif %}\n        {%- endfor %}\n        {{- \"]\" }}\n    {%- else %}\n        {{- \"Any\" }}\n    {%- endif %}\n{%- endmacro %}\n\n{%- if tools %}\n    {{- '<|im_start|>system\n' }}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- messages[0]['content'] + '\n\n' }}\n    {%- endif %}\n    {{- '# Tools\n\n' }}\n    {{- \"You are a function calling AI model. You are provided with function signatures within <tools></tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions. Here are the available tools: <tools> \" }}\n    {%- for tool in tools %}\n        {%- if tool.function is defined %}\n            {%- set tool = tool.function %}\n        {%- endif %}\n        {{- '{\"type\": \"function\", \"function\": ' }}\n        {{- '{\"name\": ' + tool.name + '\", ' }}\n        {{- '\"description\": \"' + tool.name + '(' }}\n        {%- for param_name, param_fields in tool.parameters.properties|items %}\n            {{- param_name + \": \" + json_to_python_type(param_fields) }}\n            {%- if not loop.last %}\n                {{- \", \" }}\n            {%- endif %}\n        {%- endfor %}\n        {{- \")\" }}\n        {%- if tool.return is defined %}\n            {{- \" -> \" + json_to_python_type(tool.return) }}\n        {%- endif %}\n        {{- \" - \" + tool.description + \"\n\n\" }}\n        {%- for param_name, param_fields in tool.parameters.properties|items %}\n            {%- if loop.first %}\n                {{- \"    Args:\n\" }}\n            {%- endif %}\n            {{- \"        \" + param_name + \"(\" + json_to_python_type(param_fields) + \"): \" + param_fields.description|trim }}\n        {%- endfor %}\n        {%- if tool.return is defined and tool.return.description is defined %}\n            {{- \"\n    Returns:\n        \" + tool.return.description }}\n        {%- endif %}\n        {{- '\"' }}\n        {{- ', \"parameters\": ' }}\n        {%- if tool.parameters.properties | length == 0 %}\n            {{- \"{}\" }}\n        {%- else %}\n            {{- tool.parameters|tojson }}\n        {%- endif %}\n        {{- \"}\" }}\n        {%- if not loop.last %}\n            {{- \"\n\" }}\n        {%- endif %}\n    {%- endfor %}\n    {{- \" </tools>\" }}\n    {{- 'Use the following pydantic model json schema for each tool call you will make: {\"properties\": {\"arguments\": {\"title\": \"Arguments\", \"type\": \"object\"}, \"name\": {\"title\": \"Name\", \"type\": \"string\"}}, \"required\": [\"arguments\", \"name\"], \"title\": \"FunctionCall\", \"type\": \"object\"}\n' }}\n    {{- \"For each function call return a json object with function name and arguments within <tool_call></tool_call> XML tags as follows:\n\" }}\n    {{- \"<tool_call>\n\" }}\n    {{- '{\"name\": <function-name>, \"arguments\": <args-json-object>}\n' }}\n    {{- '</tool_call><|im_end|>\n' }}\n{%- else %}\n    {%- if messages[0]['role'] != 'system' %}\n        {{- '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n' }}\n    {%- else %}\n        {{- '<|im_start|>system\n' + messages[0]['content'] + '<|im_end|>\n' }}\n    {%- endif %}\n{%- endif %}\n{%- for message in messages %}\n    {%- if message.role == \"user\" or (message.role == \"system\" and not loop.first) or (message.role == \"assistant\" and message.tool_calls is not defined) %}\n        {{- '<|im_start|>' + message.role + '\n' + message.content + '<|im_end|>' + '\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {{- '<|im_start|>' + message.role + '\n<tool_call>\n' }}\n        {%- for tool_call in message.tool_calls %}\n            {%- if tool_call.function is defined %}\n                {%- set tool_call = tool_call.function %}\n            {%- endif %}\n            {{- '{' }}\n            {{- '\"name\": \"' }}\n            {{- tool_call.name }}\n            {%- if tool_call.arguments is defined %}\n                {{- ', ' }}\n                {{- '\"arguments\": ' }}\n                {{- tool_call.arguments|tojson }}\n            {%- endif %}\n            {{- '\"}' }}\n            {{- '\n</tool_call>' }}\n        {%- endfor %}\n        {{- '<|im_end|>\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if not message.name is defined %}\n            {{- raise_exception(\"Tool response dicts require a 'name' key indicating the name of the called function!\") }}\n        {%- endif %}\n        {{- '<|im_start|>user\n<tool_response>\n' }}\n        {{- '{\"name\": \"' }}\n        {{- message.name }}\n        {{- '\", \"content\": ' }}\n        {{- message.content|tojson + '}' }}\n        {{- '\n</tool_response><|im_end|>\n' }}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\n' }}\n{%- endif %}",
-    "model_ability": [
-      "chat",
-      "tools"
-    ],
-    "context_length": 32768,
-    "stop_token_ids": [
-      151643,
-      151644,
-      151645
-    ],
-    "model_description": "Qwen2 is the new series of Qwen large language models. "
-  },
-  {
-    "version": 2,
-    "model_lang": [
-      "en",
-      "zh"
-    ],
-    "model_name": "qwen2-audio-instruct",
-    "model_specs": [
-      {
-        "model_src": {
-          "modelscope": {
-            "model_id": "qwen/Qwen2-Audio-7B-Instruct",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "master"
-          },
-          "huggingface": {
-            "model_id": "Qwen/Qwen2-Audio-7B-Instruct",
-            "quantizations": [
-              "none"
-            ],
-            "model_revision": "bac62d2c6808845904c709c17a0402d817558c64"
-          }
-        },
-        "model_format": "pytorch",
-        "model_size_in_billions": 7
-      }
-    ],
-    "prompt_style": {
-      "stop": [
-        "<|im_end|>",
-        "<|endoftext|>"
-      ],
-      "roles": [
-        "user",
-        "assistant"
-      ],
-      "style_name": "QWEN",
-      "system_prompt": "You are a helpful assistant"
-    },
-    "model_ability": [
-      "chat",
-      "audio"
-    ],
-    "context_length": 32768,
-    "model_description": "Qwen2-Audio: A large-scale audio-language model which is capable of accepting various audio signal inputs and performing audio analysis or direct textual responses with regard to speech instructions."
-  },
-  {
-    "stop": [
-      "<|endoftext|>",
-      "<|im_start|>",
-      "<|im_end|>"
-    ],
-    "version": 2,
-    "model_lang": [
-      "en",
-      "zh"
-    ],
     "model_name": "qwen2-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -13115,7 +13057,57 @@
       "en",
       "zh"
     ],
+    "model_name": "qwen2-audio-instruct",
+    "updated_at": 1762246227,
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "qwen/Qwen2-Audio-7B-Instruct",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "Qwen/Qwen2-Audio-7B-Instruct",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "bac62d2c6808845904c709c17a0402d817558c64"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      }
+    ],
+    "prompt_style": {
+      "stop": [
+        "<|im_end|>",
+        "<|endoftext|>"
+      ],
+      "roles": [
+        "user",
+        "assistant"
+      ],
+      "style_name": "QWEN",
+      "system_prompt": "You are a helpful assistant"
+    },
+    "model_ability": [
+      "chat",
+      "audio"
+    ],
+    "context_length": 32768,
+    "model_description": "Qwen2-Audio: A large-scale audio-language model which is capable of accepting various audio signal inputs and performing audio analysis or direct textual responses with regard to speech instructions."
+  },
+  {
+    "version": 2,
+    "model_lang": [
+      "en",
+      "zh"
+    ],
     "model_name": "qwen2-audio",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -13159,6 +13151,128 @@
   },
   {
     "stop": [
+      "<|endoftext|>",
+      "<|im_start|>",
+      "<|im_end|>"
+    ],
+    "version": 2,
+    "model_lang": [
+      "en",
+      "zh"
+    ],
+    "model_name": "qwen2-moe-instruct",
+    "updated_at": 1762246227,
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "qwen/Qwen2-57B-A14B-Instruct",
+            "quantizations": [
+              "none"
+            ]
+          },
+          "huggingface": {
+            "model_id": "Qwen/Qwen2-57B-A14B-Instruct",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 14
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "qwen/Qwen2-57B-A14B-Instruct-GPTQ-Int4",
+            "quantizations": [
+              "Int4"
+            ]
+          },
+          "huggingface": {
+            "model_id": "Qwen/Qwen2-57B-A14B-Instruct-GPTQ-Int4",
+            "quantizations": [
+              "Int4"
+            ]
+          }
+        },
+        "model_format": "gptq",
+        "model_size_in_billions": 14
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "qwen/Qwen2-57B-A14B-Instruct-GGUF",
+            "quantizations": [
+              "q3_k_m",
+              "q4_0",
+              "q4_k_m",
+              "q5_0",
+              "q5_k_m",
+              "q6_k",
+              "q8_0",
+              "fp16"
+            ],
+            "quantization_parts": {
+              "fp16": [
+                "00001-of-00003",
+                "00002-of-00003",
+                "00003-of-00003"
+              ],
+              "q8_0": [
+                "00001-of-00002",
+                "00002-of-00002"
+              ]
+            },
+            "model_file_name_template": "qwen2-57b-a14b-instruct-{quantization}.gguf",
+            "model_file_name_split_template": "qwen2-57b-a14b-instruct-{quantization}-{part}.gguf"
+          },
+          "huggingface": {
+            "model_id": "Qwen/Qwen2-57B-A14B-Instruct-GGUF",
+            "quantizations": [
+              "q3_k_m",
+              "q4_0",
+              "q4_k_m",
+              "q5_0",
+              "q5_k_m",
+              "q6_k",
+              "q8_0",
+              "fp16"
+            ],
+            "quantization_parts": {
+              "fp16": [
+                "00001-of-00003",
+                "00002-of-00003",
+                "00003-of-00003"
+              ],
+              "q8_0": [
+                "00001-of-00002",
+                "00002-of-00002"
+              ]
+            },
+            "model_file_name_template": "qwen2-57b-a14b-instruct-{quantization}.gguf",
+            "model_file_name_split_template": "qwen2-57b-a14b-instruct-{quantization}-{part}.gguf"
+          }
+        },
+        "model_format": "ggufv2",
+        "model_size_in_billions": 14
+      }
+    ],
+    "chat_template": "{%- macro json_to_python_type(json_spec) %}\n    {%- set basic_type_map = {\n    \"string\": \"str\",\n    \"number\": \"float\",\n    \"integer\": \"int\",\n    \"boolean\": \"bool\"\n} %}\n    {%- if basic_type_map[json_spec.type] is defined %}\n        {{- basic_type_map[json_spec.type] }}\n    {%- elif json_spec.type == \"array\" %}\n        {{- \"list[\" +  json_to_python_type(json_spec|items) + \"]\" }}\n    {%- elif json_spec.type == \"object\" %}\n        {%- if json_spec.additionalProperties is defined %}\n            {{- \"dict[str, \" + json_to_python_type(json_spec.additionalProperties) + ']' }}\n        {%- else %}\n            {{- \"dict\" }}\n        {%- endif %}\n    {%- elif json_spec.type is iterable %}\n        {{- \"Union[\" }}\n        {%- for t in json_spec.type %}\n            {{- json_to_python_type({\"type\": t}) }}\n            {%- if not loop.last %}\n                {{- \",\" }}\n            {%- endif %}\n        {%- endfor %}\n        {{- \"]\" }}\n    {%- else %}\n        {{- \"Any\" }}\n    {%- endif %}\n{%- endmacro %}\n\n{%- if tools %}\n    {{- '<|im_start|>system\n' }}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- messages[0]['content'] + '\n\n' }}\n    {%- endif %}\n    {{- '# Tools\n\n' }}\n    {{- \"You are a function calling AI model. You are provided with function signatures within <tools></tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions. Here are the available tools: <tools> \" }}\n    {%- for tool in tools %}\n        {%- if tool.function is defined %}\n            {%- set tool = tool.function %}\n        {%- endif %}\n        {{- '{\"type\": \"function\", \"function\": ' }}\n        {{- '{\"name\": ' + tool.name + '\", ' }}\n        {{- '\"description\": \"' + tool.name + '(' }}\n        {%- for param_name, param_fields in tool.parameters.properties|items %}\n            {{- param_name + \": \" + json_to_python_type(param_fields) }}\n            {%- if not loop.last %}\n                {{- \", \" }}\n            {%- endif %}\n        {%- endfor %}\n        {{- \")\" }}\n        {%- if tool.return is defined %}\n            {{- \" -> \" + json_to_python_type(tool.return) }}\n        {%- endif %}\n        {{- \" - \" + tool.description + \"\n\n\" }}\n        {%- for param_name, param_fields in tool.parameters.properties|items %}\n            {%- if loop.first %}\n                {{- \"    Args:\n\" }}\n            {%- endif %}\n            {{- \"        \" + param_name + \"(\" + json_to_python_type(param_fields) + \"): \" + param_fields.description|trim }}\n        {%- endfor %}\n        {%- if tool.return is defined and tool.return.description is defined %}\n            {{- \"\n    Returns:\n        \" + tool.return.description }}\n        {%- endif %}\n        {{- '\"' }}\n        {{- ', \"parameters\": ' }}\n        {%- if tool.parameters.properties | length == 0 %}\n            {{- \"{}\" }}\n        {%- else %}\n            {{- tool.parameters|tojson }}\n        {%- endif %}\n        {{- \"}\" }}\n        {%- if not loop.last %}\n            {{- \"\n\" }}\n        {%- endif %}\n    {%- endfor %}\n    {{- \" </tools>\" }}\n    {{- 'Use the following pydantic model json schema for each tool call you will make: {\"properties\": {\"arguments\": {\"title\": \"Arguments\", \"type\": \"object\"}, \"name\": {\"title\": \"Name\", \"type\": \"string\"}}, \"required\": [\"arguments\", \"name\"], \"title\": \"FunctionCall\", \"type\": \"object\"}\n' }}\n    {{- \"For each function call return a json object with function name and arguments within <tool_call></tool_call> XML tags as follows:\n\" }}\n    {{- \"<tool_call>\n\" }}\n    {{- '{\"name\": <function-name>, \"arguments\": <args-json-object>}\n' }}\n    {{- '</tool_call><|im_end|>\n' }}\n{%- else %}\n    {%- if messages[0]['role'] != 'system' %}\n        {{- '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n' }}\n    {%- else %}\n        {{- '<|im_start|>system\n' + messages[0]['content'] + '<|im_end|>\n' }}\n    {%- endif %}\n{%- endif %}\n{%- for message in messages %}\n    {%- if message.role == \"user\" or (message.role == \"system\" and not loop.first) or (message.role == \"assistant\" and message.tool_calls is not defined) %}\n        {{- '<|im_start|>' + message.role + '\n' + message.content + '<|im_end|>' + '\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {{- '<|im_start|>' + message.role + '\n<tool_call>\n' }}\n        {%- for tool_call in message.tool_calls %}\n            {%- if tool_call.function is defined %}\n                {%- set tool_call = tool_call.function %}\n            {%- endif %}\n            {{- '{' }}\n            {{- '\"name\": \"' }}\n            {{- tool_call.name }}\n            {%- if tool_call.arguments is defined %}\n                {{- ', ' }}\n                {{- '\"arguments\": ' }}\n                {{- tool_call.arguments|tojson }}\n            {%- endif %}\n            {{- '\"}' }}\n            {{- '\n</tool_call>' }}\n        {%- endfor %}\n        {{- '<|im_end|>\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if not message.name is defined %}\n            {{- raise_exception(\"Tool response dicts require a 'name' key indicating the name of the called function!\") }}\n        {%- endif %}\n        {{- '<|im_start|>user\n<tool_response>\n' }}\n        {{- '{\"name\": \"' }}\n        {{- message.name }}\n        {{- '\", \"content\": ' }}\n        {{- message.content|tojson + '}' }}\n        {{- '\n</tool_response><|im_end|>\n' }}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\n' }}\n{%- endif %}",
+    "model_ability": [
+      "chat",
+      "tools"
+    ],
+    "context_length": 32768,
+    "stop_token_ids": [
+      151643,
+      151644,
+      151645
+    ],
+    "model_description": "Qwen2 is the new series of Qwen large language models. "
+  },
+  {
+    "stop": [
       "<|im_end|>",
       "<|endoftext|>"
     ],
@@ -13168,6 +13282,7 @@
       "zh"
     ],
     "model_name": "qwen2-vl-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -13479,6 +13594,7 @@
       "zh"
     ],
     "model_name": "qwen2.5",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -13664,6 +13780,7 @@
       "zh"
     ],
     "model_name": "qwen2.5-coder",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -13798,6 +13915,7 @@
       "zh"
     ],
     "model_name": "qwen2.5-coder-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -14351,6 +14469,7 @@
       "zh"
     ],
     "model_name": "qwen2.5-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -15860,6 +15979,7 @@
       "zh"
     ],
     "model_name": "qwen2.5-instruct-1m",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -15920,6 +16040,7 @@
       "zh"
     ],
     "model_name": "qwen2.5-omni",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": [
         "git+https://github.com/huggingface/transformers@v4.51.3-Qwen2.5-Omni-preview",
@@ -15991,6 +16112,7 @@
       "zh"
     ],
     "model_name": "qwen2.5-vl-instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -16257,6 +16379,7 @@
       "zh"
     ],
     "model_name": "qwen3",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": [
         "transformers>=4.51.0",
@@ -17770,6 +17893,7 @@
       "zh"
     ],
     "model_name": "Qwen3-Coder",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -18554,6 +18678,7 @@
       "zh"
     ],
     "model_name": "Qwen3-Instruct",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -19178,6 +19303,7 @@
       "in"
     ],
     "model_name": "seallms-v3",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -19238,6 +19364,7 @@
       "zh"
     ],
     "model_name": "skywork-or1",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -19340,6 +19467,7 @@
       "zh"
     ],
     "model_name": "skywork-or1-preview",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -19557,6 +19685,7 @@
       "zh"
     ],
     "model_name": "telechat",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -19693,6 +19822,7 @@
       "en"
     ],
     "model_name": "tiny-llama",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -19742,6 +19872,7 @@
       "en"
     ],
     "model_name": "wizardcoder-python-v1.0",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -19874,6 +20005,7 @@
       "en"
     ],
     "model_name": "wizardmath-v1.0",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -19926,6 +20058,7 @@
       "zh"
     ],
     "model_name": "xverse",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -20004,6 +20137,7 @@
       "zh"
     ],
     "model_name": "xverse-chat",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -20066,6 +20200,7 @@
       "zh"
     ],
     "model_name": "qwenLong-l1",
+    "updated_at": 1762246227,
     "model_specs": [
       {
         "model_src": {
@@ -20126,6 +20261,7 @@
       "zh"
     ],
     "model_name": "Ernie4.5",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": [
         "transformers",
@@ -20455,6 +20591,7 @@
       "zh"
     ],
     "model_name": "glm-4.1v-thinking",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": [
         "transformers>=4.53.2",
@@ -20549,6 +20686,7 @@
       "zh"
     ],
     "model_name": "glm-4.5",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": [
         "transformers>=4.54.0",
@@ -20783,6 +20921,7 @@
       "zh"
     ],
     "model_name": "glm-4.5v",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": [
         "transformers>=4.55.0",
@@ -20901,6 +21040,7 @@
       "en"
     ],
     "model_name": "gpt-oss",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": [
         "transformers>=4.55.0,<4.56.0",
@@ -20985,6 +21125,7 @@
       "en"
     ],
     "model_name": "custom-llm-test88888888",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21014,6 +21155,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-1",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21043,6 +21185,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-2",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21072,6 +21215,7 @@
       "en123"
     ],
     "model_name": "custom-llm-test-4",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21107,6 +21251,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-5",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21136,6 +21281,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-8",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21165,6 +21311,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-6",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21194,6 +21341,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-000",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21223,6 +21371,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-test-1",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21252,6 +21401,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-test",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21281,6 +21431,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-test11",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21310,6 +21461,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-test2",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21339,6 +21491,7 @@
       "en123"
     ],
     "model_name": "custom-llm-test-test3",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21368,6 +21521,7 @@
       "en1"
     ],
     "model_name": "custom-llm-test-test6",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21397,6 +21551,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-test7",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21426,6 +21581,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-test9",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21455,6 +21611,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-test10",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21484,6 +21641,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-test12",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21513,6 +21671,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-test13",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21542,6 +21701,7 @@
       "en111"
     ],
     "model_name": "custom-llm-test-test14",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21571,6 +21731,7 @@
       "en12345"
     ],
     "model_name": "custom-llm-est-test15",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21600,6 +21761,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-test21",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21630,6 +21792,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-test25",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21659,6 +21822,7 @@
       "en1"
     ],
     "model_name": "custom-llm-test-test26",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21688,6 +21852,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-test27",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21718,6 +21883,7 @@
       "llllll"
     ],
     "model_name": "custom-llm-xiaolei",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21747,6 +21913,7 @@
       "en"
     ],
     "model_name": "custom-llm-xiaolei-1",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
@@ -21782,6 +21949,7 @@
       "en12"
     ],
     "model_name": "custom-llm-test-test40",
+    "updated_at": 1762246227,
     "virtualenv": {
       "packages": []
     },
