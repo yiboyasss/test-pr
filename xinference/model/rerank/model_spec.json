@@ -96,7 +96,7 @@
     "type": "normal",
     "version": 2,
     "language": [
-      "en12"
+      "en123"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank-test-tt",
