@@ -12,6 +12,7 @@
       }
     },
     "model_name": "HunyuanVideo",
+    "updated_at": 1762247925,
     "model_family": "HunyuanVideo",
     "model_ability": [
       "text2video4444"
@@ -35,6 +36,7 @@
       }
     },
     "model_name": "Wan2.1-1.3B",
+    "updated_at": 1762247925,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
@@ -66,6 +68,7 @@
       }
     },
     "model_name": "Wan2.1-i2v-14B-480p",
+    "updated_at": 1762247925,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
@@ -102,6 +105,7 @@
       }
     },
     "model_name": "Wan2.1-i2v-14B-720p",
+    "updated_at": 1762247925,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
@@ -139,6 +143,7 @@
       }
     },
     "model_name": "video-test-xiaolei",
+    "updated_at": 1762247925,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
@@ -175,6 +180,7 @@
       }
     },
     "model_name": "video-test-xiaolei-1",
+    "updated_at": 1762247925,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
@@ -211,6 +217,7 @@
       }
     },
     "model_name": "video-test-xiaolei-2",
+    "updated_at": 1762247925,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
@@ -248,6 +255,7 @@
       }
     },
     "model_name": "video-test-xiaolei-3",
+    "updated_at": 1762247925,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
