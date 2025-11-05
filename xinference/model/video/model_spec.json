@@ -47,7 +47,7 @@
       ]
     },
     "model_family": "Wan111",
-    "model_ability": [
+    "model_ability":[
       "text2video55555"
     ],
     "default_model_config": {
