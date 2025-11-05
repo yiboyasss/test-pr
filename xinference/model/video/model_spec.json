@@ -15,7 +15,7 @@
     "updated_at": 1762247925,
     "model_family": "HunyuanVideo",
     "model_ability": [
-      "text2video4444"
+      "text2video4"
     ],
     "default_model_config": {
       "torch_dtype": "float16",
