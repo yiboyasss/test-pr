@@ -1,7 +1,7 @@
 [
   {
-    "type":"normal",
-    "version":2,
+    "type": "normal",
+    "version": 2,
     "language": [
       "en",
       "zh"
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "type":"normal",
+    "type": "normal",
     "version": 2,
     "language": [
       "en",
@@ -96,7 +96,7 @@
     ]
   },
   {
-    "type":"normal",
+    "type": "normal",
     "version": 2,
     "language": [
       "en"
