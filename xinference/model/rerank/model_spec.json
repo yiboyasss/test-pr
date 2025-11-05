@@ -68,11 +68,11 @@
     "version": 2,
     "language": [
       "en",
-      "zh"
+      "zh1"
     ],
     "max_tokens": 512,
     "model_name": "rerank-test-xiaolei",
-    "updated_at": 1762247615,
+    "updated_at": 1762312599,
     "model_specs": [
       {
         "model_src": {
@@ -99,11 +99,11 @@
     "type": "normal",
     "version": 2,
     "language": [
-      "en"
+      "en2"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank-test-tt",
-    "updated_at": 1762247615,
+    "updated_at": 1762312625,
     "virtualenv": {
       "packages": []
     },
