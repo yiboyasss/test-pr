@@ -18,12 +18,12 @@
     "dimensions": 768,
     "max_tokens": 512,
     "language": [
-      "en1"
+      "en11"
     ],
     "version": 2,
     "virtualenv": {
       "packages": []
     },
-    "updated_at": 1762329761
+    "updated_at": 1762329852
   }
 ]
