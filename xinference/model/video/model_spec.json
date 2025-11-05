@@ -12,10 +12,10 @@
       }
     },
     "model_name": "HunyuanVideo",
-    "updated_at": 1762310544,
+    "updated_at": 1762313983,
     "model_family": "HunyuanVideo",
     "model_ability": [
-      "text2video4444"
+      "text2video44444"
     ],
     "default_model_config": {
       "torch_dtype": "float16",
@@ -36,7 +36,7 @@
       }
     },
     "model_name": "Wan2.1-1.3B",
-    "updated_at": 1762247925,
+    "updated_at": 1762314999,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
@@ -46,9 +46,9 @@
         "#system_numpy#"
       ]
     },
-    "model_family": "Wan111",
+    "model_family": "Wan",
     "model_ability": [
-      "text2video"
+      "text2video5555555"
     ],
     "default_model_config": {
       "torch_dtype": "bfloat16"
@@ -180,7 +180,7 @@
       }
     },
     "model_name": "video-test-xiaolei-1",
-    "updated_at": 1762310396,
+    "updated_at": 1762313938,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
@@ -192,7 +192,7 @@
     },
     "model_family": "Wan",
     "model_ability": [
-      "image2video1111"
+      "image2video11111"
     ],
     "default_model_config": {
       "torch_dtype": "bfloat16"
@@ -217,7 +217,7 @@
       }
     },
     "model_name": "video-test-xiaolei-2",
-    "updated_at": 1762310407,
+    "updated_at": 1762313948,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
@@ -229,7 +229,7 @@
     },
     "model_family": "Wan",
     "model_ability": [
-      "image2video2222"
+      "image2video22222"
     ],
     "default_model_config": {
       "torch_dtype": "bfloat16"
