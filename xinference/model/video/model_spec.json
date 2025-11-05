@@ -48,7 +48,7 @@
     },
     "model_family": "Wan111",
     "model_ability": [
-      "text2video"
+      "text2video3"
     ],
     "default_model_config": {
       "torch_dtype": "bfloat16"
