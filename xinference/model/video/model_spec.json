@@ -15,7 +15,7 @@
     "updated_at": 1762247925,
     "model_family": "HunyuanVideo",
     "model_ability": [
-      "text2video4444"
+      "text2video4"
     ],
     "default_model_config": {
       "torch_dtype": "float16",
@@ -155,7 +155,7 @@
     },
     "model_family": "Wan",
     "model_ability": [
-      "image2video"
+      "image2video000111"
     ],
     "default_model_config": {
       "torch_dtype": "bfloat16"
@@ -192,7 +192,7 @@
     },
     "model_family": "Wan",
     "model_ability": [
-      "image2video1"
+      "image2video111"
     ],
     "default_model_config": {
       "torch_dtype": "bfloat16"
@@ -229,7 +229,7 @@
     },
     "model_family": "Wan",
     "model_ability": [
-      "image2video2"
+      "image2video22"
     ],
     "default_model_config": {
       "torch_dtype": "bfloat16"
