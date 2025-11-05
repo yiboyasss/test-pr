@@ -106,5 +106,32 @@
       }
     ],
     "model_description": "This is a custom model description."
+  },
+  {
+    "model_name": "custom-embedding-10",
+    "model_description": "This is a custom model description.",
+    "model_specs": [
+      {
+        "model_format": "pytorch",
+        "model_src": {
+          "huggingface": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        }
+      }
+    ],
+    "dimensions": 768,
+    "max_tokens": 512,
+    "language": [
+      "en"
+    ],
+    "version": 2,
+    "virtualenv": {
+      "packages": []
+    },
+    "updated_at": 1762329057
   }
 ]
