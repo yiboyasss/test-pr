@@ -1,9 +1,9 @@
 [
   {
-    "type": "normal",
-    "version": 2,
+    "type":"normal",
+    "version":2,
     "language": [
-      "en1",
+      "en",
       "zh"
     ],
     "max_tokens": 512,
@@ -32,10 +32,10 @@
     ]
   },
   {
-    "type": "normal",
+    "type":"normal",
     "version": 2,
     "language": [
-      "en1",
+      "en",
       "zh"
     ],
     "max_tokens": 512,
@@ -67,8 +67,8 @@
     "type": "normal",
     "version": 2,
     "language": [
-      "en123",
-      "zh123456"
+      "en",
+      "zh"
     ],
     "max_tokens": 512,
     "model_name": "rerank-test-xiaolei",
@@ -96,10 +96,10 @@
     ]
   },
   {
-    "type": "normal",
+    "type":"normal",
     "version": 2,
     "language": [
-      "en123"
+      "en"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank-test-tt",
