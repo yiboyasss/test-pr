@@ -12,10 +12,10 @@
       }
     },
     "model_name": "HunyuanVideo",
-    "updated_at": 1762310544,
+    "updated_at": 1762313983,
     "model_family": "HunyuanVideo",
     "model_ability": [
-      "text2video4444"
+      "text2video44444"
     ],
     "default_model_config": {
       "torch_dtype": "float16",
