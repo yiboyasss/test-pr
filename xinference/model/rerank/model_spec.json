@@ -126,11 +126,11 @@
     "type": "normal",
     "version": 2,
     "language": [
-      "en1234"
+      "en33"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank",
-    "updated_at": 1762247615,
+    "updated_at": 1762314081,
     "virtualenv": {
       "packages": []
     },
