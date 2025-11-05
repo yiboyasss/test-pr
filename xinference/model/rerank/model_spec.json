@@ -99,11 +99,11 @@
     "type": "normal",
     "version": 2,
     "language": [
-      "en22"
+      "en222"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank-test-tt",
-    "updated_at": 1762314050,
+    "updated_at": 1762316092,
     "virtualenv": {
       "packages": []
     },
