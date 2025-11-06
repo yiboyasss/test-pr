@@ -180,7 +180,7 @@
       }
     },
     "model_name": "Wan2.1-i2v-14B-720p",
-    "updated_at": 1762408737,
+    "updated_at": 1762421248,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
