@@ -143,7 +143,7 @@
       }
     },
     "model_name": "video-test-xiaolei-3",
-    "updated_at": 1762316079,
+    "updated_at": 1762421198,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
