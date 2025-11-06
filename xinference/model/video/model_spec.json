@@ -3,30 +3,6 @@
     "version": 2,
     "model_src": {
       "modelscope": {
-        "model_id": "Xorbits/HunyuanVideo",
-        "model_revision": "master"
-      },
-      "huggingface": {
-        "model_id": "hunyuanvideo-community/HunyuanVideo",
-        "model_revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773"
-      }
-    },
-    "model_name": "HunyuanVideo",
-    "updated_at": 1762421094,
-    "model_family": "HunyuanVideo1",
-    "model_ability": [
-      "text2video444444"
-    ],
-    "default_model_config": {
-      "torch_dtype": "float16",
-      "transformer_torch_dtype": "bfloat16"
-    },
-    "default_generate_config": {}
-  },
-  {
-    "version": 2,
-    "model_src": {
-      "modelscope": {
         "model_id": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
         "model_revision": "master"
       },
