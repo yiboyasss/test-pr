@@ -540,8 +540,17 @@
     "model_description": "This is a custom model description."
   },
   {
+    "version": 2,
+    "language": [
+      "en1"
+    ],
+    "dimensions": 768,
+    "max_tokens": 512,
     "model_name": "custom-embedding-29",
-    "model_description": "This is a custom model description.",
+    "updated_at": 1762414361,
+    "virtualenv": {
+      "packages": []
+    },
     "model_specs": [
       {
         "model_src": {
@@ -555,15 +564,6 @@
         "model_format": "pytorch"
       }
     ],
-    "dimensions": 768,
-    "max_tokens": 512,
-    "language": [
-      "en1"
-    ],
-    "version": 2,
-    "virtualenv": {
-      "packages": []
-    },
-    "updated_at": 1762414361
+    "model_description": "This is a custom model description."
   }
 ]
