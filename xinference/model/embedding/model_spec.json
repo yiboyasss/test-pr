@@ -488,12 +488,12 @@
   {
     "version": 2,
     "language": [
-      "en"
+      "en1"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-38",
-    "updated_at": 1762493655,
+    "updated_at": 1762499874,
     "virtualenv": {
       "packages": []
     },
