@@ -110,12 +110,12 @@
   {
     "version": 2,
     "language": [
-      "en11"
+      "en111"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-3",
-    "updated_at": 1762329743,
+    "updated_at": 1762484514,
     "virtualenv": {
       "packages": []
     },
