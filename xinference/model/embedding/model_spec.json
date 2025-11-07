@@ -189,11 +189,19 @@
     "model_description": "This is a custom model description."
   },
   {
+    "version": 2,
+    "language": [
+      "en"
+    ],
+    "dimensions": 768,
+    "max_tokens": 512,
     "model_name": "custom-embedding-23",
-    "model_description": "This is a custom model description.",
+    "updated_at": 1762485882,
+    "virtualenv": {
+      "packages": []
+    },
     "model_specs": [
       {
-        "model_format": "pytorch",
         "model_src": {
           "huggingface": {
             "model_id": "1",
@@ -201,26 +209,26 @@
               "none"
             ]
           }
-        }
+        },
+        "model_format": "pytorch"
       }
     ],
-    "dimensions": 768,
-    "max_tokens": 512,
+    "model_description": "This is a custom model description."
+  },
+  {
+    "version": 2,
     "language": [
       "en"
     ],
-    "version": 2,
-    "virtualenv": {
-      "packages": []
-    },
-    "updated_at": 1762485882
-  },
-  {
+    "dimensions": 768,
+    "max_tokens": 512,
     "model_name": "custom-embedding-24",
-    "model_description": "This is a custom model description.",
+    "updated_at": 1762486132,
+    "virtualenv": {
+      "packages": []
+    },
     "model_specs": [
       {
-        "model_format": "pytorch",
         "model_src": {
           "modelscope": {
             "model_id": "1",
@@ -228,26 +236,26 @@
               "none"
             ]
           }
-        }
+        },
+        "model_format": "pytorch"
       }
     ],
-    "dimensions": 768,
-    "max_tokens": 512,
+    "model_description": "This is a custom model description."
+  },
+  {
+    "version": 2,
     "language": [
       "en"
     ],
-    "version": 2,
+    "dimensions": 768,
+    "max_tokens": 512,
+    "model_name": "custom-embedding0-25",
+    "updated_at": 1762486375,
     "virtualenv": {
       "packages": []
     },
-    "updated_at": 1762486132
-  },
-  {
-    "model_name": "custom-embedding0-25",
-    "model_description": "This is a custom model description.",
     "model_specs": [
       {
-        "model_format": "pytorch",
         "model_src": {
           "huggingface": {
             "model_id": "1",
@@ -255,26 +263,26 @@
               "none"
             ]
           }
-        }
+        },
+        "model_format": "pytorch"
       }
     ],
-    "dimensions": 768,
-    "max_tokens": 512,
+    "model_description": "This is a custom model description."
+  },
+  {
+    "version": 2,
     "language": [
       "en"
     ],
-    "version": 2,
-    "virtualenv": {
-      "packages": []
-    },
-    "updated_at": 1762486375
-  },
-  {
+    "dimensions": 768,
+    "max_tokens": 512,
     "model_name": "custom-embedding-26",
-    "model_description": "This is a custom model description.",
+    "updated_at": 1762487445,
+    "virtualenv": {
+      "packages": []
+    },
     "model_specs": [
       {
-        "model_format": "pytorch",
         "model_src": {
           "modelscope": {
             "model_id": "1",
@@ -282,26 +290,26 @@
               "none"
             ]
           }
-        }
+        },
+        "model_format": "pytorch"
       }
     ],
-    "dimensions": 768,
-    "max_tokens": 512,
-    "language": [
-      "en"
-    ],
-    "version": 2,
-    "virtualenv": {
-      "packages": []
-    },
-    "updated_at": 1762487445
+    "model_description": "This is a custom model description."
   },
   {
+    "version": 2,
+    "language": [
+      "en"
+    ],
+    "dimensions": 768,
+    "max_tokens": 512,
     "model_name": "custom-embedding-30",
-    "model_description": "This is a custom model description.",
+    "updated_at": 1762487807,
+    "virtualenv": {
+      "packages": []
+    },
     "model_specs": [
       {
-        "model_format": "pytorch",
         "model_src": {
           "modelscope": {
             "model_id": "1",
@@ -309,18 +317,10 @@
               "none"
             ]
           }
-        }
+        },
+        "model_format": "pytorch"
       }
     ],
-    "dimensions": 768,
-    "max_tokens": 512,
-    "language": [
-      "en"
-    ],
-    "version": 2,
-    "virtualenv": {
-      "packages": []
-    },
-    "updated_at": 1762487807
+    "model_description": "This is a custom model description."
   }
 ]
