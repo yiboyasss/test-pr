@@ -110,12 +110,12 @@
   {
     "version": 2,
     "language": [
-      "en11"
+      "en123456"
     ],
-    "dimensions": 768,
+    "dimensions": 7681,
     "max_tokens": 512,
-    "model_name": "custom-embedding-3",
-    "updated_at": 1762329743,
+    "model_name": "custom-embedding-27",
+    "updated_at": 1762411196,
     "virtualenv": {
       "packages": []
     },
@@ -137,12 +137,12 @@
   {
     "version": 2,
     "language": [
-      "en123456"
+      "en111"
     ],
-    "dimensions": 7681,
+    "dimensions": 768,
     "max_tokens": 512,
-    "model_name": "custom-embedding-27",
-    "updated_at": 1762411196,
+    "model_name": "custom-embedding-3",
+    "updated_at": 1762484514,
     "virtualenv": {
       "packages": []
     },
