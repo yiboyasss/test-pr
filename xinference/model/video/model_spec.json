@@ -22,9 +22,9 @@
         "#system_numpy#"
       ]
     },
-    "model_family": "Wan",
+    "model_family":"Wan",
     "model_ability": [
-      "text2video5555555"
+      "text2video555555566666"
     ],
     "default_model_config": {
       "torch_dtype": "bfloat16"
