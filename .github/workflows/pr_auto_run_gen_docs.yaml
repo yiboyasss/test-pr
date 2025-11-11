@@ -2,14 +2,12 @@ name: Auto run gen_docs.py and commit changes to PR
 
 on:
   pull_request:
-    types: [synchronize]
+    types: [opened, synchronize]
     paths:
+      - 'main/doc/source/**'
       - 'xinference/model/llm/llm_family.json'
       - 'xinference/model/embedding/model_spec.json'
-      - 'xinference/model/rerank/model_spec.json'
-      - 'xinference/model/image/model_spec.json'
-      - 'xinference/model/audio/model_spec.json'
-      - 'xinference/model/video/model_spec.json'
+      - 'templates/**'
 
 permissions:
   contents: write
@@ -17,8 +15,7 @@ permissions:
 
 jobs:
   run-gen-docs-and-commit:
-    # 仅当 PR 的来源分支名以 auto-docs/ 开头时才执行（建议后端统一该前缀）
-    if: startsWith(github.head_ref, 'chore/models-sync/')
+    if: github.event.pull_request.head.repo.full_name == github.repository  # 只处理本仓库的 PR
     runs-on: ubuntu-latest
     steps:
       - name: Checkout PR head branch
@@ -26,7 +23,6 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.ref }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
-          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -36,10 +32,10 @@ jobs:
 
       - name: Run gen_docs.py if present
         run: |
-          if [ -f "doc/source/gen_docs.py" ]; then
-            python -u doc/source/gen_docs.py
+          if [ -f "main/doc/source/gen_docs.py" ]; then
+            python -u main/doc/source/gen_docs.py
           else
-            echo "doc/source/gen_docs.py not found, skipping."
+            echo "main/doc/source/gen_docs.py not found, skipping."
           fi
 
       - name: Commit changes back to PR branch
