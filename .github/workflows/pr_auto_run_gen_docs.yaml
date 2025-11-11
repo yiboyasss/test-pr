@@ -20,11 +20,20 @@ jobs:
     if: startsWith(github.head_ref, 'chore/models-sync/')
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout PR head branch
+      - name: Checkout base repository (trusted scripts)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.ref }}
+          repository: ${{ github.repository }}
+          path: main
+          fetch-depth: 0
+
+      - name: Checkout PR head branch (working copy)
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.ref }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
+          path: pr
           fetch-depth: 0
 
       - name: Set up Python
@@ -34,13 +43,15 @@ jobs:
 
       - name: Run gen_docs.py if present
         run: |
-          if [ -f "doc/source/gen_docs.py" ]; then
-            python -u doc/source/gen_docs.py
+          if [ -f "../main/doc/source/gen_docs.py" ]; then
+            echo "Running main/doc/source/gen_docs.py against PR working copy"
+            python -u ../main/doc/source/gen_docs.py
           else
-            echo "doc/source/gen_docs.py not found, skipping."
+            echo "doc/source/gen_docs.py not found in main repository, skipping."
           fi
 
       - name: Stage and commit changes back to PR branch
+        working-directory: pr
         run: |
           echo "[Debug] Before staging:" && git status --porcelain
           git add -A
@@ -55,8 +66,8 @@ jobs:
 
       - name: Push back for same-repo PR
         if: github.event.pull_request.head.repo.full_name == github.repository
+        working-directory: pr
         run: |
-          # 同仓库 PR 用默认令牌推回
           if ! git diff --cached --quiet; then
             git push origin HEAD:${{ github.event.pull_request.head.ref }}
           else
@@ -67,9 +78,11 @@ jobs:
         if: github.event.pull_request.head.repo.full_name != github.repository && github.event.pull_request.maintainer_can_modify
         env:
           PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+        working-directory: pr
         run: |
           if [ -z "$PUSH_TOKEN" ]; then
-            echo "Missing secrets.PUSH_TOKEN; cannot push to fork." && exit 1
+            echo "Missing secrets.PUSH_TOKEN; cannot push to fork. Skipping push."
+            exit 0
           fi
           if ! git diff --cached --quiet; then
             git remote set-url origin "https://x-access-token:${PUSH_TOKEN}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
