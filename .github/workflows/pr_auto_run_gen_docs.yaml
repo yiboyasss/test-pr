@@ -4,10 +4,12 @@ on:
   pull_request:
     types: [opened, synchronize]
     paths:
-      - 'main/doc/source/**'
       - 'xinference/model/llm/llm_family.json'
       - 'xinference/model/embedding/model_spec.json'
-      - 'templates/**'
+      - 'xinference/model/rerank/model_spec.json'
+      - 'xinference/model/image/model_spec.json'
+      - 'xinference/model/audio/model_spec.json'
+      - 'xinference/model/video/model_spec.json'
 
 permissions:
   contents: write
@@ -32,10 +34,10 @@ jobs:
 
       - name: Run gen_docs.py if present
         run: |
-          if [ -f "main/doc/source/gen_docs.py" ]; then
-            python -u main/doc/source/gen_docs.py
+          if [ -f "doc/source/gen_docs.py" ]; then
+            python -u doc/source/gen_docs.py
           else
-            echo "main/doc/source/gen_docs.py not found, skipping."
+            echo "、doc/source/gen_docs.py not found, skipping."
           fi
 
       - name: Commit changes back to PR branch
