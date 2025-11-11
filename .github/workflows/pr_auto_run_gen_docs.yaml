@@ -17,7 +17,6 @@ permissions:
 
 jobs:
   run-gen-docs-and-commit:
-    if: startsWith(github.head_ref, 'chore/models-sync/')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout base repository (trusted scripts)
@@ -43,11 +42,20 @@ jobs:
 
       - name: Run gen_docs.py if present
         run: |
+          echo "[Debug] CWD: $(pwd)"
+          echo "[Debug] List ../main:"
+          ls -la ../main || true
+          echo "[Debug] List ../main/doc/source:"
+          ls -la ../main/doc/source || true
+
           if [ -f "../main/doc/source/gen_docs.py" ]; then
             echo "Running main/doc/source/gen_docs.py against PR working copy"
             python -u ../main/doc/source/gen_docs.py
+          elif [ -f "../main/gen_docs.py" ]; then
+            echo "Running main/gen_docs.py against PR working copy"
+            python -u ../main/gen_docs.py
           else
-            echo "doc/source/gen_docs.py not found in main repository, skipping."
+            echo "gen_docs.py not found in main repository, skipping."
           fi
 
       - name: Stage and commit changes back to PR branch
