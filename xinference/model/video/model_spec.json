@@ -12,7 +12,7 @@
       }
     },
     "model_name": "Wan2.1-1.3B",
-    "updated_at": 1762508986,
+    "updated_at": 1762759061,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
@@ -24,7 +24,7 @@
     },
     "model_family": "Wan",
     "model_ability": [
-      "text2video555555566666"
+      "text2video"
     ],
     "default_model_config": {
       "torch_dtype": "bfloat16"
