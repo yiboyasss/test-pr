@@ -41,6 +41,7 @@ jobs:
           python-version: '3.x'
 
       - name: Run gen_docs.py if present
+        working-directory: pr
         run: |
           echo "[Debug] CWD: $(pwd)"
           echo "[Debug] List ../main:"
@@ -48,12 +49,18 @@ jobs:
           echo "[Debug] List ../main/doc/source:"
           ls -la ../main/doc/source || true
 
+          # 将主仓库受信任脚本复制到 PR 工作副本
           if [ -f "../main/doc/source/gen_docs.py" ]; then
-            echo "Running main/doc/source/gen_docs.py against PR working copy"
-            python -u ../main/doc/source/gen_docs.py
+            echo "Copying main/doc/source/gen_docs.py into PR workspace"
+            mkdir -p doc/source
+            cp -f ../main/doc/source/gen_docs.py doc/source/gen_docs.py
+            echo "Running pr/doc/source/gen_docs.py"
+            python -u doc/source/gen_docs.py
           elif [ -f "../main/gen_docs.py" ]; then
-            echo "Running main/gen_docs.py against PR working copy"
-            python -u ../main/gen_docs.py
+            echo "Copying main/gen_docs.py into PR workspace"
+            cp -f ../main/gen_docs.py gen_docs.py
+            echo "Running pr/gen_docs.py"
+            python -u gen_docs.py
           else
             echo "gen_docs.py not found in main repository, skipping."
           fi
