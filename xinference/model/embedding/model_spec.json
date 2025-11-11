@@ -488,12 +488,12 @@
   {
     "version": 2,
     "language": [
-      "en12"
+      "en123"
     ],
     "dimensions": 7681,
     "max_tokens": 512,
     "model_name": "custom-embedding-38",
-    "updated_at": 1762851044,
+    "updated_at": 1762852864,
     "virtualenv": {
       "packages": []
     },
@@ -501,6 +501,33 @@
       {
         "model_src": {
           "huggingface": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch"
+      }
+    ],
+    "model_description": "This is a custom model description."
+  },
+  {
+    "version": 2,
+    "language": [
+      "en1"
+    ],
+    "dimensions": 768,
+    "max_tokens": 512,
+    "model_name": "custom-embedding-39",
+    "updated_at": 1762850243,
+    "virtualenv": {
+      "packages": []
+    },
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
             "model_id": "1",
             "quantizations": [
               "none"
