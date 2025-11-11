@@ -1,7 +1,7 @@
 name: Auto run gen_docs.py and commit changes to PR
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, synchronize]
     paths:
       - 'xinference/model/llm/llm_family.json'
@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   run-gen-docs-and-commit:
-    if: github.event.pull_request.head.repo.full_name == github.repository  # 只处理本仓库的 PR
+    if: startsWith(github.head_ref, 'chore/models-sync/')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout PR head branch
@@ -37,17 +37,48 @@ jobs:
           if [ -f "doc/source/gen_docs.py" ]; then
             python -u doc/source/gen_docs.py
           else
-            echo "、doc/source/gen_docs.py not found, skipping."
+            echo "doc/source/gen_docs.py not found, skipping."
           fi
 
-      - name: Commit changes back to PR branch
+      - name: Stage and commit changes back to PR branch
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
+          echo "[Debug] Before staging:" && git status --porcelain
+          git add -A
+          echo "[Debug] After staging:" && git status --porcelain
+          if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add -A
             git commit -m "chore(docs): auto-run gen_docs.py [skip ci]"
-            git push origin HEAD:${{ github.event.pull_request.head.ref }}
           else
             echo "No changes to commit."
           fi
+
+      - name: Push back for same-repo PR
+        if: github.event.pull_request.head.repo.full_name == github.repository
+        run: |
+          # 同仓库 PR 用默认令牌推回
+          if ! git diff --cached --quiet; then
+            git push origin HEAD:${{ github.event.pull_request.head.ref }}
+          else
+            echo "No changes to push."
+          fi
+
+      - name: Push back for fork PR using maintainer PAT
+        if: github.event.pull_request.head.repo.full_name != github.repository && github.event.pull_request.maintainer_can_modify
+        env:
+          PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+        run: |
+          if [ -z "$PUSH_TOKEN" ]; then
+            echo "Missing secrets.PUSH_TOKEN; cannot push to fork." && exit 1
+          fi
+          if ! git diff --cached --quiet; then
+            git remote set-url origin "https://x-access-token:${PUSH_TOKEN}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
+            git push origin HEAD:${{ github.event.pull_request.head.ref }}
+          else
+            echo "No changes to push."
+          fi
+
+      - name: Skip push for fork PR without maintainer edit permission
+        if: github.event.pull_request.head.repo.full_name != github.repository && !github.event.pull_request.maintainer_can_modify
+        run: |
+          echo "Fork PR does not allow edits by maintainers; run succeeded but skip pushing commits."
