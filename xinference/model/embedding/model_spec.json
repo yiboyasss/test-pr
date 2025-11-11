@@ -488,7 +488,7 @@
   {
     "version": 2,
     "language": [
-      "en12345"
+      "en1"
     ],
     "dimensions": 7681,
     "max_tokens": 512,
