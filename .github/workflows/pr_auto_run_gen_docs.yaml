@@ -1,0 +1,53 @@
+name: Auto run gen_docs.py and commit changes to PR
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - 'xinference/model/llm/llm_family.json'
+      - 'xinference/model/embedding/model_spec.json'
+      - 'xinference/model/rerank/model_spec.json'
+      - 'xinference/model/image/model_spec.json'
+      - 'xinference/model/audio/model_spec.json'
+      - 'xinference/model/video/model_spec.json'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  run-gen-docs-and-commit:
+    if: github.event.pull_request.head.repo.full_name == github.repository  # 只处理本仓库的 PR
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR head branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run gen_docs.py if present
+        run: |
+          if [ -f "doc/source/gen_docs.py" ]; then
+            python -u doc/source/gen_docs.py
+          else
+            echo "、doc/source/gen_docs.py not found, skipping."
+          fi
+
+      - name: Commit changes back to PR branch
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "chore(docs): auto-run gen_docs.py [skip ci]"
+            git push origin HEAD:${{ github.event.pull_request.head.ref }}
+          else
+            echo "No changes to commit."
+          fi
