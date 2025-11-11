@@ -490,7 +490,6 @@
     "model_description": "This is a custom model description.",
     "model_specs": [
       {
-        "model_format": "pytorch",
         "model_src": {
           "modelscope": {
             "model_id": "1",
@@ -498,18 +497,19 @@
               "none"
             ]
           }
-        }
+        },
+        "model_format": "pytorch"
       }
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "language": [
-      "en"
+      "en1"
     ],
     "version": 2,
     "virtualenv": {
       "packages": []
     },
-    "updated_at": 1762830268
+    "updated_at": 1762850243
   }
 ]
