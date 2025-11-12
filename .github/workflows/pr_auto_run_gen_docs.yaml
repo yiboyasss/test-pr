@@ -17,6 +17,8 @@ permissions:
 
 jobs:
   run-gen-docs-and-commit:
+    # 仅当 PR 的 head 分支以 chore/models-sync/ 开头才触发
+    if: startsWith(github.event.pull_request.head.ref, 'chore/models-sync/')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout base repository (trusted scripts)
