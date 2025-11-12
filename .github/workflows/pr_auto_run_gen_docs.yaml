@@ -93,11 +93,8 @@ jobs:
         if: github.event.pull_request.head.repo.full_name == github.repository
         working-directory: pr
         run: |
-          # 提交后不要再用暂存区判断，直接推送；若无新提交，push 会显示 up-to-date
-          git push origin HEAD:${{ github.event.pull_request.head.ref }}
-          else
-            echo "No changes to push."
-          fi
+          echo "Pushing changes to same-repo PR..."
+          git push origin HEAD:${{ github.event.pull_request.head.ref }} || echo "No changes to push."
 
       - name: Push back for fork PR using maintainer PAT
         if: github.event.pull_request.head.repo.full_name != github.repository && github.event.pull_request.maintainer_can_modify
@@ -109,11 +106,9 @@ jobs:
             echo "Missing secrets.PUSH_TOKEN; cannot push to fork. Skipping push."
             exit 0
           fi
+          echo "Pushing changes to fork PR using maintainer PAT..."
           git remote set-url origin "https://x-access-token:${PUSH_TOKEN}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
-          git push origin HEAD:${{ github.event.pull_request.head.ref }}
-          else
-            echo "No changes to push."
-          fi
+          git push origin HEAD:${{ github.event.pull_request.head.ref }} || echo "No changes to push."
 
       - name: Skip push for fork PR without maintainer edit permission
         if: github.event.pull_request.head.repo.full_name != github.repository && !github.event.pull_request.maintainer_can_modify
