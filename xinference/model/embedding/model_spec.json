@@ -461,12 +461,12 @@
   {
     "version": 2,
     "language": [
-      "en12"
+      "en123"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-37",
-    "updated_at": 1762855250,
+    "updated_at": 1762914787,
     "virtualenv": {
       "packages": []
     },
