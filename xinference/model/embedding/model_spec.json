@@ -353,12 +353,12 @@
   {
     "version": 2,
     "language": [
-      "en"
+      "en1"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-32",
-    "updated_at": 1762488134,
+    "updated_at": 1762918148,
     "virtualenv": {
       "packages": []
     },
