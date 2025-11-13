@@ -21,31 +21,7 @@ jobs:
     if: startsWith(github.event.pull_request.head.ref, 'chore/models-sync/')
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout PR head branch (for diff checking)
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Check if modified files match target paths
-        id: check_paths
-        run: |
-          echo "Checking modified files in this PR..."
-          BASE_REF=${{ github.event.pull_request.base.ref }}
-          git fetch origin $BASE_REF
-
-          MODIFIED_FILES=$(git diff --name-only origin/$BASE_REF HEAD)
-          echo "Modified files in this commit:"
-          echo "$MODIFIED_FILES"
-
-          echo "$MODIFIED_FILES" | grep -E '^(xinference/model/(llm/llm_family\.json|embedding/model_spec\.json|rerank/model_spec\.json|image/model_spec\.json|audio/model_spec\.json|video/model_spec\.json))$' && MATCH=1 || MATCH=0
-          echo "should_run=$MATCH" >> $GITHUB_OUTPUT
-
-          if [ "$MATCH" = "0" ]; then
-            echo "No relevant files changed. Skipping gen_docs execution."
-          fi
-
       - name: Checkout base repository (trusted scripts)
-        if: steps.check_paths.outputs.should_run == '1'
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.base.ref }}
@@ -54,7 +30,6 @@ jobs:
           fetch-depth: 0
 
       - name: Checkout PR head branch (working copy)
-        if: steps.check_paths.outputs.should_run == '1'
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.ref }}
@@ -63,13 +38,11 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Python
-        if: steps.check_paths.outputs.should_run == '1'
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
       - name: Run gen_docs.py if present
-        if: steps.check_paths.outputs.should_run == '1'
         working-directory: pr
         run: |
           echo "[Debug] CWD: $(pwd)"
@@ -95,13 +68,15 @@ jobs:
           fi
 
       - name: Stage and commit changes back to PR branch
-        if: steps.check_paths.outputs.should_run == '1'
         working-directory: pr
         run: |
           echo "[Debug] Before staging:" && git status --porcelain
+
+          # 显示是否被忽略以及忽略来源（如果未来添加了 .gitignore，也能帮助定位）
           echo "[Debug] check-ignore for generated file:"
           git check-ignore -v doc/source/_generated/auto_generated.txt || echo "Not ignored"
 
+          # 先正常暂存，再对生成目录强制暂存
           git add -A
           git add -f doc/source/_generated || true
 
@@ -117,14 +92,14 @@ jobs:
           fi
 
       - name: Push back for same-repo PR
-        if: steps.check_paths.outputs.should_run == '1' && github.event.pull_request.head.repo.full_name == github.repository
+        if: github.event.pull_request.head.repo.full_name == github.repository
         working-directory: pr
         run: |
           echo "Pushing changes to same-repo PR..."
           git push origin HEAD:${{ github.event.pull_request.head.ref }} || echo "No changes to push."
 
       - name: Push back for fork PR using maintainer PAT
-        if: steps.check_paths.outputs.should_run == '1' && github.event.pull_request.head.repo.full_name != github.repository && github.event.pull_request.maintainer_can_modify
+        if: github.event.pull_request.head.repo.full_name != github.repository && github.event.pull_request.maintainer_can_modify
         env:
           PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
         working-directory: pr
@@ -138,6 +113,6 @@ jobs:
           git push origin HEAD:${{ github.event.pull_request.head.ref }} || echo "No changes to push."
 
       - name: Skip push for fork PR without maintainer edit permission
-        if: steps.check_paths.outputs.should_run == '1' && github.event.pull_request.head.repo.full_name != github.repository && !github.event.pull_request.maintainer_can_modify
+        if: github.event.pull_request.head.repo.full_name != github.repository && !github.event.pull_request.maintainer_can_modify
         run: |
           echo "Fork PR does not allow edits by maintainers; run succeeded but skip pushing commits."
