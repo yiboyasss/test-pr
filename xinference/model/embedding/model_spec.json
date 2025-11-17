@@ -1,13 +1,14 @@
 [
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-2",
-    "updated_at": 1762322441,
+    "updated_at": 1763374325,
     "virtualenv": {
       "packages": []
     },
@@ -28,13 +29,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-6",
-    "updated_at": 1762327163,
+    "updated_at": 1763374325,
     "virtualenv": {
       "packages": []
     },
@@ -55,13 +57,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-7",
-    "updated_at": 1762327249,
+    "updated_at": 1763374326,
     "virtualenv": {
       "packages": []
     },
@@ -82,13 +85,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en1234"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-8",
-    "updated_at": 1762485066,
+    "updated_at": 1763374326,
     "virtualenv": {
       "packages": []
     },
@@ -136,13 +140,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en111"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-3",
-    "updated_at": 1762484514,
+    "updated_at": 1763374325,
     "virtualenv": {
       "packages": []
     },
@@ -163,13 +168,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-21",
-    "updated_at": 1762485276,
+    "updated_at": 1763374326,
     "virtualenv": {
       "packages": []
     },
@@ -190,13 +196,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-23",
-    "updated_at": 1762485882,
+    "updated_at": 1763374326,
     "virtualenv": {
       "packages": []
     },
@@ -217,13 +224,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-24",
-    "updated_at": 1762486132,
+    "updated_at": 1763374327,
     "virtualenv": {
       "packages": []
     },
@@ -244,13 +252,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding0-25",
-    "updated_at": 1762486375,
+    "updated_at": 1763374327,
     "virtualenv": {
       "packages": []
     },
@@ -271,13 +280,14 @@
   },
   {
     "version": 2,
+    "featured": true,
     "language": [
       "en"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-26",
-    "updated_at": 1762487445,
+    "updated_at": 1763374327,
     "virtualenv": {
       "packages": []
     },
@@ -298,13 +308,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-30",
-    "updated_at": 1762487807,
+    "updated_at": 1763374327,
     "virtualenv": {
       "packages": []
     },
@@ -325,13 +336,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en12345"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-31",
-    "updated_at": 1762921414,
+    "updated_at": 1763374328,
     "virtualenv": {
       "packages": []
     },
@@ -352,13 +364,14 @@
   },
   {
     "version": 2,
+    "featured": true,
     "language": [
       "en1"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-32",
-    "updated_at": 1762918148,
+    "updated_at": 1763374328,
     "virtualenv": {
       "packages": []
     },
@@ -379,13 +392,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en12"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-34",
-    "updated_at": 1762916236,
+    "updated_at": 1763374328,
     "virtualenv": {
       "packages": []
     },
@@ -406,13 +420,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en1"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-35",
-    "updated_at": 1762918038,
+    "updated_at": 1763374328,
     "virtualenv": {
       "packages": []
     },
@@ -433,13 +448,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en12345"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-36",
-    "updated_at": 1762941928,
+    "updated_at": 1763374329,
     "virtualenv": {
       "packages": []
     },
@@ -460,13 +476,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en123456"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-37",
-    "updated_at": 1762933034,
+    "updated_at": 1763374329,
     "virtualenv": {
       "packages": []
     },
@@ -487,13 +504,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en12345"
     ],
     "dimensions": 7681,
     "max_tokens": 512,
     "model_name": "custom-embedding-38",
-    "updated_at": 1762855243,
+    "updated_at": 1763374329,
     "virtualenv": {
       "packages": []
     },
@@ -514,13 +532,14 @@
   },
   {
     "version": 2,
+    "featured": false,
     "language": [
       "en12"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-39",
-    "updated_at": 1762914595,
+    "updated_at": 1763374329,
     "virtualenv": {
       "packages": []
     },
