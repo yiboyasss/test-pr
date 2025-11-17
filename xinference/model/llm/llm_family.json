@@ -10907,7 +10907,7 @@
       "en"
     ],
     "model_name": "mistral-v0.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367190,
     "model_specs": [
       {
         "model_src": {
@@ -10983,7 +10983,8 @@
       "generate"
     ],
     "context_length": 8192,
-    "model_description": "Mistral-7B is a unmoderated Transformer based LLM claiming to outperform Llama2 on all benchmarks."
+    "model_description": "Mistral-7B is a unmoderated Transformer based LLM claiming to outperform Llama2 on all benchmarks.",
+    "featured": false
   },
   {
     "stop": [
