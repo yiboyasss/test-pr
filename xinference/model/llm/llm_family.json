@@ -6757,7 +6757,7 @@
       "zh"
     ],
     "model_name": "deepseek-v3",
-    "updated_at": 1762246227,
+    "updated_at": 1763367160,
     "model_specs": [
       {
         "model_src": {
@@ -7021,7 +7021,8 @@
     "stop_token_ids": [
       1
     ],
-    "model_description": "DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. "
+    "model_description": "DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. ",
+    "featured": false
   },
   {
     "stop": [
