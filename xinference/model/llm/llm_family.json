@@ -16112,7 +16112,7 @@
       "zh"
     ],
     "model_name": "qwen2.5-vl-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367214,
     "model_specs": [
       {
         "model_src": {
@@ -16365,7 +16365,8 @@
       151645,
       151643
     ],
-    "model_description": "Qwen2.5-VL: Qwen2.5-VL is the latest version of the vision language models in the Qwen model familities."
+    "model_description": "Qwen2.5-VL: Qwen2.5-VL is the latest version of the vision language models in the Qwen model familities.",
+    "featured": true
   },
   {
     "stop": [
