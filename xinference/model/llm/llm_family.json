@@ -1132,7 +1132,7 @@
       "en"
     ],
     "model_name": "opt",
-    "updated_at": 1762246227,
+    "updated_at": 1763367112,
     "model_specs": [
       {
         "model_src": {
@@ -1152,7 +1152,8 @@
       "generate"
     ],
     "context_length": 2048,
-    "model_description": "Opt is an open-source, decoder-only, Transformer based LLM that was designed to replicate GPT-3."
+    "model_description": "Opt is an open-source, decoder-only, Transformer based LLM that was designed to replicate GPT-3.",
+    "featured": false
   },
   {
     "version": 2,
