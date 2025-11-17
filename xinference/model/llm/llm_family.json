@@ -1501,7 +1501,7 @@
       "en"
     ],
     "model_name": "HuatuoGPT-o1-LLaMA-3.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367116,
     "model_specs": [
       {
         "model_src": {
@@ -1551,7 +1551,8 @@
       128008,
       128009
     ],
-    "model_description": "HuatuoGPT-o1 is a medical LLM designed for advanced medical reasoning. It generates a complex thought process, reflecting and refining its reasoning, before providing a final response."
+    "model_description": "HuatuoGPT-o1 is a medical LLM designed for advanced medical reasoning. It generates a complex thought process, reflecting and refining its reasoning, before providing a final response.",
+    "featured": false
   },
   {
     "stop": [
