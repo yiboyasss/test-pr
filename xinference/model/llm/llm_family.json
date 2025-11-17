@@ -1,11 +1,12 @@
 [
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm",
-    "updated_at": 1762246227,
+    "updated_at": 1763367090,
     "virtualenv": {
       "packages": []
     },
@@ -31,11 +32,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367091,
     "virtualenv": {
       "packages": []
     },
@@ -61,11 +63,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367092,
     "virtualenv": {
       "packages": []
     },
@@ -91,11 +94,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-4",
-    "updated_at": 1762246227,
+    "updated_at": 1763367093,
     "virtualenv": {
       "packages": []
     },
@@ -121,11 +125,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-5",
-    "updated_at": 1762246227,
+    "updated_at": 1763367094,
     "virtualenv": {
       "packages": []
     },
@@ -151,11 +156,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-6",
-    "updated_at": 1762246227,
+    "updated_at": 1763367095,
     "virtualenv": {
       "packages": []
     },
@@ -181,11 +187,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-7",
-    "updated_at": 1762246227,
+    "updated_at": 1763367096,
     "virtualenv": {
       "packages": []
     },
@@ -218,11 +225,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-8",
-    "updated_at": 1762246227,
+    "updated_at": 1763367097,
     "virtualenv": {
       "packages": []
     },
@@ -252,11 +260,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-9",
-    "updated_at": 1762246227,
+    "updated_at": 1763367098,
     "virtualenv": {
       "packages": []
     },
@@ -282,11 +291,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-10",
-    "updated_at": 1762246227,
+    "updated_at": 1763367099,
     "virtualenv": {
       "packages": []
     },
@@ -312,11 +322,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-11",
-    "updated_at": 1762246227,
+    "updated_at": 1763367100,
     "virtualenv": {
       "packages": []
     },
@@ -344,11 +355,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-12",
-    "updated_at": 1762246227,
+    "updated_at": 1763367101,
     "virtualenv": {
       "packages": []
     },
@@ -372,11 +384,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-13",
-    "updated_at": 1762246227,
+    "updated_at": 1763367101,
     "virtualenv": {
       "packages": []
     },
@@ -409,11 +422,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test000",
-    "updated_at": 1762246227,
+    "updated_at": 1763367103,
     "virtualenv": {
       "packages": []
     },
@@ -439,11 +453,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test111",
-    "updated_at": 1762246227,
+    "updated_at": 1763367104,
     "virtualenv": {
       "packages": []
     },
@@ -469,11 +484,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "codestral-v0.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367105,
     "model_specs": [
       {
         "model_src": {
@@ -549,11 +565,12 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "gorilla-openfunctions-v2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367106,
     "model_specs": [
       {
         "model_src": {
@@ -607,6 +624,7 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "fr",
@@ -615,7 +633,7 @@
       "es"
     ],
     "model_name": "mixtral-8x22B-instruct-v0.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367107,
     "model_specs": [
       {
         "model_src": {
@@ -752,11 +770,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "llama-2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367108,
     "model_specs": [
       {
         "model_src": {
@@ -962,11 +981,12 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "mistral-instruct-v0.3",
-    "updated_at": 1762246227,
+    "updated_at": 1763367109,
     "model_specs": [
       {
         "model_src": {
@@ -1041,11 +1061,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "gpt-2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367110,
     "model_specs": [
       {
         "model_src": {
@@ -1072,11 +1093,12 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "openhermes-2.5",
-    "updated_at": 1762246227,
+    "updated_at": 1763367111,
     "model_specs": [
       {
         "model_src": {
@@ -1128,11 +1150,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "opt",
-    "updated_at": 1762246227,
+    "updated_at": 1763367112,
     "model_specs": [
       {
         "model_src": {
@@ -1156,11 +1179,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "phi-2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367113,
     "model_specs": [
       {
         "model_src": {
@@ -1208,6 +1232,7 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh",
@@ -1221,7 +1246,7 @@
       "tl"
     ],
     "model_name": "seallm_v2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367114,
     "model_specs": [
       {
         "model_src": {
@@ -1259,6 +1284,7 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh",
@@ -1272,7 +1298,7 @@
       "tl"
     ],
     "model_name": "seallm_v2.5",
-    "updated_at": 1762246227,
+    "updated_at": 1763367115,
     "model_specs": [
       {
         "model_src": {
@@ -1315,12 +1341,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "DianJin-R1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367116,
     "model_specs": [
       {
         "model_src": {
@@ -1497,11 +1524,12 @@
       "<|eom_id|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "HuatuoGPT-o1-LLaMA-3.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367116,
     "model_specs": [
       {
         "model_src": {
@@ -1560,12 +1588,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "HuatuoGPT-o1-Qwen2.5",
-    "updated_at": 1762246227,
+    "updated_at": 1763367117,
     "model_specs": [
       {
         "model_src": {
@@ -1622,12 +1651,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "InternVL3",
-    "updated_at": 1762246227,
+    "updated_at": 1763367119,
     "model_specs": [
       {
         "model_src": {
@@ -1906,12 +1936,13 @@
       "<|endoftext|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "MiniCPM-V-2.6",
-    "updated_at": 1762246227,
+    "updated_at": 1763367119,
     "model_specs": [
       {
         "model_src": {
@@ -1972,12 +2003,13 @@
       "<|endoftext|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "Ovis2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367120,
     "model_specs": [
       {
         "model_src": {
@@ -2198,12 +2230,13 @@
       "<|endoftext|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "QvQ-72B-Preview",
-    "updated_at": 1762246227,
+    "updated_at": 1763367121,
     "model_specs": [
       {
         "model_src": {
@@ -2269,12 +2302,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": true,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "QwQ-32B",
-    "updated_at": 1762246227,
+    "updated_at": 1763367122,
     "model_specs": [
       {
         "model_src": {
@@ -2442,12 +2476,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "QwQ-32B-Preview",
-    "updated_at": 1762246227,
+    "updated_at": 1763367123,
     "model_specs": [
       {
         "model_src": {
@@ -2568,12 +2603,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "Skywork",
-    "updated_at": 1762246227,
+    "updated_at": 1763367124,
     "model_specs": [
       {
         "model_src": {
@@ -2604,12 +2640,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "Skywork-Math",
-    "updated_at": 1762246227,
+    "updated_at": 1763367125,
     "model_specs": [
       {
         "model_src": {
@@ -2645,12 +2682,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "XiYanSQL-QwenCoder-2504",
-    "updated_at": 1762246227,
+    "updated_at": 1763367126,
     "model_specs": [
       {
         "model_src": {
@@ -2704,12 +2742,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "Yi",
-    "updated_at": 1762246227,
+    "updated_at": 1763367128,
     "model_specs": [
       {
         "model_src": {
@@ -2816,12 +2855,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "Yi-1.5",
-    "updated_at": 1762246227,
+    "updated_at": 1763367129,
     "model_specs": [
       {
         "model_src": {
@@ -2910,12 +2950,13 @@
       "<|im_sep|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "Yi-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367130,
     "model_specs": [
       {
         "model_src": {
@@ -3022,12 +3063,13 @@
       "<|im_sep|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "Yi-1.5-chat-16k",
-    "updated_at": 1762246227,
+    "updated_at": 1763367131,
     "model_specs": [
       {
         "model_src": {
@@ -3133,12 +3175,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "Yi-200k",
-    "updated_at": 1762246227,
+    "updated_at": 1763367132,
     "model_specs": [
       {
         "model_src": {
@@ -3201,12 +3244,13 @@
       "<|im_sep|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "Yi-1.5-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367134,
     "model_specs": [
       {
         "model_src": {
@@ -3536,12 +3580,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "baichuan-2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367134,
     "model_specs": [
       {
         "model_src": {
@@ -3605,12 +3650,13 @@
   {
     "stop": [],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "baichuan-2-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367135,
     "model_specs": [
       {
         "model_src": {
@@ -3678,11 +3724,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "code-llama",
-    "updated_at": 1762246227,
+    "updated_at": 1763367136,
     "model_specs": [
       {
         "model_src": {
@@ -3828,11 +3875,12 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "code-llama-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367137,
     "model_specs": [
       {
         "model_src": {
@@ -4003,11 +4051,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "code-llama-python",
-    "updated_at": 1762246227,
+    "updated_at": 1763367138,
     "model_specs": [
       {
         "model_src": {
@@ -4185,12 +4234,13 @@
       "<|observation|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "codegeex4",
-    "updated_at": 1762246227,
+    "updated_at": 1763367140,
     "model_specs": [
       {
         "model_src": {
@@ -4258,12 +4308,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "codeqwen1.5",
-    "updated_at": 1762246227,
+    "updated_at": 1763367141,
     "model_specs": [
       {
         "model_src": {
@@ -4303,12 +4354,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "codeqwen1.5-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367142,
     "model_specs": [
       {
         "model_src": {
@@ -4401,12 +4453,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "codeshell",
-    "updated_at": 1762246227,
+    "updated_at": 1763367143,
     "model_specs": [
       {
         "model_src": {
@@ -4442,12 +4495,13 @@
       "|<end>|"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "codeshell-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367144,
     "model_specs": [
       {
         "model_src": {
@@ -4487,12 +4541,13 @@
       "<|observation|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "cogagent",
-    "updated_at": 1762246227,
+    "updated_at": 1763367145,
     "model_specs": [
       {
         "model_src": {
@@ -4528,12 +4583,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek",
-    "updated_at": 1762246227,
+    "updated_at": 1763367145,
     "model_specs": [
       {
         "model_src": {
@@ -4633,12 +4689,13 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367146,
     "model_specs": [
       {
         "model_src": {
@@ -4739,12 +4796,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek-coder",
-    "updated_at": 1762246227,
+    "updated_at": 1763367148,
     "model_specs": [
       {
         "model_src": {
@@ -5001,12 +5059,13 @@
       "<|EOT|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek-coder-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367149,
     "model_specs": [
       {
         "model_src": {
@@ -5267,12 +5326,13 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek-prover-v2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367150,
     "model_specs": [
       {
         "model_src": {
@@ -5347,12 +5407,13 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek-r1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367151,
     "model_specs": [
       {
         "model_src": {
@@ -5764,12 +5825,13 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": true,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek-r1-0528",
-    "updated_at": 1762246227,
+    "updated_at": 1763367153,
     "model_specs": [
       {
         "model_src": {
@@ -5831,12 +5893,13 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": true,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek-r1-0528-qwen3",
-    "updated_at": 1762246227,
+    "updated_at": 1763367154,
     "model_specs": [
       {
         "model_src": {
@@ -5913,12 +5976,13 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek-r1-distill-qwen",
-    "updated_at": 1762246227,
+    "updated_at": 1763367155,
     "model_specs": [
       {
         "model_src": {
@@ -6337,12 +6401,13 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek-r1-distill-llama",
-    "updated_at": 1762246227,
+    "updated_at": 1763367156,
     "model_specs": [
       {
         "model_src": {
@@ -6603,12 +6668,13 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek-v2-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367157,
     "model_specs": [
       {
         "model_src": {
@@ -6666,12 +6732,13 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek-v2-chat-0628",
-    "updated_at": 1762246227,
+    "updated_at": 1763367158,
     "model_specs": [
       {
         "model_src": {
@@ -6709,12 +6776,13 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek-v2.5",
-    "updated_at": 1762246227,
+    "updated_at": 1763367159,
     "model_specs": [
       {
         "model_src": {
@@ -6752,12 +6820,13 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek-v3",
-    "updated_at": 1762246227,
+    "updated_at": 1763367160,
     "model_specs": [
       {
         "model_src": {
@@ -7028,12 +7097,13 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek-v3-0324",
-    "updated_at": 1762246227,
+    "updated_at": 1763367161,
     "model_specs": [
       {
         "model_src": {
@@ -7101,12 +7171,13 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "deepseek-vl2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367162,
     "model_specs": [
       {
         "model_src": {
@@ -7184,12 +7255,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "fin-r1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367163,
     "model_specs": [
       {
         "model_src": {
@@ -7267,11 +7339,12 @@
       "<start_of_turn>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "gemma-3-1b-it",
-    "updated_at": 1762246227,
+    "updated_at": 1763367164,
     "model_specs": [
       {
         "model_src": {
@@ -7390,11 +7463,12 @@
       "<start_of_turn>"
     ],
     "version": 2,
+    "featured": true,
     "model_lang": [
       "en"
     ],
     "model_name": "gemma-3-it",
-    "updated_at": 1762246227,
+    "updated_at": 1763367165,
     "model_specs": [
       {
         "model_src": {
@@ -7738,12 +7812,13 @@
       "<|observation|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "glm-4v",
-    "updated_at": 1762246227,
+    "updated_at": 1763367166,
     "model_specs": [
       {
         "model_src": {
@@ -7792,12 +7867,13 @@
       "<|observation|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "glm-edge-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367167,
     "model_specs": [
       {
         "model_src": {
@@ -7979,12 +8055,13 @@
       "<|observation|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "glm4-0414",
-    "updated_at": 1762246227,
+    "updated_at": 1763367168,
     "virtualenv": {
       "packages": [
         "transformers>=4.51.3",
@@ -8228,12 +8305,13 @@
       "<|observation|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "glm4-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367170,
     "model_specs": [
       {
         "model_src": {
@@ -8336,12 +8414,13 @@
       "<|observation|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "glm4-chat-1m",
-    "updated_at": 1762246227,
+    "updated_at": 1763367171,
     "model_specs": [
       {
         "model_src": {
@@ -8443,12 +8522,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "internlm3-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367171,
     "model_specs": [
       {
         "model_src": {
@@ -8572,11 +8652,12 @@
   {
     "stop": [],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "llama-2-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367172,
     "model_specs": [
       {
         "model_src": {
@@ -8820,11 +8901,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "llama-3",
-    "updated_at": 1762246227,
+    "updated_at": 1763367174,
     "model_specs": [
       {
         "model_src": {
@@ -8915,11 +8997,12 @@
       "<|eot_id|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "llama-3-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367175,
     "model_specs": [
       {
         "model_src": {
@@ -9125,6 +9208,7 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "de",
@@ -9136,7 +9220,7 @@
       "th"
     ],
     "model_name": "llama-3.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367176,
     "model_specs": [
       {
         "model_src": {
@@ -9238,6 +9322,7 @@
       "<|eom_id|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "de",
@@ -9249,7 +9334,7 @@
       "th"
     ],
     "model_name": "llama-3.1-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367176,
     "model_specs": [
       {
         "model_src": {
@@ -9607,6 +9692,7 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "de",
@@ -9618,7 +9704,7 @@
       "th"
     ],
     "model_name": "llama-3.2-vision",
-    "updated_at": 1762246227,
+    "updated_at": 1763367177,
     "model_specs": [
       {
         "model_src": {
@@ -9671,6 +9757,7 @@
       "<|eom_id|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "de",
@@ -9682,7 +9769,7 @@
       "th"
     ],
     "model_name": "llama-3.2-vision-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367178,
     "model_specs": [
       {
         "model_src": {
@@ -9741,6 +9828,7 @@
       "<|eom_id|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "de",
@@ -9752,7 +9840,7 @@
       "th"
     ],
     "model_name": "llama-3.3-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367179,
     "model_specs": [
       {
         "model_src": {
@@ -9881,12 +9969,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "marco-o1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367180,
     "model_specs": [
       {
         "model_src": {
@@ -9972,11 +10061,12 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "zh"
     ],
     "model_name": "minicpm-2b-dpo-bf16",
-    "updated_at": 1762246227,
+    "updated_at": 1763367181,
     "model_specs": [
       {
         "model_src": {
@@ -10022,11 +10112,12 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "zh"
     ],
     "model_name": "minicpm-2b-dpo-fp16",
-    "updated_at": 1762246227,
+    "updated_at": 1763367181,
     "model_specs": [
       {
         "model_src": {
@@ -10066,11 +10157,12 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "zh"
     ],
     "model_name": "minicpm-2b-dpo-fp32",
-    "updated_at": 1762246227,
+    "updated_at": 1763367182,
     "model_specs": [
       {
         "model_src": {
@@ -10110,11 +10202,12 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "zh"
     ],
     "model_name": "minicpm-2b-sft-bf16",
-    "updated_at": 1762246227,
+    "updated_at": 1763367183,
     "model_specs": [
       {
         "model_src": {
@@ -10160,11 +10253,12 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "zh"
     ],
     "model_name": "minicpm-2b-sft-fp32",
-    "updated_at": 1762246227,
+    "updated_at": 1763367184,
     "model_specs": [
       {
         "model_src": {
@@ -10204,11 +10298,12 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "zh"
     ],
     "model_name": "minicpm3-4b",
-    "updated_at": 1762246227,
+    "updated_at": 1763367185,
     "model_specs": [
       {
         "model_src": {
@@ -10274,11 +10369,12 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "zh"
     ],
     "model_name": "minicpm4",
-    "updated_at": 1762246227,
+    "updated_at": 1763367186,
     "model_specs": [
       {
         "model_src": {
@@ -10351,11 +10447,12 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "mistral-instruct-v0.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367186,
     "model_specs": [
       {
         "model_src": {
@@ -10441,11 +10538,12 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "mistral-instruct-v0.2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367187,
     "model_specs": [
       {
         "model_src": {
@@ -10537,6 +10635,7 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "fr",
@@ -10550,7 +10649,7 @@
       "ko"
     ],
     "model_name": "mistral-large-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367188,
     "model_specs": [
       {
         "model_src": {
@@ -10730,6 +10829,7 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "fr",
@@ -10742,7 +10842,7 @@
       "ja"
     ],
     "model_name": "mistral-nemo-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367189,
     "model_specs": [
       {
         "model_src": {
@@ -10903,11 +11003,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "mistral-v0.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367190,
     "model_specs": [
       {
         "model_src": {
@@ -10990,6 +11091,7 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "fr",
@@ -10998,7 +11100,7 @@
       "es"
     ],
     "model_name": "mixtral-instruct-v0.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367192,
     "model_specs": [
       {
         "model_src": {
@@ -11077,6 +11179,7 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "fr",
@@ -11085,7 +11188,7 @@
       "es"
     ],
     "model_name": "mixtral-v0.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367194,
     "model_specs": [
       {
         "model_src": {
@@ -11151,12 +11254,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "moonlight-16b-a3b-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367195,
     "model_specs": [
       {
         "model_src": {
@@ -11194,12 +11298,13 @@
       "<unk>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "orion-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367196,
     "model_specs": [
       {
         "model_src": {
@@ -11258,11 +11363,12 @@
       "<|end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "phi-3-mini-128k-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367197,
     "model_specs": [
       {
         "model_src": {
@@ -11304,11 +11410,12 @@
       "<|end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "phi-3-mini-4k-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367200,
     "model_specs": [
       {
         "model_src": {
@@ -11364,12 +11471,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367201,
     "model_specs": [
       {
         "model_src": {
@@ -11615,12 +11723,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen1.5-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367202,
     "model_specs": [
       {
         "model_src": {
@@ -12365,12 +12474,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen1.5-moe-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367203,
     "model_specs": [
       {
         "model_src": {
@@ -12429,12 +12539,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen2-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367204,
     "model_specs": [
       {
         "model_src": {
@@ -13053,12 +13164,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen2-audio-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367205,
     "model_specs": [
       {
         "model_src": {
@@ -13102,12 +13214,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen2-audio",
-    "updated_at": 1762246227,
+    "updated_at": 1763367206,
     "model_specs": [
       {
         "model_src": {
@@ -13156,12 +13269,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen2-moe-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367206,
     "model_specs": [
       {
         "model_src": {
@@ -13277,12 +13391,13 @@
       "<|endoftext|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen2-vl-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367207,
     "model_specs": [
       {
         "model_src": {
@@ -13589,12 +13704,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen2.5",
-    "updated_at": 1762246227,
+    "updated_at": 1763367208,
     "model_specs": [
       {
         "model_src": {
@@ -13775,12 +13891,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen2.5-coder",
-    "updated_at": 1762246227,
+    "updated_at": 1763367209,
     "model_specs": [
       {
         "model_src": {
@@ -13910,12 +14027,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen2.5-coder-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367211,
     "model_specs": [
       {
         "model_src": {
@@ -14464,12 +14582,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen2.5-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367212,
     "model_specs": [
       {
         "model_src": {
@@ -15974,12 +16093,13 @@
       "<|endoftext|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen2.5-instruct-1m",
-    "updated_at": 1762246227,
+    "updated_at": 1763367213,
     "model_specs": [
       {
         "model_src": {
@@ -16035,12 +16155,13 @@
       "<|endoftext|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen2.5-omni",
-    "updated_at": 1762246227,
+    "updated_at": 1763367214,
     "virtualenv": {
       "packages": [
         "git+https://github.com/huggingface/transformers@v4.51.3-Qwen2.5-Omni-preview",
@@ -16107,12 +16228,13 @@
       "<|endoftext|>"
     ],
     "version": 2,
+    "featured": true,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen2.5-vl-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367214,
     "model_specs": [
       {
         "model_src": {
@@ -16374,12 +16496,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": true,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwen3",
-    "updated_at": 1762246227,
+    "updated_at": 1763367215,
     "virtualenv": {
       "packages": [
         "transformers>=4.51.0",
@@ -17888,12 +18011,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "Qwen3-Coder",
-    "updated_at": 1762246227,
+    "updated_at": 1763367216,
     "model_specs": [
       {
         "model_src": {
@@ -18673,12 +18797,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "Qwen3-Instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367218,
     "model_specs": [
       {
         "model_src": {
@@ -19289,6 +19414,7 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh",
@@ -19303,7 +19429,7 @@
       "in"
     ],
     "model_name": "seallms-v3",
-    "updated_at": 1762246227,
+    "updated_at": 1763367220,
     "model_specs": [
       {
         "model_src": {
@@ -19359,12 +19485,13 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "skywork-or1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367221,
     "model_specs": [
       {
         "model_src": {
@@ -19462,12 +19589,13 @@
       "<|im_end|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "skywork-or1-preview",
-    "updated_at": 1762246227,
+    "updated_at": 1763367222,
     "model_specs": [
       {
         "model_src": {
@@ -19680,12 +19808,13 @@
       "<_start>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "telechat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367223,
     "model_specs": [
       {
         "model_src": {
@@ -19818,11 +19947,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "tiny-llama",
-    "updated_at": 1762246227,
+    "updated_at": 1763367224,
     "model_specs": [
       {
         "model_src": {
@@ -19868,11 +19998,12 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "wizardcoder-python-v1.0",
-    "updated_at": 1762246227,
+    "updated_at": 1763367225,
     "model_specs": [
       {
         "model_src": {
@@ -20001,11 +20132,12 @@
       "</s>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "wizardmath-v1.0",
-    "updated_at": 1762246227,
+    "updated_at": 1763367226,
     "model_specs": [
       {
         "model_src": {
@@ -20053,12 +20185,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "xverse",
-    "updated_at": 1762246227,
+    "updated_at": 1763367227,
     "model_specs": [
       {
         "model_src": {
@@ -20132,12 +20265,13 @@
       "<|endoftext|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "xverse-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367228,
     "model_specs": [
       {
         "model_src": {
@@ -20195,12 +20329,13 @@
       "<｜end▁of▁sentence｜>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "qwenLong-l1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367230,
     "model_specs": [
       {
         "model_src": {
@@ -20256,12 +20391,13 @@
       "</s>"
     ],
     "version": 2,
+    "featured": true,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "Ernie4.5",
-    "updated_at": 1762246227,
+    "updated_at": 1763367231,
     "virtualenv": {
       "packages": [
         "transformers",
@@ -20586,12 +20722,13 @@
       "<|observation|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "glm-4.1v-thinking",
-    "updated_at": 1762246227,
+    "updated_at": 1763367231,
     "virtualenv": {
       "packages": [
         "transformers>=4.53.2",
@@ -20681,12 +20818,13 @@
       "<|observation|>"
     ],
     "version": 2,
+    "featured": true,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "glm-4.5",
-    "updated_at": 1762246227,
+    "updated_at": 1763367232,
     "virtualenv": {
       "packages": [
         "transformers>=4.54.0",
@@ -20916,12 +21054,13 @@
       "<|observation|>"
     ],
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en",
       "zh"
     ],
     "model_name": "glm-4.5v",
-    "updated_at": 1762246227,
+    "updated_at": 1763367233,
     "virtualenv": {
       "packages": [
         "transformers>=4.55.0",
@@ -21036,11 +21175,12 @@
       "<|return|>"
     ],
     "version": 2,
+    "featured": true,
     "model_lang": [
       "en"
     ],
     "model_name": "gpt-oss",
-    "updated_at": 1762246227,
+    "updated_at": 1763367234,
     "virtualenv": {
       "packages": [
         "transformers>=4.55.0,<4.56.0",
@@ -21121,11 +21261,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test88888888",
-    "updated_at": 1762246227,
+    "updated_at": 1763367235,
     "virtualenv": {
       "packages": []
     },
@@ -21151,11 +21292,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367237,
     "virtualenv": {
       "packages": []
     },
@@ -21181,11 +21323,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367237,
     "virtualenv": {
       "packages": []
     },
@@ -21211,11 +21354,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en123"
     ],
     "model_name": "custom-llm-test-4",
-    "updated_at": 1762246227,
+    "updated_at": 1763367238,
     "virtualenv": {
       "packages": []
     },
@@ -21241,11 +21385,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-5",
-    "updated_at": 1762246227,
+    "updated_at": 1763367240,
     "virtualenv": {
       "packages": []
     },
@@ -21271,11 +21416,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-8",
-    "updated_at": 1762246227,
+    "updated_at": 1763367241,
     "virtualenv": {
       "packages": []
     },
@@ -21301,11 +21447,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-6",
-    "updated_at": 1762246227,
+    "updated_at": 1763367242,
     "virtualenv": {
       "packages": []
     },
@@ -21331,11 +21478,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-000",
-    "updated_at": 1762246227,
+    "updated_at": 1763367243,
     "virtualenv": {
       "packages": []
     },
@@ -21361,11 +21509,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-test-1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367244,
     "virtualenv": {
       "packages": []
     },
@@ -21391,11 +21540,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-test",
-    "updated_at": 1762246227,
+    "updated_at": 1763367246,
     "virtualenv": {
       "packages": []
     },
@@ -21421,11 +21571,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-test11",
-    "updated_at": 1762246227,
+    "updated_at": 1763367246,
     "virtualenv": {
       "packages": []
     },
@@ -21451,11 +21602,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-test2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367248,
     "virtualenv": {
       "packages": []
     },
@@ -21481,11 +21633,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en123"
     ],
     "model_name": "custom-llm-test-test3",
-    "updated_at": 1762246227,
+    "updated_at": 1763367249,
     "virtualenv": {
       "packages": []
     },
@@ -21511,11 +21664,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en1"
     ],
     "model_name": "custom-llm-test-test6",
-    "updated_at": 1762246227,
+    "updated_at": 1763367250,
     "virtualenv": {
       "packages": []
     },
@@ -21541,11 +21695,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-test7",
-    "updated_at": 1762246227,
+    "updated_at": 1763367251,
     "virtualenv": {
       "packages": []
     },
@@ -21571,11 +21726,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-test9",
-    "updated_at": 1762246227,
+    "updated_at": 1763367252,
     "virtualenv": {
       "packages": []
     },
@@ -21601,11 +21757,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-test10",
-    "updated_at": 1762246227,
+    "updated_at": 1763367252,
     "virtualenv": {
       "packages": []
     },
@@ -21631,11 +21788,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-test12",
-    "updated_at": 1762246227,
+    "updated_at": 1763367253,
     "virtualenv": {
       "packages": []
     },
@@ -21661,11 +21819,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-test13",
-    "updated_at": 1762246227,
+    "updated_at": 1763367255,
     "virtualenv": {
       "packages": []
     },
@@ -21691,11 +21850,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en111"
     ],
     "model_name": "custom-llm-test-test14",
-    "updated_at": 1762246227,
+    "updated_at": 1763367255,
     "virtualenv": {
       "packages": []
     },
@@ -21721,11 +21881,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en12345"
     ],
     "model_name": "custom-llm-est-test15",
-    "updated_at": 1762246227,
+    "updated_at": 1763367256,
     "virtualenv": {
       "packages": []
     },
@@ -21751,11 +21912,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-test21",
-    "updated_at": 1762246227,
+    "updated_at": 1763367258,
     "virtualenv": {
       "packages": []
     },
@@ -21782,11 +21944,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-test25",
-    "updated_at": 1762246227,
+    "updated_at": 1763367258,
     "virtualenv": {
       "packages": []
     },
@@ -21812,11 +21975,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en1"
     ],
     "model_name": "custom-llm-test-test26",
-    "updated_at": 1762246227,
+    "updated_at": 1763367259,
     "virtualenv": {
       "packages": []
     },
@@ -21842,11 +22006,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en"
     ],
     "model_name": "custom-llm-test-test27",
-    "updated_at": 1762246227,
+    "updated_at": 1763367260,
     "virtualenv": {
       "packages": []
     },
@@ -21872,12 +22037,13 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en1",
       "llllll"
     ],
     "model_name": "custom-llm-xiaolei",
-    "updated_at": 1762246227,
+    "updated_at": 1763367261,
     "virtualenv": {
       "packages": []
     },
@@ -21903,11 +22069,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en111111"
     ],
     "model_name": "custom-llm-xiaolei-1",
-    "updated_at": 1762316603,
+    "updated_at": 1763367262,
     "virtualenv": {
       "packages": []
     },
@@ -21939,11 +22106,12 @@
   },
   {
     "version": 2,
+    "featured": false,
     "model_lang": [
       "en12"
     ],
     "model_name": "custom-llm-test-test40",
-    "updated_at": 1762246227,
+    "updated_at": 1763367264,
     "virtualenv": {
       "packages": []
     },
