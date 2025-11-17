@@ -1272,7 +1272,7 @@
       "tl"
     ],
     "model_name": "seallm_v2.5",
-    "updated_at": 1762246227,
+    "updated_at": 1763367115,
     "model_specs": [
       {
         "model_src": {
@@ -1306,7 +1306,8 @@
       "generate"
     ],
     "context_length": 8192,
-    "model_description": "We introduce SeaLLM-7B-v2.5, the state-of-the-art multilingual LLM for Southeast Asian (SEA) languages"
+    "model_description": "We introduce SeaLLM-7B-v2.5, the state-of-the-art multilingual LLM for Southeast Asian (SEA) languages",
+    "featured": false
   },
   {
     "stop": [
