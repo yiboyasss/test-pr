@@ -7797,7 +7797,7 @@
       "zh"
     ],
     "model_name": "glm-edge-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367167,
     "model_specs": [
       {
         "model_src": {
@@ -7970,7 +7970,8 @@
       59253,
       59255
     ],
-    "model_description": "The GLM-Edge series is our attempt to face the end-side real-life scenarios, which consists of two sizes of large-language dialogue models and multimodal comprehension models (GLM-Edge-1.5B-Chat, GLM-Edge-4B-Chat, GLM-Edge-V-2B, GLM-Edge-V-5B). Among them, the 1.5B / 2B model is mainly for platforms such as mobile phones and cars, and the 4B / 5B model is mainly for platforms such as PCs."
+    "model_description": "The GLM-Edge series is our attempt to face the end-side real-life scenarios, which consists of two sizes of large-language dialogue models and multimodal comprehension models (GLM-Edge-1.5B-Chat, GLM-Edge-4B-Chat, GLM-Edge-V-2B, GLM-Edge-V-5B). Among them, the 1.5B / 2B model is mainly for platforms such as mobile phones and cars, and the 4B / 5B model is mainly for platforms such as PCs.",
+    "featured": false
   },
   {
     "stop": [
