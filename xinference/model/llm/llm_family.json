@@ -10355,7 +10355,7 @@
       "en"
     ],
     "model_name": "mistral-instruct-v0.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367186,
     "model_specs": [
       {
         "model_src": {
@@ -10434,7 +10434,8 @@
     "stop_token_ids": [
       2
     ],
-    "model_description": "Mistral-7B-Instruct is a fine-tuned version of the Mistral-7B LLM on public datasets, specializing in chatting."
+    "model_description": "Mistral-7B-Instruct is a fine-tuned version of the Mistral-7B LLM on public datasets, specializing in chatting.",
+    "featured": false
   },
   {
     "stop": [
