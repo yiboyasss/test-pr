@@ -19872,7 +19872,7 @@
       "en"
     ],
     "model_name": "wizardcoder-python-v1.0",
-    "updated_at": 1762246227,
+    "updated_at": 1763367225,
     "model_specs": [
       {
         "model_src": {
@@ -19994,7 +19994,8 @@
     "context_length": 100000,
     "stop_token_ids": [
       2
-    ]
+    ],
+    "featured": false
   },
   {
     "stop": [
