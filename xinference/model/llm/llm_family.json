@@ -615,7 +615,7 @@
       "es"
     ],
     "model_name": "mixtral-8x22B-instruct-v0.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367107,
     "model_specs": [
       {
         "model_src": {
@@ -748,7 +748,8 @@
     "stop_token_ids": [
       2
     ],
-    "model_description": "The Mixtral-8x22B-Instruct-v0.1 Large Language Model (LLM) is an instruct fine-tuned version of the Mixtral-8x22B-v0.1, specializing in chatting."
+    "model_description": "The Mixtral-8x22B-Instruct-v0.1 Large Language Model (LLM) is an instruct fine-tuned version of the Mixtral-8x22B-v0.1, specializing in chatting.",
+    "featured": false
   },
   {
     "version": 2,
