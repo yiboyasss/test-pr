@@ -10445,7 +10445,7 @@
       "en"
     ],
     "model_name": "mistral-instruct-v0.2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367187,
     "model_specs": [
       {
         "model_src": {
@@ -10530,7 +10530,8 @@
     "stop_token_ids": [
       2
     ],
-    "model_description": "The Mistral-7B-Instruct-v0.2 Large Language Model (LLM) is an improved instruct fine-tuned version of Mistral-7B-Instruct-v0.1."
+    "model_description": "The Mistral-7B-Instruct-v0.2 Large Language Model (LLM) is an improved instruct fine-tuned version of Mistral-7B-Instruct-v0.1.",
+    "featured": false
   },
   {
     "stop": [
