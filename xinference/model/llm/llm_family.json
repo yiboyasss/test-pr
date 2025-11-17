@@ -1045,7 +1045,7 @@
       "en"
     ],
     "model_name": "gpt-2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367110,
     "model_specs": [
       {
         "model_src": {
@@ -1065,7 +1065,8 @@
       "generate"
     ],
     "context_length": 1024,
-    "model_description": "GPT-2 is a Transformer-based LLM that is trained on WebTest, a 40 GB dataset of Reddit posts with 3+ upvotes."
+    "model_description": "GPT-2 is a Transformer-based LLM that is trained on WebTest, a 40 GB dataset of Reddit posts with 3+ upvotes.",
+    "featured": false
   },
   {
     "stop": [
