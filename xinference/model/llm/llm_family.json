@@ -1160,7 +1160,7 @@
       "en"
     ],
     "model_name": "phi-2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367113,
     "model_specs": [
       {
         "model_src": {
@@ -1204,7 +1204,8 @@
       "generate"
     ],
     "context_length": 2048,
-    "model_description": "Phi-2 is a 2.7B Transformer based LLM used for research on model safety, trained with data similar to Phi-1.5 but augmented with synthetic texts and curated websites."
+    "model_description": "Phi-2 is a 2.7B Transformer based LLM used for research on model safety, trained with data similar to Phi-1.5 but augmented with synthetic texts and curated websites.",
+    "featured": false
   },
   {
     "version": 2,
