@@ -19685,7 +19685,7 @@
       "zh"
     ],
     "model_name": "telechat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367223,
     "model_specs": [
       {
         "model_src": {
@@ -19814,7 +19814,8 @@
       160133,
       160132
     ],
-    "model_description": "The TeleChat is a large language model developed and trained by China Telecom Artificial Intelligence Technology Co., LTD. The 7B model base is trained with 1.5 trillion Tokens and 3 trillion Tokens and Chinese high-quality corpus."
+    "model_description": "The TeleChat is a large language model developed and trained by China Telecom Artificial Intelligence Technology Co., LTD. The 7B model base is trained with 1.5 trillion Tokens and 3 trillion Tokens and Chinese high-quality corpus.",
+    "featured": false
   },
   {
     "version": 2,
