@@ -20058,7 +20058,7 @@
       "zh"
     ],
     "model_name": "xverse",
-    "updated_at": 1762246227,
+    "updated_at": 1763367227,
     "model_specs": [
       {
         "model_src": {
@@ -20125,7 +20125,8 @@
       "generate"
     ],
     "context_length": 2048,
-    "model_description": "XVERSE is a multilingual large language model, independently developed by Shenzhen Yuanxiang Technology."
+    "model_description": "XVERSE is a multilingual large language model, independently developed by Shenzhen Yuanxiang Technology.",
+    "featured": false
   },
   {
     "stop": [
