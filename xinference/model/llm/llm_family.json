@@ -3138,7 +3138,7 @@
       "zh"
     ],
     "model_name": "Yi-200k",
-    "updated_at": 1762246227,
+    "updated_at": 1763367132,
     "model_specs": [
       {
         "model_src": {
@@ -3191,7 +3191,8 @@
       "generate"
     ],
     "context_length": 262144,
-    "model_description": "The Yi series models are large language models trained from scratch by developers at 01.AI."
+    "model_description": "The Yi series models are large language models trained from scratch by developers at 01.AI.",
+    "featured": false
   },
   {
     "stop": [
