@@ -553,7 +553,7 @@
       "en"
     ],
     "model_name": "gorilla-openfunctions-v2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367106,
     "model_specs": [
       {
         "model_src": {
@@ -600,7 +600,8 @@
       100015,
       100001
     ],
-    "model_description": "OpenFunctions is designed to extend Large Language Model (LLM) Chat Completion feature to formulate executable APIs call given natural language instructions and API context."
+    "model_description": "OpenFunctions is designed to extend Large Language Model (LLM) Chat Completion feature to formulate executable APIs call given natural language instructions and API context.",
+    "featured": false
   },
   {
     "stop": [
