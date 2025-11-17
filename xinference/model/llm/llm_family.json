@@ -10998,7 +10998,7 @@
       "es"
     ],
     "model_name": "mixtral-instruct-v0.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367192,
     "model_specs": [
       {
         "model_src": {
@@ -11073,7 +11073,8 @@
     "stop_token_ids": [
       2
     ],
-    "model_description": "Mistral-8x7B-Instruct is a fine-tuned version of the Mistral-8x7B LLM, specializing in chatting."
+    "model_description": "Mistral-8x7B-Instruct is a fine-tuned version of the Mistral-8x7B LLM, specializing in chatting.",
+    "featured": false
   },
   {
     "version": 2,
