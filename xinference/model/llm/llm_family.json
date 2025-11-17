@@ -8919,7 +8919,7 @@
       "en"
     ],
     "model_name": "llama-3-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367175,
     "model_specs": [
       {
         "model_src": {
@@ -9121,7 +9121,8 @@
       128001,
       128009
     ],
-    "model_description": "The Llama 3 instruction tuned models are optimized for dialogue use cases and outperform many of the available open source chat models on common industry benchmarks.."
+    "model_description": "The Llama 3 instruction tuned models are optimized for dialogue use cases and outperform many of the available open source chat models on common industry benchmarks..",
+    "featured": false
   },
   {
     "version": 2,
