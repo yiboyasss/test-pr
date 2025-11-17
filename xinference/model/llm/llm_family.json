@@ -1627,7 +1627,7 @@
       "zh"
     ],
     "model_name": "InternVL3",
-    "updated_at": 1762246227,
+    "updated_at": 1763367119,
     "model_specs": [
       {
         "model_src": {
@@ -1898,7 +1898,8 @@
     "stop_token_ids": [
       151645
     ],
-    "model_description": "InternVL3, an advanced multimodal large language model (MLLM) series that demonstrates superior overall performance."
+    "model_description": "InternVL3, an advanced multimodal large language model (MLLM) series that demonstrates superior overall performance.",
+    "featured": false
   },
   {
     "stop": [
