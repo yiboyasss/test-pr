@@ -5,7 +5,7 @@
       "en"
     ],
     "model_name": "custom-llm",
-    "updated_at": 1762246227,
+    "updated_at": 1763367090,
     "virtualenv": {
       "packages": []
     },
@@ -27,7 +27,8 @@
       "generate"
     ],
     "context_length": 2048,
-    "model_description": "This is a custom model description."
+    "model_description": "This is a custom model description.",
+    "featured": false
   },
   {
     "version": 2,
