@@ -21040,7 +21040,7 @@
       "en"
     ],
     "model_name": "gpt-oss",
-    "updated_at": 1762246227,
+    "updated_at": 1763367234,
     "virtualenv": {
       "packages": [
         "transformers>=4.55.0,<4.56.0",
@@ -21117,7 +21117,8 @@
       200002,
       199999
     ],
-    "model_description": "gpt-oss series, OpenAI’s open-weight models designed for powerful reasoning, agentic tasks, and versatile developer use cases."
+    "model_description": "gpt-oss series, OpenAI’s open-weight models designed for powerful reasoning, agentic tasks, and versatile developer use cases.",
+    "featured": true
   },
   {
     "version": 2,
