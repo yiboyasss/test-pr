@@ -10070,7 +10070,7 @@
       "zh"
     ],
     "model_name": "minicpm-2b-dpo-fp32",
-    "updated_at": 1762246227,
+    "updated_at": 1763367182,
     "model_specs": [
       {
         "model_src": {
@@ -10102,7 +10102,8 @@
       1,
       2
     ],
-    "model_description": "MiniCPM is an End-Size LLM developed by ModelBest Inc. and TsinghuaNLP, with only 2.4B parameters excluding embeddings."
+    "model_description": "MiniCPM is an End-Size LLM developed by ModelBest Inc. and TsinghuaNLP, with only 2.4B parameters excluding embeddings.",
+    "featured": false
   },
   {
     "stop": [
