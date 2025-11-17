@@ -8341,7 +8341,7 @@
       "zh"
     ],
     "model_name": "glm4-chat-1m",
-    "updated_at": 1762246227,
+    "updated_at": 1763367171,
     "model_specs": [
       {
         "model_src": {
@@ -8435,7 +8435,8 @@
       151336,
       151338
     ],
-    "model_description": "GLM4 is the open source version of the latest generation of pre-trained models in the GLM-4 series launched by Zhipu AI."
+    "model_description": "GLM4 is the open source version of the latest generation of pre-trained models in the GLM-4 series launched by Zhipu AI.",
+    "featured": false
   },
   {
     "stop": [
