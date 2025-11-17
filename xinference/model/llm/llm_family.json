@@ -19822,7 +19822,7 @@
       "en"
     ],
     "model_name": "tiny-llama",
-    "updated_at": 1762246227,
+    "updated_at": 1763367224,
     "model_specs": [
       {
         "model_src": {
@@ -19861,7 +19861,8 @@
       "generate"
     ],
     "context_length": 2048,
-    "model_description": "The TinyLlama project aims to pretrain a 1.1B Llama model on 3 trillion tokens."
+    "model_description": "The TinyLlama project aims to pretrain a 1.1B Llama model on 3 trillion tokens.",
+    "featured": false
   },
   {
     "stop": [
