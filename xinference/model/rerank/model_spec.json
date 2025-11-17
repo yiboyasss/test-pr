@@ -148,5 +148,33 @@
       }
     ],
     "model_description": "This is a custom model description."
+  },
+  {
+    "model_name": "custom-rerank-1",
+    "model_description": "This is a custom model description.",
+    "model_specs": [
+      {
+        "model_format": "pytorch",
+        "model_src": {
+          "huggingface": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        }
+      }
+    ],
+    "max_tokens": 512,
+    "type": "normal",
+    "language": [
+      "en"
+    ],
+    "version": 2,
+    "virtualenv": {
+      "packages": []
+    },
+    "featured": true,
+    "updated_at": 1763364387
   }
 ]
