@@ -5272,7 +5272,7 @@
       "zh"
     ],
     "model_name": "deepseek-prover-v2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367150,
     "model_specs": [
       {
         "model_src": {
@@ -5340,7 +5340,8 @@
     ],
     "model_description": "We introduce DeepSeek-Prover-V2, an open-source large language model designed for formal theorem proving in Lean 4, with initialization data collected through a recursive theorem proving pipeline powered by DeepSeek-V3. The cold-start training procedure begins by prompting DeepSeek-V3 to decompose complex problems into a series of subgoals. The proofs of resolved subgoals are synthesized into a chain-of-thought process, combined with DeepSeek-V3's step-by-step reasoning, to create an initial cold start for reinforcement learning. This process enables us to integrate both informal and formal mathematical reasoning into a unified model",
     "reasoning_end_tag": "</think>",
-    "reasoning_start_tag": "<think>"
+    "reasoning_start_tag": "<think>",
+    "featured": false
   },
   {
     "stop": [
