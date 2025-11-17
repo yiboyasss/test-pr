@@ -152,13 +152,13 @@
   {
     "type": "normal",
     "version": 2,
-    "featured": false,
+    "featured": true,
     "language": [
       "en"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank-1",
-    "updated_at": 1763364523,
+    "updated_at": 1763364558,
     "virtualenv": {
       "packages": []
     },
