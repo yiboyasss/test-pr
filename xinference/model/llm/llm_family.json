@@ -21907,7 +21907,7 @@
       "en111111"
     ],
     "model_name": "custom-llm-xiaolei-1",
-    "updated_at": 1762316603,
+    "updated_at": 1763367262,
     "virtualenv": {
       "packages": []
     },
@@ -21935,7 +21935,8 @@
       "generate"
     ],
     "context_length": 2048,
-    "model_description": "This is a custom model description."
+    "model_description": "This is a custom model description.",
+    "featured": false
   },
   {
     "version": 2,
