@@ -7394,7 +7394,7 @@
       "en"
     ],
     "model_name": "gemma-3-it",
-    "updated_at": 1762246227,
+    "updated_at": 1763367165,
     "model_specs": [
       {
         "model_src": {
@@ -7729,7 +7729,8 @@
       105,
       106
     ],
-    "model_description": "Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models."
+    "model_description": "Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models.",
+    "featured": true
   },
   {
     "stop": [
