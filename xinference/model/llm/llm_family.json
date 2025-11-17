@@ -4007,7 +4007,7 @@
       "en"
     ],
     "model_name": "code-llama-python",
-    "updated_at": 1762246227,
+    "updated_at": 1763367138,
     "model_specs": [
       {
         "model_src": {
@@ -4176,7 +4176,8 @@
       "generate"
     ],
     "context_length": 100000,
-    "model_description": "Code-Llama-Python is a fine-tuned version of the Code-Llama LLM, specializing in Python."
+    "model_description": "Code-Llama-Python is a fine-tuned version of the Code-Llama LLM, specializing in Python.",
+    "featured": false
   },
   {
     "stop": [
