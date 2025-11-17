@@ -9136,7 +9136,7 @@
       "th"
     ],
     "model_name": "llama-3.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367176,
     "model_specs": [
       {
         "model_src": {
@@ -9229,7 +9229,8 @@
       "generate"
     ],
     "context_length": 131072,
-    "model_description": "Llama 3.1 is an auto-regressive language model that uses an optimized transformer architecture"
+    "model_description": "Llama 3.1 is an auto-regressive language model that uses an optimized transformer architecture",
+    "featured": false
   },
   {
     "stop": [
