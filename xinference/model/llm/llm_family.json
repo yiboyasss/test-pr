@@ -20005,7 +20005,7 @@
       "en"
     ],
     "model_name": "wizardmath-v1.0",
-    "updated_at": 1762246227,
+    "updated_at": 1763367226,
     "model_specs": [
       {
         "model_src": {
@@ -20049,7 +20049,8 @@
     "stop_token_ids": [
       2
     ],
-    "model_description": "WizardMath is an open-source LLM trained by fine-tuning Llama2 with Evol-Instruct, specializing in math."
+    "model_description": "WizardMath is an open-source LLM trained by fine-tuning Llama2 with Evol-Instruct, specializing in math.",
+    "featured": false
   },
   {
     "version": 2,
