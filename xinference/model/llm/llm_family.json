@@ -10550,7 +10550,7 @@
       "ko"
     ],
     "model_name": "mistral-large-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367188,
     "model_specs": [
       {
         "model_src": {
@@ -10723,7 +10723,8 @@
     "stop_token_ids": [
       2
     ],
-    "model_description": "Mistral-Large-Instruct-2407 is an advanced dense Large Language Model (LLM) of 123B parameters with state-of-the-art reasoning, knowledge and coding capabilities."
+    "model_description": "Mistral-Large-Instruct-2407 is an advanced dense Large Language Model (LLM) of 123B parameters with state-of-the-art reasoning, knowledge and coding capabilities.",
+    "featured": false
   },
   {
     "stop": [
