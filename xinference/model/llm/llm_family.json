@@ -11085,7 +11085,7 @@
       "es"
     ],
     "model_name": "mixtral-v0.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367194,
     "model_specs": [
       {
         "model_src": {
@@ -11144,7 +11144,8 @@
       "generate"
     ],
     "context_length": 32768,
-    "model_description": "The Mixtral-8x7B Large Language Model (LLM) is a pretrained generative Sparse Mixture of Experts."
+    "model_description": "The Mixtral-8x7B Large Language Model (LLM) is a pretrained generative Sparse Mixture of Experts.",
+    "featured": false
   },
   {
     "stop": [
