@@ -1076,7 +1076,7 @@
       "en"
     ],
     "model_name": "openhermes-2.5",
-    "updated_at": 1762246227,
+    "updated_at": 1763367111,
     "model_specs": [
       {
         "model_src": {
@@ -1124,7 +1124,8 @@
     "stop_token_ids": [
       32000
     ],
-    "model_description": "Openhermes 2.5 is a fine-tuned version of Mistral-7B-v0.1 on primarily GPT-4 generated data."
+    "model_description": "Openhermes 2.5 is a fine-tuned version of Mistral-7B-v0.1 on primarily GPT-4 generated data.",
+    "featured": false
   },
   {
     "version": 2,
