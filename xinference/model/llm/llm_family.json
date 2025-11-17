@@ -756,7 +756,7 @@
       "en"
     ],
     "model_name": "llama-2",
-    "updated_at": 1762246227,
+    "updated_at": 1763367108,
     "model_specs": [
       {
         "model_src": {
@@ -955,7 +955,8 @@
       "generate"
     ],
     "context_length": 4096,
-    "model_description": "Llama-2 is the second generation of Llama, open-source and trained on a larger amount of data."
+    "model_description": "Llama-2 is the second generation of Llama, open-source and trained on a larger amount of data.",
+    "featured": false
   },
   {
     "stop": [
