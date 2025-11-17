@@ -2,13 +2,14 @@
   {
     "type": "normal",
     "version": 2,
+    "featured": true,
     "language": [
       "en",
       "zh"
     ],
     "max_tokens": 512,
     "model_name": "bge-reranker-base",
-    "updated_at": 1762247615,
+    "updated_at": 1763373903,
     "model_specs": [
       {
         "model_src": {
@@ -34,13 +35,14 @@
   {
     "type": "normal",
     "version": 2,
+    "featured": false,
     "language": [
       "en",
       "zh"
     ],
     "max_tokens": 512,
     "model_name": "bce-reranker-base_v1",
-    "updated_at": 1762247615,
+    "updated_at": 1763373903,
     "model_specs": [
       {
         "model_src": {
@@ -66,13 +68,14 @@
   {
     "type": "normal",
     "version": 2,
+    "featured": false,
     "language": [
       "en",
       "zh1"
     ],
     "max_tokens": 512,
     "model_name": "rerank-test-xiaolei",
-    "updated_at": 1762312599,
+    "updated_at": 1763373903,
     "model_specs": [
       {
         "model_src": {
@@ -98,12 +101,13 @@
   {
     "type": "normal",
     "version": 2,
+    "featured": false,
     "language": [
       "en1111111"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank-test-tt",
-    "updated_at": 1763358559,
+    "updated_at": 1763373903,
     "virtualenv": {
       "packages": []
     },
@@ -125,12 +129,13 @@
   {
     "type": "normal",
     "version": 2,
+    "featured": false,
     "language": [
       "en333"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank",
-    "updated_at": 1762315817,
+    "updated_at": 1763373904,
     "virtualenv": {
       "packages": []
     },
@@ -152,13 +157,13 @@
   {
     "type": "normal",
     "version": 2,
-    "featured": true,
+    "featured": false,
     "language": [
       "en"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank-1",
-    "updated_at": 1763364558,
+    "updated_at": 1763373904,
     "virtualenv": {
       "packages": []
     },
