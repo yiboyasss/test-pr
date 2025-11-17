@@ -16,6 +16,7 @@ permissions:
   pull-requests: write
 
 jobs:
+  # test
   run-gen-docs-and-commit:
     if: startsWith(github.event.pull_request.head.ref, 'chore/models-sync/')
     runs-on: ubuntu-latest
