@@ -8448,7 +8448,7 @@
       "zh"
     ],
     "model_name": "internlm3-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367171,
     "model_specs": [
       {
         "model_src": {
@@ -8567,7 +8567,8 @@
       2,
       128131
     ],
-    "model_description": "InternLM3 has open-sourced an 8-billion parameter instruction model, InternLM3-8B-Instruct, designed for general-purpose usage and advanced reasoning."
+    "model_description": "InternLM3 has open-sourced an 8-billion parameter instruction model, InternLM3-8B-Instruct, designed for general-purpose usage and advanced reasoning.",
+    "featured": false
   },
   {
     "stop": [],
