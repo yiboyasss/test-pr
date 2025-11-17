@@ -8576,7 +8576,7 @@
       "en"
     ],
     "model_name": "llama-2-chat",
-    "updated_at": 1762246227,
+    "updated_at": 1763367172,
     "model_specs": [
       {
         "model_src": {
@@ -8816,7 +8816,8 @@
     "stop_token_ids": [
       2
     ],
-    "model_description": "Llama-2-Chat is a fine-tuned version of the Llama-2 LLM, specializing in chatting."
+    "model_description": "Llama-2-Chat is a fine-tuned version of the Llama-2 LLM, specializing in chatting.",
+    "featured": false
   },
   {
     "version": 2,
