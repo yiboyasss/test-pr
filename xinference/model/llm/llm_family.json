@@ -11308,7 +11308,7 @@
       "en"
     ],
     "model_name": "phi-3-mini-4k-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367200,
     "model_specs": [
       {
         "model_src": {
@@ -11355,7 +11355,8 @@
       32001,
       32007
     ],
-    "model_description": "The Phi-3-Mini-4k-Instruct is a 3.8 billion-parameter, lightweight, state-of-the-art open model trained using the Phi-3 datasets."
+    "model_description": "The Phi-3-Mini-4k-Instruct is a 3.8 billion-parameter, lightweight, state-of-the-art open model trained using the Phi-3 datasets.",
+    "featured": false
   },
   {
     "stop": [
