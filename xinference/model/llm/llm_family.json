@@ -10742,7 +10742,7 @@
       "ja"
     ],
     "model_name": "mistral-nemo-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367189,
     "model_specs": [
       {
         "model_src": {
@@ -10899,7 +10899,8 @@
     "stop_token_ids": [
       2
     ],
-    "model_description": "The Mistral-Nemo-Instruct-2407 Large Language Model (LLM) is an instruct fine-tuned version of the Mistral-Nemo-Base-2407"
+    "model_description": "The Mistral-Nemo-Instruct-2407 Large Language Model (LLM) is an instruct fine-tuned version of the Mistral-Nemo-Base-2407",
+    "featured": false
   },
   {
     "version": 2,
