@@ -3832,7 +3832,7 @@
       "en"
     ],
     "model_name": "code-llama-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367137,
     "model_specs": [
       {
         "model_src": {
@@ -3999,7 +3999,8 @@
     "stop_token_ids": [
       2
     ],
-    "model_description": "Code-Llama-Instruct is an instruct-tuned version of the Code-Llama LLM."
+    "model_description": "Code-Llama-Instruct is an instruct-tuned version of the Code-Llama LLM.",
+    "featured": false
   },
   {
     "version": 2,
