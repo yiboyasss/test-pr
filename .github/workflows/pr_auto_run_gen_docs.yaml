@@ -17,7 +17,6 @@ permissions:
 
 jobs:
   run-gen-docs-and-commit:
-    # 仅当 PR 的 head 分支以 chore/models-sync/ 开头才触发
     if: startsWith(github.event.pull_request.head.ref, 'chore/models-sync/')
     runs-on: ubuntu-latest
     steps:
@@ -87,7 +86,6 @@ jobs:
           echo "[Debug] List ../main/doc/source:"
           ls -la ../main/doc/source || true
 
-          # 将主仓库受信任脚本复制到 PR 工作副本
           if [ -f "../main/doc/source/gen_docs.py" ]; then
             echo "Copying main/doc/source/gen_docs.py into PR workspace"
             mkdir -p doc/source
@@ -109,11 +107,8 @@ jobs:
         run: |
           echo "[Debug] Before staging:" && git status --porcelain
 
-          # 显示是否被忽略以及忽略来源（如果未来添加了 .gitignore，也能帮助定位）
           echo "[Debug] check-ignore for generated file:"
           git check-ignore -v doc/source/_generated/auto_generated.txt || echo "Not ignored"
-
-          # 先正常暂存，再对生成目录强制暂存
           git add -A
           git add -f doc/source/_generated || true
 
