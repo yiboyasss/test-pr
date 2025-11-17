@@ -99,11 +99,11 @@
     "type": "normal",
     "version": 2,
     "language": [
-      "en1111"
+      "en1111111"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank-test-tt",
-    "updated_at": 1763357671,
+    "updated_at": 1763358559,
     "virtualenv": {
       "packages": []
     },
@@ -131,6 +131,34 @@
     "max_tokens": 512,
     "model_name": "custom-rerank",
     "updated_at": 1762315817,
+    "virtualenv": {
+      "packages": []
+    },
+    "model_specs": [
+      {
+        "model_src": {
+          "huggingface": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch"
+      }
+    ],
+    "model_description": "This is a custom model description."
+  },
+  {
+    "type": "normal",
+    "version": 2,
+    "featured": true,
+    "language": [
+      "en"
+    ],
+    "max_tokens": 512,
+    "model_name": "custom-rerank-1",
+    "updated_at": 1763364558,
     "virtualenv": {
       "packages": []
     },
