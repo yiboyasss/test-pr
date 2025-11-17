@@ -19303,7 +19303,7 @@
       "in"
     ],
     "model_name": "seallms-v3",
-    "updated_at": 1762246227,
+    "updated_at": 1763367220,
     "model_specs": [
       {
         "model_src": {
@@ -19352,7 +19352,8 @@
       151644,
       151645
     ],
-    "model_description": "SeaLLMs - Large Language Models for Southeast Asia"
+    "model_description": "SeaLLMs - Large Language Models for Southeast Asia",
+    "featured": false
   },
   {
     "stop": [
