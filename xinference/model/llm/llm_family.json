@@ -2650,7 +2650,7 @@
       "zh"
     ],
     "model_name": "XiYanSQL-QwenCoder-2504",
-    "updated_at": 1762246227,
+    "updated_at": 1763367126,
     "model_specs": [
       {
         "model_src": {
@@ -2700,7 +2700,8 @@
       151644,
       151645
     ],
-    "model_description": "The XiYanSQL-QwenCoder models, as multi-dialect SQL base models, demonstrating robust SQL generation capabilities."
+    "model_description": "The XiYanSQL-QwenCoder models, as multi-dialect SQL base models, demonstrating robust SQL generation capabilities.",
+    "featured": false
   },
   {
     "version": 2,
