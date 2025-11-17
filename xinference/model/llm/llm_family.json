@@ -13161,7 +13161,7 @@
       "zh"
     ],
     "model_name": "qwen2-moe-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367206,
     "model_specs": [
       {
         "model_src": {
@@ -13269,7 +13269,8 @@
       151644,
       151645
     ],
-    "model_description": "Qwen2 is the new series of Qwen large language models. "
+    "model_description": "Qwen2 is the new series of Qwen large language models. ",
+    "featured": false
   },
   {
     "stop": [
