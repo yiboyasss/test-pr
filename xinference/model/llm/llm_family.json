@@ -21305,7 +21305,7 @@
       "en"
     ],
     "model_name": "custom-llm-test-6",
-    "updated_at": 1762246227,
+    "updated_at": 1763367242,
     "virtualenv": {
       "packages": []
     },
@@ -21327,7 +21327,8 @@
       "generate"
     ],
     "context_length": 2048,
-    "model_description": "This is a custom model description."
+    "model_description": "This is a custom model description.",
+    "featured": false
   },
   {
     "version": 2,
