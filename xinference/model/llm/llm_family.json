@@ -10208,7 +10208,7 @@
       "zh"
     ],
     "model_name": "minicpm3-4b",
-    "updated_at": 1762246227,
+    "updated_at": 1763367185,
     "model_specs": [
       {
         "model_src": {
@@ -10266,7 +10266,8 @@
       1,
       2
     ],
-    "model_description": "MiniCPM3-4B is the 3rd generation of MiniCPM series. The overall performance of MiniCPM3-4B surpasses Phi-3.5-mini-Instruct and GPT-3.5-Turbo-0125, being comparable with many recent 7B~9B models."
+    "model_description": "MiniCPM3-4B is the 3rd generation of MiniCPM series. The overall performance of MiniCPM3-4B surpasses Phi-3.5-mini-Instruct and GPT-3.5-Turbo-0125, being comparable with many recent 7B~9B models.",
+    "featured": false
   },
   {
     "stop": [
