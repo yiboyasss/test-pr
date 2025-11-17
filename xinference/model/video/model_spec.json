@@ -1,6 +1,7 @@
 [
   {
     "version": 2,
+    "featured": false,
     "model_src": {
       "modelscope": {
         "model_id": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
@@ -12,7 +13,7 @@
       }
     },
     "model_name": "Wan2.1-1.3B",
-    "updated_at": 1763362713,
+    "updated_at": 1763371402,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
@@ -24,7 +25,7 @@
     },
     "model_family": "Wan",
     "model_ability": [
-      "text2video111"
+      "text2video"
     ],
     "default_model_config": {
       "torch_dtype": "bfloat16"
@@ -34,6 +35,7 @@
   {
     "test": "test111",
     "version": 2,
+    "featured": true,
     "model_src": {
       "modelscope": {
         "model_id": "Wan-AI/Wan2.1-I2V-14B-720P-Diffusers",
@@ -45,7 +47,7 @@
       }
     },
     "model_name": "video-test-xiaolei",
-    "updated_at": 1762310653,
+    "updated_at": 1763371402,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
@@ -57,7 +59,7 @@
     },
     "model_family": "Wan",
     "model_ability": [
-      "image2video0000"
+      "image2video"
     ],
     "default_model_config": {
       "torch_dtype": "bfloat16"
