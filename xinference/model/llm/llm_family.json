@@ -473,7 +473,7 @@
       "en"
     ],
     "model_name": "codestral-v0.1",
-    "updated_at": 1762246227,
+    "updated_at": 1763367105,
     "model_specs": [
       {
         "model_src": {
@@ -541,7 +541,8 @@
       "generate"
     ],
     "context_length": 32768,
-    "model_description": "Codestrall-22B-v0.1 is trained on a diverse dataset of 80+ programming languages, including the most popular ones, such as Python, Java, C, C++, JavaScript, and Bash"
+    "model_description": "Codestrall-22B-v0.1 is trained on a diverse dataset of 80+ programming languages, including the most popular ones, such as Python, Java, C, C++, JavaScript, and Bash",
+    "featured": false
   },
   {
     "stop": [
