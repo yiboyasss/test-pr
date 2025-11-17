@@ -9682,7 +9682,7 @@
       "th"
     ],
     "model_name": "llama-3.2-vision-instruct",
-    "updated_at": 1762246227,
+    "updated_at": 1763367178,
     "model_specs": [
       {
         "model_src": {
@@ -9732,7 +9732,8 @@
       128008,
       128009
     ],
-    "model_description": "Llama 3.2-Vision instruction-tuned models are optimized for visual recognition, image reasoning, captioning, and answering general questions about an image..."
+    "model_description": "Llama 3.2-Vision instruction-tuned models are optimized for visual recognition, image reasoning, captioning, and answering general questions about an image...",
+    "featured": false
   },
   {
     "stop": [
