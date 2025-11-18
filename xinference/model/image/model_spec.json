@@ -42,7 +42,7 @@
     "virtualenv": {
       "packages": []
     },
-    "featured": true,
-    "updated_at": 1763433704
+    "featured": false,
+    "updated_at": 1763433756
   }
 ]
