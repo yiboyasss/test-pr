@@ -31,12 +31,11 @@
       }
     },
     "model_name": "custom-image-20",
-    "updated_at": 1763607853,
+    "updated_at": 1763607927,
     "virtualenv": {
       "packages": []
     },
     "cache_config": {},
-    "model_family": "stable_diffusion",
     "model_ability": [
       "text2image"
     ],
