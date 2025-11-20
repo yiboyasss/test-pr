@@ -23,26 +23,25 @@
     "updated_at": 1763433511
   },
   {
-    "model_name": "custom-image-20",
-    "model_description": "This is a custom model description.",
-    "model_ability": [
-      "text2image"
-    ],
-    "model_family": "stable_diffusion",
-    "controlnet": [],
+    "version": 2,
+    "featured": false,
     "model_src": {
       "modelscope": {
         "model_id": "1"
       }
     },
-    "default_model_config": {},
-    "default_generate_config": {},
-    "cache_config": {},
-    "version": 2,
+    "model_name": "custom-image-20",
+    "updated_at": 1763607853,
     "virtualenv": {
       "packages": []
     },
-    "featured": false,
-    "updated_at": 1763433756
+    "cache_config": {},
+    "model_family": "stable_diffusion",
+    "model_ability": [
+      "text2image"
+    ],
+    "model_description": "This is a custom model description.",
+    "default_model_config": {},
+    "default_generate_config": {}
   }
 ]
