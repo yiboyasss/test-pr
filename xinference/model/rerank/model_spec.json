@@ -131,11 +131,11 @@
     "version": 2,
     "featured": false,
     "language": [
-      "en333"
+      "en3334"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank",
-    "updated_at": 1763373904,
+    "updated_at": 1763975452,
     "virtualenv": {
       "packages": []
     },
