@@ -33,7 +33,6 @@
     "default_generate_config": {}
   },
   {
-    "test": "test111",
     "version": 2,
     "featured": true,
     "model_src": {
@@ -47,7 +46,7 @@
       }
     },
     "model_name": "video-test-xiaolei",
-    "updated_at": 1763371402,
+    "updated_at": 1764037659,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
@@ -57,12 +56,11 @@
         "#system_numpy#"
       ]
     },
-    "model_family": "Wan",
     "model_ability": [
       "image2video"
     ],
     "default_model_config": {
-      "torch_dtype": "bfloat16"
+      "torch_dtype": "bfloat161"
     },
     "default_generate_config": {
       "max_area": [
