@@ -46,7 +46,7 @@
       }
     },
     "model_name": "video-test-xiaolei",
-    "updated_at": 1764037545,
+    "updated_at": 1764037659,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
@@ -60,14 +60,13 @@
       "image2video"
     ],
     "default_model_config": {
-      "torch_dtype": "bfloat16"
+      "torch_dtype": "bfloat161"
     },
     "default_generate_config": {
       "max_area": [
         720,
         1280
       ]
-    },
-    "name": "video-test-xiaolei"
+    }
   }
 ]
