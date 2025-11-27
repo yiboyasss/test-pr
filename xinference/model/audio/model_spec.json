@@ -1,22 +1,22 @@
 [
   {
-    "model_name": "custom-audio",
-    "model_description": "This is a custom model description.",
-    "model_ability": [
-      "text2audio"
-    ],
-    "multilingual": false,
-    "model_family": "whisper",
+    "version": 2,
+    "featured": false,
     "model_src": {
       "modelscope": {
         "model_id": "1"
       }
     },
-    "version": 2,
+    "model_name": "custom-audio",
+    "updated_at": 1763433670,
     "virtualenv": {
       "packages": []
     },
-    "featured": false,
-    "updated_at": 1763433670
+    "model_family": "whisper",
+    "multilingual": false,
+    "model_ability": [
+      "text2audio"
+    ],
+    "model_description": "This is a custom model description."
   }
 ]
