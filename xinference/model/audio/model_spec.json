@@ -4,11 +4,11 @@
     "featured": false,
     "model_src": {
       "modelscope": {
-        "model_id": "1"
+        "model_id": "12"
       }
     },
     "model_name": "custom-audio",
-    "updated_at": 1763433670,
+    "updated_at": 1764228515,
     "virtualenv": {
       "packages": []
     },
