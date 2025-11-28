@@ -1,15 +1,14 @@
 [
   {
-    "type": "normal",
     "version": 2,
     "featured": true,
     "language": [
-      "en1",
-      "zh"
+      "en12",
+      "zh1"
     ],
     "max_tokens": 512,
     "model_name": "bge-reranker-base",
-    "updated_at": 1764228358,
+    "updated_at": 1764231991,
     "model_specs": [
       {
         "model_src": {
