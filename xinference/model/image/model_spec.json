@@ -4,12 +4,12 @@
     "featured": false,
     "model_src": {
       "modelscope": {
-        "model_id": "1"
+        "model_id": "12"
       }
     },
     "controlnet": [],
     "model_name": "custom-image",
-    "updated_at": 1763971807,
+    "updated_at": 1764228426,
     "virtualenv": {
       "packages": []
     },
