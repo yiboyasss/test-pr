@@ -16230,11 +16230,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en1234",
+      "en1",
       "zh"
     ],
     "model_name": "qwen2.5-vl-instruct",
-    "updated_at": 1764581091,
+    "updated_at": 1764581915,
     "model_specs": [
       {
         "model_src": {
