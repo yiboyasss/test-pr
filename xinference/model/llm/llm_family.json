@@ -7465,10 +7465,10 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en1"
+      "en123"
     ],
     "model_name": "gemma-3-it",
-    "updated_at": 1764573529,
+    "updated_at": 1764576394,
     "model_specs": [
       {
         "model_src": {
@@ -16230,11 +16230,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en1",
+      "en12",
       "zh"
     ],
     "model_name": "qwen2.5-vl-instruct",
-    "updated_at": 1764572404,
+    "updated_at": 1764577040,
     "model_specs": [
       {
         "model_src": {
@@ -20393,11 +20393,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en1",
+      "en12",
       "zh"
     ],
     "model_name": "Ernie4.5",
-    "updated_at": 1764572967,
+    "updated_at": 1764576335,
     "virtualenv": {
       "packages": [
         "transformers",
