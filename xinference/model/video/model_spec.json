@@ -45,7 +45,7 @@
       }
     },
     "model_name": "video-test-xiaolei",
-    "updated_at": 1764224522,
+    "updated_at": 1764577179,
     "virtualenv": {
       "packages": [
         "diffusers>=0.33.0",
@@ -56,7 +56,7 @@
       ]
     },
     "model_ability": [
-      "image2video123"
+      "image2video1234"
     ],
     "default_model_config": {
       "torch_dtype": "bfloat161"
