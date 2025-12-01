@@ -22170,10 +22170,10 @@
     "version": 2,
     "featured": false,
     "model_lang": [
-      "en1"
+      "en12"
     ],
     "model_name": "custom-llm-xxxxxx",
-    "updated_at": 1764569884,
+    "updated_at": 1764571917,
     "virtualenv": {
       "packages": []
     },
