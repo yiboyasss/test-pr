@@ -7465,10 +7465,10 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en12"
+      "en123"
     ],
     "model_name": "gemma-3-it",
-    "updated_at": 1764576343,
+    "updated_at": 1764576394,
     "model_specs": [
       {
         "model_src": {
