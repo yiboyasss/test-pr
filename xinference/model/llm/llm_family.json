@@ -21177,10 +21177,10 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en1"
+      "en12"
     ],
     "model_name": "gpt-oss",
-    "updated_at": 1764646050,
+    "updated_at": 1764658419,
     "virtualenv": {
       "packages": [
         "transformers>=4.55.0,<4.56.0",
@@ -22147,8 +22147,6 @@
     ],
     "model_specs": [
       {
-        "model_size_in_billions": 7,
-        "model_format": "pytorch",
         "model_src": {
           "huggingface": {
             "model_id": "1",
@@ -22156,7 +22154,9 @@
               "none"
             ]
           }
-        }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
       }
     ],
     "version": 2,
@@ -22240,8 +22240,6 @@
     ],
     "model_specs": [
       {
-        "model_size_in_billions": 7,
-        "model_format": "pytorch",
         "model_src": {
           "modelscope": {
             "model_id": "1",
@@ -22249,7 +22247,9 @@
               "none"
             ]
           }
-        }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
       }
     ],
     "version": 2,
@@ -22271,8 +22271,6 @@
     ],
     "model_specs": [
       {
-        "model_size_in_billions": 7,
-        "model_format": "pytorch",
         "model_src": {
           "modelscope": {
             "model_id": "1",
@@ -22280,7 +22278,9 @@
               "none"
             ]
           }
-        }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
       }
     ],
     "version": 2,
@@ -22302,8 +22302,6 @@
     ],
     "model_specs": [
       {
-        "model_size_in_billions": 7,
-        "model_format": "pytorch",
         "model_src": {
           "modelscope": {
             "model_id": "q",
@@ -22311,7 +22309,9 @@
               "none"
             ]
           }
-        }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
       }
     ],
     "version": 2,
@@ -22328,7 +22328,7 @@
       "en12"
     ],
     "model_name": "custom-llm-test-45",
-    "updated_at": 1764583627,
+    "updated_at": 1764584371,
     "virtualenv": {
       "packages": []
     },
@@ -22345,7 +22345,12 @@
         "model_format": "pytorch",
         "model_size_in_billions": 7
       }
-    ]
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 2048,
+    "model_description": "This is a custom model description."
   },
   {
     "version": 2,
@@ -22386,10 +22391,6 @@
     ],
     "model_name": "custom-llm-test-47",
     "updated_at": 1764646418,
-      "en12"
-    ],
-    "model_name": "custom-llm-test-47",
-    "updated_at": 1764646352,
     "virtualenv": {
       "packages": []
     },
@@ -22421,6 +22422,254 @@
     ],
     "model_name": "custom-llm-test-49",
     "updated_at": 1764653256,
+    "virtualenv": {
+      "packages": []
+    },
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 2048,
+    "model_description": "This is a custom model description."
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en"
+    ],
+    "model_name": "custom-llm-test-54",
+    "updated_at": 1764657234,
+    "virtualenv": {
+      "packages": []
+    },
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 2048,
+    "model_description": "This is a custom model description."
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en1"
+    ],
+    "model_name": "custom-llm-test-41",
+    "updated_at": 1764581049,
+    "virtualenv": {
+      "packages": []
+    },
+    "model_specs": [
+      {
+        "model_src": {
+          "openmind_hub": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 2048,
+    "model_description": "This is a custom model description."
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en"
+    ],
+    "model_name": "custom-llm-42",
+    "updated_at": 1764581955,
+    "virtualenv": {
+      "packages": []
+    },
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 2048,
+    "model_description": "This is a custom model description."
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en"
+    ],
+    "model_name": "custom-llm-test-48",
+    "updated_at": 1764648927,
+    "virtualenv": {
+      "packages": []
+    },
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 2048,
+    "model_description": "This is a custom model description."
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en1"
+    ],
+    "model_name": "custom-llm-test-50",
+    "updated_at": 1764656242,
+    "virtualenv": {
+      "packages": []
+    },
+    "model_specs": [
+      {
+        "model_src": {
+          "huggingface": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 2048,
+    "model_description": "This is a custom model description."
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en"
+    ],
+    "model_name": "custom-llm-test-51",
+    "updated_at": 1764656378,
+    "virtualenv": {
+      "packages": []
+    },
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 2048,
+    "model_description": "This is a custom model description."
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en"
+    ],
+    "model_name": "custom-llm-test-52",
+    "updated_at": 1764656755,
+    "virtualenv": {
+      "packages": []
+    },
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 2048,
+    "model_description": "This is a custom model description."
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en"
+    ],
+    "model_name": "custom-llm-test-53",
+    "updated_at": 1764656936,
     "virtualenv": {
       "packages": []
     },
