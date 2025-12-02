@@ -20393,11 +20393,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en1",
+      "en12",
       "zh"
     ],
     "model_name": "Ernie4.5",
-    "updated_at": 1764640307,
+    "updated_at": 1764643560,
     "virtualenv": {
       "packages": [
         "transformers",
