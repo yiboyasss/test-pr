@@ -3,12 +3,12 @@
     "version": 2,
     "featured": true,
     "language": [
-      "en12",
-      "zh1234"
+      "en1",
+      "zh"
     ],
     "max_tokens": 512,
     "model_name": "bge-reranker-base",
-    "updated_at": 1764571985,
+    "updated_at": 1764640242,
     "model_specs": [
       {
         "model_src": {
@@ -130,11 +130,11 @@
     "version": 2,
     "featured": false,
     "language": [
-      "en3334"
+      "en1"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank",
-    "updated_at": 1763975452,
+    "updated_at": 1764641438,
     "virtualenv": {
       "packages": []
     },
