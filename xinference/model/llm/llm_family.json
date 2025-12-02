@@ -7465,10 +7465,10 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en1"
+      "en12"
     ],
     "model_name": "gemma-3-it",
-    "updated_at": 1764584701,
+    "updated_at": 1764640101,
     "model_specs": [
       {
         "model_src": {
@@ -16230,11 +16230,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en123",
+      "en1234",
       "zh"
     ],
     "model_name": "qwen2.5-vl-instruct",
-    "updated_at": 1764639939,
+    "updated_at": 1764640045,
     "model_specs": [
       {
         "model_src": {
@@ -16498,11 +16498,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en1",
+      "en12",
       "zh"
     ],
     "model_name": "qwen3",
-    "updated_at": 1764572511,
+    "updated_at": 1764641359,
     "virtualenv": {
       "packages": [
         "transformers>=4.51.0",
@@ -20393,11 +20393,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en12",
+      "en1",
       "zh"
     ],
     "model_name": "Ernie4.5",
-    "updated_at": 1764576335,
+    "updated_at": 1764640307,
     "virtualenv": {
       "packages": [
         "transformers",
