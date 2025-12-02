@@ -31,12 +31,12 @@
     "version": 2,
     "featured": false,
     "language": [
-      "en1"
+      "en123"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-6",
-    "updated_at": 1764042783,
+    "updated_at": 1764669688,
     "virtualenv": {
       "packages": []
     },
