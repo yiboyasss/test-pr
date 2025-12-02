@@ -21180,7 +21180,7 @@
       "en12"
     ],
     "model_name": "gpt-oss",
-    "updated_at": 1764658419,
+    "updated_at": 1764669251,
     "virtualenv": {
       "packages": [
         "transformers>=4.55.0,<4.56.0",
