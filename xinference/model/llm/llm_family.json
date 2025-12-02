@@ -22728,10 +22728,10 @@
     "version": 2,
     "featured": false,
     "model_lang": [
-      "en"
+      "en1"
     ],
     "model_name": "custom-llm-test-56",
-    "updated_at": 1764659535,
+    "updated_at": 1764659595,
     "virtualenv": {
       "packages": []
     },
