@@ -22322,19 +22322,18 @@
     "updated_at": 1764582681
   },
   {
-    "model_name": "custom-llm-test-45",
-    "model_description": "This is a custom model description.",
-    "context_length": 2048,
+    "version": 2,
+    "featured": false,
     "model_lang": [
-      "en"
+      "en12"
     ],
-    "model_ability": [
-      "generate"
-    ],
+    "model_name": "custom-llm-test-45",
+    "updated_at": 1764584371,
+    "virtualenv": {
+      "packages": []
+    },
     "model_specs": [
       {
-        "model_size_in_billions": 7,
-        "model_format": "pytorch",
         "model_src": {
           "modelscope": {
             "model_id": "2",
@@ -22342,7 +22341,9 @@
               "none"
             ]
           }
-        }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
       }
     ],
     "version": 2,
