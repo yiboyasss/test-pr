@@ -16230,11 +16230,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en12",
+      "en123",
       "zh"
     ],
     "model_name": "qwen2.5-vl-instruct",
-    "updated_at": 1764583134,
+    "updated_at": 1764639939,
     "model_specs": [
       {
         "model_src": {
@@ -22328,7 +22328,7 @@
       "en12"
     ],
     "model_name": "custom-llm-test-45",
-    "updated_at": 1764584371,
+    "updated_at": 1764583627,
     "virtualenv": {
       "packages": []
     },
@@ -22345,13 +22345,7 @@
         "model_format": "pytorch",
         "model_size_in_billions": 7
       }
-    ],
-    "version": 2,
-    "virtualenv": {
-      "packages": []
-    },
-    "featured": false,
-    "updated_at": 1764583627
+    ]
   },
   {
     "version": 2,
