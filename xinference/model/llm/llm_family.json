@@ -7465,10 +7465,10 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en123"
+      "en1"
     ],
     "model_name": "gemma-3-it",
-    "updated_at": 1764576394,
+    "updated_at": 1764584701,
     "model_specs": [
       {
         "model_src": {
@@ -22356,10 +22356,10 @@
     "version": 2,
     "featured": false,
     "model_lang": [
-      "en1"
+      "en12"
     ],
     "model_name": "custom-llm-test-46",
-    "updated_at": 1764584328,
+    "updated_at": 1764584629,
     "virtualenv": {
       "packages": []
     },
