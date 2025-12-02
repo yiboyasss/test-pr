@@ -22723,5 +22723,36 @@
     },
     "featured": false,
     "updated_at": 1764658354
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en1"
+    ],
+    "model_name": "custom-llm-test-56",
+    "updated_at": 1764659595,
+    "virtualenv": {
+      "packages": []
+    },
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 2048,
+    "model_description": "This is a custom model description."
   }
 ]
