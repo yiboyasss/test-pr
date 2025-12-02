@@ -130,11 +130,11 @@
     "version": 2,
     "featured": false,
     "language": [
-      "en1"
+      "en123"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank",
-    "updated_at": 1764641438,
+    "updated_at": 1764670316,
     "virtualenv": {
       "packages": []
     },
@@ -158,11 +158,11 @@
     "version": 2,
     "featured": false,
     "language": [
-      "en"
+      "en1"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank-1",
-    "updated_at": 1763373904,
+    "updated_at": 1764670449,
     "virtualenv": {
       "packages": []
     },
