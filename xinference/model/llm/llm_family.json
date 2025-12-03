@@ -22790,10 +22790,10 @@
     "version": 2,
     "featured": false,
     "model_lang": [
-      "en1"
+      "en12"
     ],
     "model_name": "custom-llm-test-58",
-    "updated_at": 1764728853,
+    "updated_at": 1764733220,
     "virtualenv": {
       "packages": []
     },
