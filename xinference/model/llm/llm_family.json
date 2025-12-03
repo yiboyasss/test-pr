@@ -22914,10 +22914,10 @@
     "version": 2,
     "featured": false,
     "model_lang": [
-      "en"
+      "en1"
     ],
     "model_name": "custom-llm-test-62",
-    "updated_at": 1764733893,
+    "updated_at": 1764733940,
     "virtualenv": {
       "packages": []
     },
