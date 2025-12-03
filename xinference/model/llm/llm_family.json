@@ -23069,10 +23069,10 @@
     "version": 2,
     "featured": false,
     "model_lang": [
-      "en"
+      "en1"
     ],
     "model_name": "custom-llm-test-69",
-    "updated_at": 1764754123,
+    "updated_at": 1764754316,
     "virtualenv": {
       "packages": []
     },
