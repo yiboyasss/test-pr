@@ -87,12 +87,12 @@
     "version": 2,
     "featured": false,
     "language": [
-      "en123"
+      "en1234"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-8",
-    "updated_at": 1764669408,
+    "updated_at": 1764733390,
     "virtualenv": {
       "packages": []
     },
