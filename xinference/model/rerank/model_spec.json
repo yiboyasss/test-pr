@@ -3,7 +3,7 @@
     "version": 2,
     "featured": true,
     "language": [
-      "en12",
+      "en123",
       "zh"
     ],
     "max_tokens": 512,
