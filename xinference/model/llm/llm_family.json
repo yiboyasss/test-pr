@@ -5895,11 +5895,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en123",
+      "en",
       "zh"
     ],
     "model_name": "deepseek-r1-0528-qwen3",
-    "updated_at": 1764751895,
+    "updated_at": 1764754455,
     "model_specs": [
       {
         "model_src": {
