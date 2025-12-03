@@ -7465,10 +7465,10 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en12"
+      "en1"
     ],
     "model_name": "gemma-3-it",
-    "updated_at": 1764640101,
+    "updated_at": 1764753004,
     "model_specs": [
       {
         "model_src": {
@@ -16230,11 +16230,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en1234",
+      "en",
       "zh"
     ],
     "model_name": "qwen2.5-vl-instruct",
-    "updated_at": 1764640045,
+    "updated_at": 1764752307,
     "model_specs": [
       {
         "model_src": {
@@ -23011,6 +23011,37 @@
     ],
     "model_name": "custom-llm-test-65",
     "updated_at": 1764739994,
+    "virtualenv": {
+      "packages": []
+    },
+    "model_specs": [
+      {
+        "model_src": {
+          "huggingface": {
+            "model_id": "1",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 2048,
+    "model_description": "This is a custom model description."
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en123"
+    ],
+    "model_name": "custom-llm-test-67",
+    "updated_at": 1764752217,
     "virtualenv": {
       "packages": []
     },
