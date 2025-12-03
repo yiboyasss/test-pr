@@ -16502,7 +16502,7 @@
       "zh"
     ],
     "model_name": "qwen3",
-    "updated_at": 1764669072,
+    "updated_at": 1764750679,
     "virtualenv": {
       "packages": [
         "transformers>=4.51.0",
