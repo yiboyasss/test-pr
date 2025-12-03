@@ -16498,11 +16498,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en1234",
+      "en",
       "zh"
     ],
     "model_name": "qwen3",
-    "updated_at": 1764751727,
+    "updated_at": 1764755276,
     "virtualenv": {
       "packages": [
         "transformers>=4.51.0",
@@ -23072,7 +23072,7 @@
       "en12"
     ],
     "model_name": "custom-llm-test-68",
-    "updated_at": 1764754468,
+    "updated_at": 1764755343,
     "virtualenv": {
       "packages": []
     },
