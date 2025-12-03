@@ -366,12 +366,12 @@
     "version": 2,
     "featured": true,
     "language": [
-      "en1234"
+      "en1"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-32",
-    "updated_at": 1764742687,
+    "updated_at": 1764744317,
     "virtualenv": {
       "packages": []
     },
