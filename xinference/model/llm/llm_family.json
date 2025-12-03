@@ -22883,10 +22883,10 @@
     "version": 2,
     "featured": false,
     "model_lang": [
-      "en"
+      "en1"
     ],
     "model_name": "custom-llm-test-61",
-    "updated_at": 1764733244,
+    "updated_at": 1764733285,
     "virtualenv": {
       "packages": []
     },
