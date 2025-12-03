@@ -21177,10 +21177,10 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en12"
+      "en123"
     ],
     "model_name": "gpt-oss",
-    "updated_at": 1764669251,
+    "updated_at": 1764727588,
     "virtualenv": {
       "packages": [
         "transformers>=4.55.0,<4.56.0",
