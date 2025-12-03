@@ -16498,11 +16498,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en12",
+      "en1",
       "zh"
     ],
     "model_name": "qwen3",
-    "updated_at": 1764669072,
+    "updated_at": 1764750352,
     "virtualenv": {
       "packages": [
         "transformers>=4.51.0",
