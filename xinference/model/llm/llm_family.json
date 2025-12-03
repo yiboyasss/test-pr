@@ -5895,11 +5895,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en123",
+      "en",
       "zh"
     ],
     "model_name": "deepseek-r1-0528-qwen3",
-    "updated_at": 1764751895,
+    "updated_at": 1764754455,
     "model_specs": [
       {
         "model_src": {
@@ -7465,10 +7465,10 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en1"
+      "en"
     ],
     "model_name": "gemma-3-it",
-    "updated_at": 1764753004,
+    "updated_at": 1764754621,
     "model_specs": [
       {
         "model_src": {
@@ -16230,11 +16230,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en",
+      "en1",
       "zh"
     ],
     "model_name": "qwen2.5-vl-instruct",
-    "updated_at": 1764752307,
+    "updated_at": 1764754659,
     "model_specs": [
       {
         "model_src": {
@@ -20820,11 +20820,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en",
+      "en1",
       "zh"
     ],
     "model_name": "glm-4.5",
-    "updated_at": 1763367232,
+    "updated_at": 1764754898,
     "virtualenv": {
       "packages": [
         "transformers>=4.54.0",
