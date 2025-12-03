@@ -23038,10 +23038,10 @@
     "version": 2,
     "featured": false,
     "model_lang": [
-      "en12"
+      "en123"
     ],
     "model_name": "custom-llm-test-67",
-    "updated_at": 1764752083,
+    "updated_at": 1764752217,
     "virtualenv": {
       "packages": []
     },
