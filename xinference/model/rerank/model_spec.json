@@ -158,11 +158,11 @@
     "version": 2,
     "featured": false,
     "language": [
-      "en12"
+      "en123"
     ],
     "max_tokens": 512,
     "model_name": "custom-rerank-1",
-    "updated_at": 1764727463,
+    "updated_at": 1764729288,
     "virtualenv": {
       "packages": []
     },
