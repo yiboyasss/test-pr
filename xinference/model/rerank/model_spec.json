@@ -3,12 +3,12 @@
     "version": 2,
     "featured": true,
     "language": [
-      "en",
+      "en1",
       "zh"
     ],
     "max_tokens": 512,
     "model_name": "bge-reranker-base",
-    "updated_at": 1764754685,
+    "updated_at": 1764839733,
     "model_specs": [
       {
         "model_src": {
