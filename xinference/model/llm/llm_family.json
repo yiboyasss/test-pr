@@ -20820,11 +20820,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en12",
+      "en123",
       "zh"
     ],
     "model_name": "glm-4.5",
-    "updated_at": 1764838928,
+    "updated_at": 1764839564,
     "virtualenv": {
       "packages": [
         "transformers>=4.54.0",
