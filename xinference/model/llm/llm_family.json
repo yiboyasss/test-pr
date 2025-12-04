@@ -5895,11 +5895,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en",
+      "en1",
       "zh"
     ],
     "model_name": "deepseek-r1-0528-qwen3",
-    "updated_at": 1763367154,
+    "updated_at": 1764839878,
     "model_specs": [
       {
         "model_src": {
@@ -7465,10 +7465,10 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en12"
+      "en"
     ],
     "model_name": "gemma-3-it",
-    "updated_at": 1764640101,
+    "updated_at": 1764754621,
     "model_specs": [
       {
         "model_src": {
@@ -16230,11 +16230,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en1234",
+      "en1",
       "zh"
     ],
     "model_name": "qwen2.5-vl-instruct",
-    "updated_at": 1764640045,
+    "updated_at": 1764754659,
     "model_specs": [
       {
         "model_src": {
@@ -16502,7 +16502,7 @@
       "zh"
     ],
     "model_name": "qwen3",
-    "updated_at": 1764669072,
+    "updated_at": 1764839386,
     "virtualenv": {
       "packages": [
         "transformers>=4.51.0",
@@ -20393,11 +20393,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en12",
+      "en",
       "zh"
     ],
     "model_name": "Ernie4.5",
-    "updated_at": 1764643560,
+    "updated_at": 1764840056,
     "virtualenv": {
       "packages": [
         "transformers",
@@ -20820,11 +20820,11 @@
     "version": 2,
     "featured": true,
     "model_lang": [
-      "en",
+      "en123",
       "zh"
     ],
     "model_name": "glm-4.5",
-    "updated_at": 1763367232,
+    "updated_at": 1764839564,
     "virtualenv": {
       "packages": [
         "transformers>=4.54.0",
@@ -22821,10 +22821,10 @@
     "version": 2,
     "featured": false,
     "model_lang": [
-      "en1"
+      "en12"
     ],
     "model_name": "custom-llm-test-59",
-    "updated_at": 1764729817,
+    "updated_at": 1764731970,
     "virtualenv": {
       "packages": []
     },
@@ -22860,8 +22860,6 @@
     ],
     "model_specs": [
       {
-        "model_size_in_billions": 7,
-        "model_format": "pytorch",
         "model_src": {
           "huggingface": {
             "model_id": "1",
@@ -22869,7 +22867,9 @@
               "none"
             ]
           }
-        }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
       }
     ],
     "version": 2,
@@ -22914,10 +22914,10 @@
     "version": 2,
     "featured": false,
     "model_lang": [
-      "en123"
+      "en1235"
     ],
     "model_name": "custom-llm-test-62",
-    "updated_at": 1764734074,
+    "updated_at": 1764734123,
     "virtualenv": {
       "packages": []
     },
@@ -22976,10 +22976,10 @@
     "version": 2,
     "featured": false,
     "model_lang": [
-      "en12"
+      "en123"
     ],
-    "model_name": "custom-llm-test-64",
-    "updated_at": 1764735519,
+    "model_name": "custom-llm-test-65",
+    "updated_at": 1764832159,
     "virtualenv": {
       "packages": []
     },
