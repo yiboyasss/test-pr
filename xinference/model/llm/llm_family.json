@@ -23100,10 +23100,10 @@
     "version": 2,
     "featured": false,
     "model_lang": [
-      "en"
+      "en1"
     ],
     "model_name": "custom-llm-test-70",
-    "updated_at": 1764839178,
+    "updated_at": 1764839226,
     "virtualenv": {
       "packages": []
     },
