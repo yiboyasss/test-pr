@@ -152,5 +152,22 @@
     "model_ability": [
       "audio2text"
     ]
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "huggingface": {
+        "model_id": "openai/whisper-small",
+        "model_revision": "998cb1a777c20db53d6033a61b977ed4c3792cac"
+      }
+    },
+    "model_name": "whisper-small",
+    "updated_at": 1766384391,
+    "model_family": "whisper",
+    "multilingual": true,
+    "model_ability": [
+      "audio2text"
+    ]
   }
 ]
