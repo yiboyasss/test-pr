@@ -30,5 +30,208 @@
       "torch_dtype": "bfloat16"
     },
     "default_generate_config": {}
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "modelscope": {
+        "model_id": "ZhipuAI/CogVideoX-2b",
+        "model_revision": "master"
+      },
+      "huggingface": {
+        "model_id": "THUDM/CogVideoX-2b",
+        "model_revision": "4bbfb1de622b80bc1b77b6e9aced75f816be0e38"
+      }
+    },
+    "model_name": "CogVideoX-2b",
+    "updated_at": 1766386570,
+    "model_family": "CogVideoX",
+    "model_ability": [
+      "text2video"
+    ],
+    "default_model_config": {
+      "scheduler": "CogVideoXDDIMScheduler",
+      "torch_dtype": "float16"
+    },
+    "default_generate_config": {
+      "guidance_scale": 6
+    }
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "modelscope": {
+        "model_id": "Wan-AI/Wan2.1-I2V-14B-480P-Diffusers",
+        "model_revision": "master"
+      },
+      "huggingface": {
+        "model_id": "Wan-AI/Wan2.1-I2V-14B-480P-Diffusers",
+        "model_revision": "b184e23a8a16b20f108f727c902e769e873ffc73"
+      }
+    },
+    "model_name": "Wan2.1-i2v-14B-480p",
+    "updated_at": 1766386571,
+    "virtualenv": {
+      "packages": [
+        "diffusers>=0.33.0",
+        "ftfy",
+        "imageio-ffmpeg",
+        "imageio",
+        "#system_numpy#"
+      ]
+    },
+    "model_family": "Wan",
+    "model_ability": [
+      "image2video"
+    ],
+    "default_model_config": {
+      "torch_dtype": "bfloat16"
+    },
+    "default_generate_config": {
+      "max_area": [
+        480,
+        832
+      ]
+    }
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "modelscope": {
+        "model_id": "Wan-AI/Wan2.1-I2V-14B-720P-Diffusers",
+        "model_revision": "master"
+      },
+      "huggingface": {
+        "model_id": "Wan-AI/Wan2.1-I2V-14B-720P-Diffusers",
+        "model_revision": "eb849f76dfa246545b65774a9e25943ee69b3fa3"
+      }
+    },
+    "model_name": "Wan2.1-i2v-14B-720p",
+    "updated_at": 1766386572,
+    "virtualenv": {
+      "packages": [
+        "diffusers>=0.33.0",
+        "ftfy",
+        "imageio-ffmpeg",
+        "imageio",
+        "#system_numpy#"
+      ]
+    },
+    "model_family": "Wan",
+    "model_ability": [
+      "image2video"
+    ],
+    "default_model_config": {
+      "torch_dtype": "bfloat16"
+    },
+    "default_generate_config": {
+      "max_area": [
+        720,
+        1280
+      ]
+    }
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "modelscope": {
+        "model_id": "Wan-AI/Wan2.2-T2V-A14B-Diffusers",
+        "model_revision": "master"
+      },
+      "huggingface": {
+        "model_id": "Wan-AI/Wan2.2-T2V-A14B-Diffusers",
+        "model_revision": "5be7df9619b54f4e2667b2755bc6a756675b5cd7"
+      }
+    },
+    "model_name": "Wan2.2-A14B",
+    "updated_at": 1766386572,
+    "virtualenv": {
+      "packages": [
+        "diffusers==0.35.1",
+        "ftfy",
+        "imageio-ffmpeg",
+        "imageio",
+        "#system_numpy#"
+      ]
+    },
+    "model_family": "Wan",
+    "model_ability": [
+      "text2video"
+    ],
+    "default_model_config": {
+      "torch_dtype": "bfloat16"
+    },
+    "default_generate_config": {}
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "modelscope": {
+        "model_id": "Wan-AI/Wan2.2-I2V-A14B-Diffusers",
+        "model_revision": "master"
+      },
+      "huggingface": {
+        "model_id": "Wan-AI/Wan2.2-I2V-A14B-Diffusers",
+        "model_revision": "596658fd9ca6b7b71d5057529bbf319ecbc61d74"
+      }
+    },
+    "model_name": "Wan2.2-i2v-A14B",
+    "updated_at": 1766386573,
+    "virtualenv": {
+      "packages": [
+        "diffusers==0.35.1",
+        "ftfy",
+        "imageio-ffmpeg",
+        "imageio",
+        "#system_numpy#"
+      ]
+    },
+    "model_family": "Wan",
+    "model_ability": [
+      "image2video"
+    ],
+    "default_model_config": {
+      "torch_dtype": "bfloat16"
+    },
+    "default_generate_config": {}
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "modelscope": {
+        "model_id": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+        "model_revision": "master"
+      },
+      "huggingface": {
+        "model_id": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+        "model_revision": "b8fff7315c768468a5333511427288870b2e9635"
+      }
+    },
+    "model_name": "Wan2.2-ti2v-5B",
+    "updated_at": 1766386574,
+    "virtualenv": {
+      "packages": [
+        "diffusers==0.35.1",
+        "ftfy",
+        "imageio-ffmpeg",
+        "imageio",
+        "#system_numpy#"
+      ]
+    },
+    "model_family": "Wan",
+    "model_ability": [
+      "text2video",
+      "image2video"
+    ],
+    "default_model_config": {
+      "torch_dtype": "bfloat16"
+    },
+    "default_generate_config": {}
   }
 ]
