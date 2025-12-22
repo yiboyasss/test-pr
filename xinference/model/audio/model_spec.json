@@ -20,5 +20,120 @@
       "text2audio",
       "text2audio_zero_shot"
     ]
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "huggingface": {
+        "model_id": "openai/whisper-tiny",
+        "model_revision": "167c219b21f11ef214220b8fdb7536b8a88c2475"
+      }
+    },
+    "model_name": "whisper-tiny",
+    "updated_at": 1766382095,
+    "model_family": "whisper",
+    "multilingual": true,
+    "model_ability": [
+      "audio2text"
+    ]
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "huggingface": {
+        "model_id": "openai/whisper-tiny.en",
+        "model_revision": "87c7102498dcde7456f24cfd30239ca606ed9063"
+      }
+    },
+    "model_name": "whisper-tiny.en",
+    "updated_at": 1766382126,
+    "model_family": "whisper",
+    "multilingual": false,
+    "model_ability": [
+      "audio2text"
+    ]
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "huggingface": {
+        "model_id": "openai/whisper-base",
+        "model_revision": "8c1db9b51951100007a96a525d83a8ec81b3c237"
+      }
+    },
+    "model_name": "whisper-base",
+    "updated_at": 1766382156,
+    "model_family": "whisper",
+    "multilingual": true,
+    "model_ability": [
+      "audio2text"
+    ]
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "modelscope": {
+        "model_id": "ByteDance/MegaTTS3",
+        "model_revision": "master"
+      },
+      "huggingface": {
+        "model_id": "ByteDance/MegaTTS3",
+        "model_revision": "409a7002b006d80f0730fca6f80441b08c10e738"
+      }
+    },
+    "model_name": "MegaTTS3",
+    "updated_at": 1766382619,
+    "model_family": "MegaTTS",
+    "multilingual": true,
+    "model_ability": [
+      "text2audio",
+      "text2audio_zero_shot"
+    ]
+  },
+  {
+    "version": 2,
+    "featured": true,
+    "model_src": {
+      "modelscope": {
+        "model_id": "IndexTeam/IndexTTS-2",
+        "model_revision": "master"
+      },
+      "huggingface": {
+        "model_id": "IndexTeam/IndexTTS-2",
+        "model_revision": "main"
+      }
+    },
+    "model_name": "IndexTTS2",
+    "updated_at": 1766382620,
+    "virtualenv": {
+      "packages": [
+        "transformers==4.52.1",
+        "#system_torch#",
+        "#system_numpy#",
+        "json5",
+        "munch",
+        "matplotlib",
+        "flatten_dict",
+        "julius",
+        "tensorboard",
+        "randomname",
+        "argbind"
+      ]
+    },
+    "model_family": "IndexTTS2",
+    "multilingual": true,
+    "model_ability": [
+      "text2audio",
+      "text2audio_zero_shot",
+      "text2audio_voice_cloning",
+      "text2audio_emotion_control"
+    ],
+    "default_model_config": {
+      "small_models_dir": null
+    }
   }
 ]
