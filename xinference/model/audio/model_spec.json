@@ -135,5 +135,22 @@
     "default_model_config": {
       "small_models_dir": null
     }
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "huggingface": {
+        "model_id": "openai/whisper-base.en",
+        "model_revision": "911407f4214e0e1d82085af863093ec0b66f9cd6"
+      }
+    },
+    "model_name": "whisper-base.en",
+    "updated_at": 1766383937,
+    "model_family": "whisper",
+    "multilingual": false,
+    "model_ability": [
+      "audio2text"
+    ]
   }
 ]
