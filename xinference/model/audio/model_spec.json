@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "huggingface": {
+        "model_id": "openai/whisper-tiny",
+        "model_revision": "167c219b21f11ef214220b8fdb7536b8a88c2475"
+      }
+    },
+    "model_name": "whisper-tiny",
+    "updated_at": 1766382095,
+    "model_family": "whisper",
+    "multilingual": true,
+    "model_ability": [
+      "audio2text"
+    ]
+  }
+]
