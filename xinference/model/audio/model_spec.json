@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "modelscope": {
+        "model_id": "AI-ModelScope/Kokoro-82M-v1.1-zh",
+        "model_revision": "master"
+      },
+      "huggingface": {
+        "model_id": "hexgrad/Kokoro-82M-v1.1-zh",
+        "model_revision": "01e7505bd6a7a2ac4975463114c3a7650a9f7218"
+      }
+    },
+    "model_name": "Kokoro-82M-v1.1-zh",
+    "updated_at": 1766382620,
+    "model_family": "Kokoro-zh",
+    "multilingual": false,
+    "model_ability": [
+      "text2audio",
+      "text2audio_zero_shot"
+    ]
+  }
+]
