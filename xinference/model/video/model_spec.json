@@ -248,7 +248,7 @@
       }
     },
     "model_name": "Wan2.2-ti2v-5B-test",
-    "updated_at": 1766386574,
+    "updated_at": 1766564344,
     "virtualenv": {
       "packages": [
         "diffusers==0.35.1",
