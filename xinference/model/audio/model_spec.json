@@ -169,5 +169,30 @@
     "model_ability": [
       "audio2text"
     ]
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "modelscope": {
+        "model_id": "Xorbits/HunyuanVideo",
+        "model_revision": "master"
+      },
+      "huggingface": {
+        "model_id": "hunyuanvideo-community/HunyuanVideo",
+        "model_revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773"
+      }
+    },
+    "model_name": "HunyuanVideo",
+    "updated_at": 1766386499,
+    "model_family": "HunyuanVideo",
+    "model_ability": [
+      "text2video"
+    ],
+    "default_model_config": {
+      "torch_dtype": "float16",
+      "transformer_torch_dtype": "bfloat16"
+    },
+    "default_generate_config": {}
   }
 ]
