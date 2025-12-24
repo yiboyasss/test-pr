@@ -213,7 +213,7 @@
         "model_revision": "b8fff7315c768468a5333511427288870b2e9635"
       }
     },
-    "model_name": "Wan2.2-ti2v-5B",
+    "model_name": "Wan2.2-ti2v-5B-test",
     "updated_at": 1766386574,
     "virtualenv": {
       "packages": [
@@ -224,7 +224,7 @@
         "#system_numpy#"
       ]
     },
-    "model_family": "Wan",
+    "model_family": "Wan111",
     "model_ability": [
       "text2video",
       "image2video"
@@ -247,7 +247,7 @@
         "model_revision": "b8fff7315c768468a5333511427288870b2e9635"
       }
     },
-    "model_name": "Wan2.2-ti2v-5B-test",
+    "model_name": "Wan2.2-ti2v-5B-test-2",
     "updated_at": 1766386574,
     "virtualenv": {
       "packages": [
