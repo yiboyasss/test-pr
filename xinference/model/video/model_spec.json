@@ -233,5 +233,39 @@
       "torch_dtype": "bfloat16"
     },
     "default_generate_config": {}
+  },
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "modelscope": {
+        "model_id": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+        "model_revision": "master"
+      },
+      "huggingface": {
+        "model_id": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+        "model_revision": "b8fff7315c768468a5333511427288870b2e9635"
+      }
+    },
+    "model_name": "Wan2.2-ti2v-5B-test",
+    "updated_at": 1766386574,
+    "virtualenv": {
+      "packages": [
+        "diffusers==0.35.1",
+        "ftfy",
+        "imageio-ffmpeg",
+        "imageio",
+        "#system_numpy#"
+      ]
+    },
+    "model_family": "Wan",
+    "model_ability": [
+      "text2video",
+      "image2video"
+    ],
+    "default_model_config": {
+      "torch_dtype": "bfloat16"
+    },
+    "default_generate_config": {}
   }
 ]
