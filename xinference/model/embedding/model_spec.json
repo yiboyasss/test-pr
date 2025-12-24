@@ -282,12 +282,12 @@
     "version": 2,
     "featured": true,
     "language": [
-      "en123"
+      "en123456"
     ],
     "dimensions": 768,
     "max_tokens": 512,
     "model_name": "custom-embedding-26",
-    "updated_at": 1764839836,
+    "updated_at": 1766545656,
     "virtualenv": {
       "packages": []
     },
