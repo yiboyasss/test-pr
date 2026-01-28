@@ -108,7 +108,7 @@
       }
     },
     "model_name": "IndexTTS2",
-    "updated_at": 1769571127,
+    "updated_at": 1769572130,
     "virtualenv": {
       "packages": [
         "transformers==4.52.1",
@@ -122,10 +122,11 @@
         "tensorboard",
         "randomname",
         "argbind",
-        "test"
+        "test",
+        "test2"
       ]
     },
-    "model_family": "IndexTTS21111",
+    "model_family": "IndexTTS21111222",
     "multilingual": true,
     "model_ability": [
       "text2audio",
