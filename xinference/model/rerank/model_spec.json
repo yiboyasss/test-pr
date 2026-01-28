@@ -3,8 +3,9 @@
     "version": 2,
     "featured": true,
     "language": [
-      "en1",
-      "zh"
+      "en123",
+      "zh",
+      "test"
     ],
     "max_tokens": 512,
     "model_name": "bge-reranker-base",
