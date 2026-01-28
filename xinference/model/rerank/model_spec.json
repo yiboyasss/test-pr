@@ -3,20 +3,19 @@
     "version": 2,
     "featured": true,
     "language": [
-      "en123",
-      "zh",
-      "test2"
+      "en",
+      "zh"
     ],
     "max_tokens": 512,
     "model_name": "bge-reranker-base",
-    "updated_at": 1769573190,
+    "updated_at": 1769573307,
     "model_specs": [
       {
         "model_src": {
           "modelscope": {
             "model_id": "Xorbits/bge-reranker-base",
             "quantizations": [
-              "none"
+              "none111"
             ],
             "model_revision": "v0.0.1"
           },
