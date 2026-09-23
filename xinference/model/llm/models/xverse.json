@@ -1,0 +1,79 @@
+[
+  {
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en",
+      "zh"
+    ],
+    "model_name": "xverse",
+    "updated_at": 1763367227,
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "xverse/XVERSE-7B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "xverse/XVERSE-7B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "3778b254def675586e9218ccb15b78d6ef66a3a7"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "xverse/XVERSE-13B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "xverse/XVERSE-13B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "11ac840dda17af81046614229fdd0c658afff747"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 13
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "xverse/XVERSE-65B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "xverse/XVERSE-65B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "7f1b7394f74c630f50612a19ba90bd021c373989"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 65
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 2048,
+    "model_description": "XVERSE is a multilingual large language model, independently developed by Shenzhen Yuanxiang Technology."
+  }
+]

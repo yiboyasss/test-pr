@@ -1,0 +1,58 @@
+[
+  {
+    "stop": [
+      "</s>"
+    ],
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en"
+    ],
+    "model_name": "wizardmath-v1.0",
+    "updated_at": 1763367226,
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "Xorbits/WizardMath-7B-V1.0",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "v1.0.0"
+          },
+          "huggingface": {
+            "model_id": "WizardLMTeam/WizardMath-7B-V1.0",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "825a586f260d6c583b8aa9ceab6cdfaa3d9a4ddc"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      },
+      {
+        "model_src": {
+          "huggingface": {
+            "model_id": "WizardLMTeam/WizardMath-70B-V1.0",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "4dd9f3fcd8c056561d67ec59ae011f7c146aebd2"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 70
+      }
+    ],
+    "chat_template": "{% for item in messages %}{% if loop.first and item['role'] == 'system' %}{{ item['content'] + '\n\n### ' }}{% elif loop.first %}{{ 'Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### ' }}{% endif %}{% if item['role'] == 'user' %}{{ 'Instruction: ' + item['content'] + '\n\n### ' }}{% elif item['role'] == 'assistant' %}{{ 'Response: ' + item['content'] + '\n\n### ' }}{% endif %}{% endfor %}{% if add_generation_prompt %}{{ 'Response: Let\\'s think step by step.' }}{% endif %}",
+    "model_ability": [
+      "chat"
+    ],
+    "context_length": 2048,
+    "stop_token_ids": [
+      2
+    ],
+    "model_description": "WizardMath is an open-source LLM trained by fine-tuning Llama2 with Evol-Instruct, specializing in math."
+  }
+]

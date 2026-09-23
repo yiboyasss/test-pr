@@ -1,0 +1,43 @@
+[
+  {
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en",
+      "zh"
+    ],
+    "model_name": "codeqwen1.5",
+    "updated_at": 1763367141,
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "qwen/CodeQwen1.5-7B",
+            "quantizations": [
+              "none"
+            ]
+          },
+          "huggingface": {
+            "model_id": "Qwen/CodeQwen1.5-7B",
+            "quantizations": [
+              "none"
+            ]
+          },
+          "openmind_hub": {
+            "model_id": "HangZhou_Ascend/CodeQwen1.5-7B",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 65536,
+    "model_description": "CodeQwen1.5 is the Code-Specific version of Qwen1.5. It is a transformer-based decoder-only language model pretrained on a large amount of data of codes."
+  }
+]

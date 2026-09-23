@@ -1,0 +1,35 @@
+[
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "modelscope": {
+        "model_id": "Wan-AI/Wan2.2-I2V-A14B-Diffusers",
+        "model_revision": "master"
+      },
+      "huggingface": {
+        "model_id": "Wan-AI/Wan2.2-I2V-A14B-Diffusers",
+        "model_revision": "596658fd9ca6b7b71d5057529bbf319ecbc61d74"
+      }
+    },
+    "model_name": "Wan2.2-i2v-A14B",
+    "updated_at": 1766386573,
+    "virtualenv": {
+      "packages": [
+        "diffusers==0.35.1",
+        "ftfy",
+        "imageio-ffmpeg",
+        "imageio",
+        "#system_numpy#"
+      ]
+    },
+    "model_family": "Wan",
+    "model_ability": [
+      "image2video"
+    ],
+    "default_model_config": {
+      "torch_dtype": "bfloat16"
+    },
+    "default_generate_config": {}
+  }
+]

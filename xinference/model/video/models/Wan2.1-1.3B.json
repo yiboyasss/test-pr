@@ -1,0 +1,34 @@
+[
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "modelscope": {
+        "model_id": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
+        "model_revision": "master"
+      },
+      "huggingface": {
+        "model_id": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
+        "model_revision": "0fad780a534b6463e45facd96134c9f345acfa5b"
+      }
+    },
+    "model_name": "Wan2.1-1.3B",
+    "updated_at": 1766383345,
+    "virtualenv": {
+      "packages": [
+        "diffusers>=0.33.0",
+        "ftfy",
+        "imageio-ffmpeg",
+        "imageio",
+        "#system_numpy#"
+      ]
+    },
+    "model_ability": [
+      "text2video1234"
+    ],
+    "default_model_config": {
+      "torch_dtype": "bfloat16"
+    },
+    "default_generate_config": {}
+  }
+]

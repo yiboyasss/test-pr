@@ -1,0 +1,120 @@
+[
+  {
+    "stop": [
+      "<|endoftext|>",
+      "<|im_start|>",
+      "<|im_end|>",
+      "<|im_sep|>"
+    ],
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en",
+      "zh"
+    ],
+    "model_name": "Yi-1.5-chat-16k",
+    "updated_at": 1763367131,
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "01ai/Yi-1.5-9B-Chat-16K",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "01-ai/Yi-1.5-9B-Chat-16K",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "551220fb24d69b6bfec5defceeb160395ce5da8d"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 9
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "01ai/Yi-1.5-34B-Chat-16K",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "01-ai/Yi-1.5-34B-Chat-16K",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "dfdbc67be750972bfcc1ac7ffd7fe48689c856fd"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 34
+      },
+      {
+        "model_src": {
+          "huggingface": {
+            "model_id": "QuantFactory/Yi-1.5-9B-Chat-16K-GGUF",
+            "quantizations": [
+              "Q2_K",
+              "Q3_K_L",
+              "Q3_K_M",
+              "Q3_K_S",
+              "Q4_0",
+              "Q4_1",
+              "Q4_K_M",
+              "Q4_K_S",
+              "Q5_0",
+              "Q5_1",
+              "Q5_K_M",
+              "Q5_K_S",
+              "Q6_K",
+              "Q8_0"
+            ],
+            "model_file_name_template": "Yi-1.5-9B-Chat-16K.{quantization}.gguf"
+          }
+        },
+        "model_format": "ggufv2",
+        "model_size_in_billions": 9
+      },
+      {
+        "model_src": {
+          "huggingface": {
+            "model_id": "bartowski/Yi-1.5-34B-Chat-16K-GGUF",
+            "quantizations": [
+              "Q2_K",
+              "Q3_K_L",
+              "Q3_K_M",
+              "Q3_K_S",
+              "Q4_K_M",
+              "Q4_K_S",
+              "Q5_K_M",
+              "Q5_K_S",
+              "Q6_K",
+              "Q8_0"
+            ],
+            "model_file_name_template": "Yi-1.5-34B-Chat-16K-{quantization}.gguf"
+          }
+        },
+        "model_format": "ggufv2",
+        "model_size_in_billions": 34
+      }
+    ],
+    "chat_template": "{% if messages[0]['role'] == 'system' %}{% set system_message = messages[0]['content'] %}{% endif %}{% if system_message is defined %}{{ system_message }}{% endif %}{% for message in messages %}{% set content = message['content'] %}{% if message['role'] == 'user' %}{{ '<|im_start|>user\n' + content + '<|im_end|>\n<|im_start|>assistant\n' }}{% elif message['role'] == 'assistant' %}{{ content + '<|im_end|>' + '\n' }}{% endif %}{% endfor %}",
+    "model_ability": [
+      "chat"
+    ],
+    "context_length": 16384,
+    "stop_token_ids": [
+      2,
+      6,
+      7,
+      8
+    ],
+    "model_description": "Yi-1.5 is an upgraded version of Yi. It is continuously pre-trained on Yi with a high-quality corpus of 500B tokens and fine-tuned on 3M diverse fine-tuning samples."
+  }
+]

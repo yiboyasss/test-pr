@@ -1,0 +1,62 @@
+[
+  {
+    "stop": [
+      "<|EOT|>",
+      "<｜end▁of▁sentence｜>"
+    ],
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en"
+    ],
+    "model_name": "gorilla-openfunctions-v2",
+    "updated_at": 1763367106,
+    "model_specs": [
+      {
+        "model_src": {
+          "huggingface": {
+            "model_id": "gorilla-llm/gorilla-openfunctions-v2",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "0f91d705e64b77fb55e35a7eab5d03bf965c9b5c"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      },
+      {
+        "model_src": {
+          "huggingface": {
+            "model_id": "gorilla-llm//gorilla-openfunctions-v2-GGUF",
+            "quantizations": [
+              "Q2_K",
+              "Q3_K_L",
+              "Q3_K_M",
+              "Q3_K_S",
+              "Q4_0",
+              "Q4_K_M",
+              "Q4_K_S",
+              "Q5_K_M",
+              "Q5_K_S",
+              "Q6_K"
+            ],
+            "model_file_name_template": "gorilla-openfunctions-v2.{quantization}.gguf"
+          }
+        },
+        "model_format": "ggufv2",
+        "model_size_in_billions": 7
+      }
+    ],
+    "chat_template": "{% if not add_generation_prompt is defined %}\n{% set add_generation_prompt = false %}\n{% endif %}\n{%- set ns = namespace(found=false) -%}\n{%- for message in messages -%}\n    {%- if message['role'] == 'system' -%}\n        {%- set ns.found = true -%}\n    {%- endif -%}\n{%- endfor -%}\n{{'<｜begin▁of▁sentence｜>'}}{%- if not ns.found -%}\n{{'You are an AI programming assistant, utilizing the Gorilla LLM model, developed by Gorilla LLM, and you only answer questions related to computer science. For politically sensitive questions, security and privacy issues, and other non-computer science questions, you will refuse to answer\n'}}\n{%- endif %}\n{%- for message in messages %}\n    {%- if message['role'] == 'system' %}\n{{ message['content'] }}\n    {%- else %}\n        {%- if message['role'] == 'user' %}\n{{'### Instruction:\n' + message['content'] + '\n'}}\n        {%- else %}\n{{'### Response:\n' + message['content'] + '\n<|EOT|>\n'}}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{% if add_generation_prompt %}\n{{'### Response:'}}\n{% endif %}",
+    "model_ability": [
+      "chat"
+    ],
+    "context_length": 4096,
+    "stop_token_ids": [
+      100015,
+      100001
+    ],
+    "model_description": "OpenFunctions is designed to extend Large Language Model (LLM) Chat Completion feature to formulate executable APIs call given natural language instructions and API context."
+  }
+]

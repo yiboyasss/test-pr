@@ -1,0 +1,49 @@
+[
+  {
+    "stop": [
+      "<|endoftext|>",
+      "<|user|>",
+      "<|observation|>"
+    ],
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en",
+      "zh"
+    ],
+    "model_name": "cogagent",
+    "updated_at": 1763367145,
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "ZhipuAI/cogagent-9b-20241220",
+            "quantizations": [
+              "none"
+            ]
+          },
+          "huggingface": {
+            "model_id": "zai-org/cogagent-9b-20241220",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": "9"
+      }
+    ],
+    "chat_template": "{% for message in messages %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}",
+    "model_ability": [
+      "chat",
+      "vision"
+    ],
+    "context_length": 4096,
+    "stop_token_ids": [
+      151329,
+      151336,
+      151338
+    ],
+    "model_description": "The CogAgent-9B-20241220 model is based on GLM-4V-9B, a bilingual open-source VLM base model. Through data collection and optimization, multi-stage training, and strategy improvements, CogAgent-9B-20241220 achieves significant advancements in GUI perception, inference prediction accuracy, action space completeness, and task generalizability. "
+  }
+]

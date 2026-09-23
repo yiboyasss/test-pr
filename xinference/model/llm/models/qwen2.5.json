@@ -1,0 +1,189 @@
+[
+  {
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en",
+      "zh"
+    ],
+    "model_name": "qwen2.5",
+    "updated_at": 1763367208,
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "qwen/Qwen2.5-0.5B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "Qwen/Qwen2.5-0.5B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "2630d3d2321bc1f1878f702166d1b2af019a7310"
+          },
+          "openmind_hub": {
+            "model_id": "Tianjin_Ascend/qwen2.5-0.5b",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": "0_5"
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "qwen/Qwen2.5-1.5B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "Qwen/Qwen2.5-1.5B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "e5dfabbcffd9b0c7b31d89b82c5a6b72e663f32c"
+          },
+          "openmind_hub": {
+            "model_id": "Tianjin_Ascend/Qwen2.5-1.5B",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": "1_5"
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "qwen/Qwen2.5-3B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "Qwen/Qwen2.5-3B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "e4aa5ac50aa507415cda96cc99eb77ad0a3d2d34"
+          },
+          "openmind_hub": {
+            "model_id": "Tianjin_Ascend/Qwen2.5-3B",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 3
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "qwen/Qwen2.5-7B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "Qwen/Qwen2.5-7B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "09a0bac5707b43ec44508eab308b0846320c1ed4"
+          },
+          "openmind_hub": {
+            "model_id": "AI-Research/Qwen2.5-7B",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "qwen/Qwen2.5-14B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "Qwen/Qwen2.5-14B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "d02b64ba1ce86bf9948668a13f82709600431ccc"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 14
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "qwen/Qwen2.5-32B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "Qwen/Qwen2.5-32B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "ff23665d01c3665be5fdb271d18a62090b65c06d"
+          },
+          "openmind_hub": {
+            "model_id": "AI-Research/Qwen2.5-32B",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 32
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "qwen/Qwen2.5-72B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "Qwen/Qwen2.5-72B",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "587cc4061cf6a7cc0d429d05c109447e5cf063af"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 72
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 32768,
+    "model_description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters."
+  }
+]

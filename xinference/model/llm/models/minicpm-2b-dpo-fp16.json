@@ -1,0 +1,47 @@
+[
+  {
+    "stop": [
+      "<s>",
+      "</s>"
+    ],
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "zh"
+    ],
+    "model_name": "minicpm-2b-dpo-fp16",
+    "updated_at": 1763367181,
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "OpenBMB/MiniCPM-2B-dpo-fp16",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "master"
+          },
+          "huggingface": {
+            "model_id": "openbmb/MiniCPM-2B-dpo-fp16",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "e7a50289e4f839674cf8d4a5a2ce032ccacf64ac"
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 2
+      }
+    ],
+    "chat_template": "{% for message in messages %}{% if message['role'] == 'user' %}{{'<用户>' + message['content'].strip() + '<AI>'}}{% else %}{{message['content'].strip()}}{% endif %}{% endfor %}",
+    "model_ability": [
+      "chat"
+    ],
+    "context_length": 4096,
+    "stop_token_ids": [
+      1,
+      2
+    ],
+    "model_description": "MiniCPM is an End-Size LLM developed by ModelBest Inc. and TsinghuaNLP, with only 2.4B parameters excluding embeddings."
+  }
+]

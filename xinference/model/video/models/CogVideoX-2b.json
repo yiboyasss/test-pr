@@ -1,0 +1,29 @@
+[
+  {
+    "version": 2,
+    "featured": false,
+    "model_src": {
+      "modelscope": {
+        "model_id": "ZhipuAI/CogVideoX-2b",
+        "model_revision": "master"
+      },
+      "huggingface": {
+        "model_id": "THUDM/CogVideoX-2b",
+        "model_revision": "4bbfb1de622b80bc1b77b6e9aced75f816be0e38"
+      }
+    },
+    "model_name": "CogVideoX-2b",
+    "updated_at": 1766386570,
+    "model_family": "CogVideoX",
+    "model_ability": [
+      "text2video"
+    ],
+    "default_model_config": {
+      "scheduler": "CogVideoXDDIMScheduler",
+      "torch_dtype": "float16"
+    },
+    "default_generate_config": {
+      "guidance_scale": 6
+    }
+  }
+]

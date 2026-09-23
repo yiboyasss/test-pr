@@ -1,0 +1,71 @@
+[
+  {
+    "version": 2,
+    "featured": false,
+    "model_lang": [
+      "en",
+      "zh"
+    ],
+    "model_name": "baichuan-2",
+    "updated_at": 1763367134,
+    "model_specs": [
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "baichuan-inc/Baichuan2-7B-Base",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "v1.0.2"
+          },
+          "huggingface": {
+            "model_id": "baichuan-inc/Baichuan2-7B-Base",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "f2cc3a689c5eba7dc7fd3757d0175d312d167604"
+          },
+          "openmind_hub": {
+            "model_id": "PyTorch-NPU/baichuan2_7b_base",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 7
+      },
+      {
+        "model_src": {
+          "modelscope": {
+            "model_id": "baichuan-inc/Baichuan2-13B-Base",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "v1.0.3"
+          },
+          "huggingface": {
+            "model_id": "baichuan-inc/Baichuan2-13B-Base",
+            "quantizations": [
+              "none"
+            ],
+            "model_revision": "fa88072fee36e36282287410e00897df2f59e09b"
+          },
+          "openmind_hub": {
+            "model_id": "Baichuan/Baichuan2_13b_base_pt",
+            "quantizations": [
+              "none"
+            ]
+          }
+        },
+        "model_format": "pytorch",
+        "model_size_in_billions": 13
+      }
+    ],
+    "model_ability": [
+      "generate"
+    ],
+    "context_length": 4096,
+    "model_description": "Baichuan2 is an open-source Transformer based LLM that is trained on both Chinese and English data."
+  }
+]
