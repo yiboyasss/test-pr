@@ -6,7 +6,7 @@
       "en"
     ],
     "model_name": "llama-2",
-    "updated_at": 1763367108,
+    "updated_at": 1790149211,
     "model_specs": [
       {
         "model_src": {
@@ -205,6 +205,6 @@
       "generate"
     ],
     "context_length": 4096,
-    "model_description": "Llama-2 is the second generation of Llama, open-source and trained on a larger amount of data."
+    "model_description": "INBOUND-SYNC-TEST: description changed via a PR merged directly on test-pr, no Models Hub UI involved."
   }
 ]
